@@ -19,3 +19,12 @@ Scrape social networks for information about birds
 Run it:
 
 `$ python manage.py runserver_plus`
+
+
+## Fixtures
+
+### Birds
+
+Create bird models from vispedia data
+
+`$ python manage.py runscript import_birds`
