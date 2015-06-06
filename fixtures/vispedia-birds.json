@@ -1,0 +1,7409 @@
+[
+  {
+    "browsable": false,
+    "name": "Birds",
+    "parent": null,
+    "level": 0,
+    "version": 1,
+    "external_id": "XMvTNcmDmF4ZbZJBtndZLM",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Waterfowl (Ducks, Geese, Swans)",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "svqCRQQpMbCZumzhwxhEuC",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-bellied Whistling-Duck",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "SSYT6kQkBc2SStbtUmWJXk",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Greater White-fronted Goose",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "HC7r9BrkpX3XnwixgcUM3e",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Snow Goose",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "bwCAvX5Bf9M38BUoDkYKfn",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Snow Goose (White morph)",
+    "parent": "bwCAvX5Bf9M38BUoDkYKfn",
+    "level": 3,
+    "version": 1,
+    "external_id": "9KCQgddvxpN9cj6QSaWWaQ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Snow Goose (Blue morph)",
+    "parent": "bwCAvX5Bf9M38BUoDkYKfn",
+    "level": 3,
+    "version": 1,
+    "external_id": "agsju2dm57QvCCcUPMN2BM",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Ross's Goose",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "NcERraAFHvQhxCY2ngK3aP",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Brant",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "EjBNspDXAnjn2Sq5nNaqRb",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Cackling Goose",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "Kdp9XWZxRM5WY3AQqmrcBk",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Canada Goose",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "shu2DoY4DR4QosBxse4MdW",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Mute Swan",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "M84YnXb42MaZWoiuC4ZkTE",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Trumpeter Swan",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "MAfm54US4cuuCV54pKcEcb",
+    "order": 11.0
+  },
+  {
+    "browsable": true,
+    "name": "Tundra Swan",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "PNFitVd4YHkSWdiZdLWnRF",
+    "order": 12.0
+  },
+  {
+    "browsable": false,
+    "name": "Wood Duck",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "QBYFsbkUzw479cZMTVJBhc",
+    "order": 14.0
+  },
+  {
+    "browsable": true,
+    "name": "Wood Duck (Breeding male)",
+    "parent": "QBYFsbkUzw479cZMTVJBhc",
+    "level": 3,
+    "version": 1,
+    "external_id": "9d9PX8ACn6f8sNhhMXYR4Z",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Wood Duck (Female/Eclipse male)",
+    "parent": "QBYFsbkUzw479cZMTVJBhc",
+    "level": 3,
+    "version": 1,
+    "external_id": "pMjNxer7x4i3MAR6EcutX3",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Gadwall",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "Phs28K76uzLZagSyxBii4J",
+    "order": 15.0
+  },
+  {
+    "browsable": true,
+    "name": "Gadwall (Breeding male)",
+    "parent": "Phs28K76uzLZagSyxBii4J",
+    "level": 3,
+    "version": 1,
+    "external_id": "TZNxgxndG3bgiYcKvnEHzn",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Gadwall (Female/Eclipse male)",
+    "parent": "Phs28K76uzLZagSyxBii4J",
+    "level": 3,
+    "version": 1,
+    "external_id": "Vqd8APgoR5pRrmePcpGGyj",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "American Wigeon",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "QgqXQ6chBfZ9A7UEwxAUBg",
+    "order": 16.0
+  },
+  {
+    "browsable": true,
+    "name": "American Wigeon (Breeding male)",
+    "parent": "QgqXQ6chBfZ9A7UEwxAUBg",
+    "level": 3,
+    "version": 1,
+    "external_id": "eJTqZ6CBzGFsepWTXkZdk3",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "American Wigeon (Female/Eclipse male)",
+    "parent": "QgqXQ6chBfZ9A7UEwxAUBg",
+    "level": 3,
+    "version": 1,
+    "external_id": "HnGkpe2q24BX7gtyFacQDK",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Eurasian Wigeon",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "QLTiXcwavDU8DLys6vAcdE",
+    "order": 17.0
+  },
+  {
+    "browsable": true,
+    "name": "American Black Duck",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "3ryjndU6yjSqaiCrhXrQZ7",
+    "order": 18.0
+  },
+  {
+    "browsable": false,
+    "name": "Mallard",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "pdCHFByqwrDMQNN9Q3npHC",
+    "order": 19.0
+  },
+  {
+    "browsable": true,
+    "name": "Mallard (Breeding male)",
+    "parent": "pdCHFByqwrDMQNN9Q3npHC",
+    "level": 3,
+    "version": 1,
+    "external_id": "4VATSL2ibghjpkyZRAzk5",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Mallard (Female/Eclipse male)",
+    "parent": "pdCHFByqwrDMQNN9Q3npHC",
+    "level": 3,
+    "version": 1,
+    "external_id": "eg7AzL8uzn3fj89wZyqSnM",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Mottled Duck",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "Yms9rsGqq6AWJodnHmw3ic",
+    "order": 20.0
+  },
+  {
+    "browsable": false,
+    "name": "Blue-winged Teal",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "BLqVRff95LJWdUuUUpBeod",
+    "order": 21.0
+  },
+  {
+    "browsable": true,
+    "name": "Blue-winged Teal  (Male)",
+    "parent": "BLqVRff95LJWdUuUUpBeod",
+    "level": 3,
+    "version": 1,
+    "external_id": "tgT5aMNvRs6i8PyocfyLCn",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Blue-winged Teal  (Female/juvenile)",
+    "parent": "BLqVRff95LJWdUuUUpBeod",
+    "level": 3,
+    "version": 1,
+    "external_id": "QwRmXPswi6x5PxjaPexnRV",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Cinnamon Teal",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "WorXZioWBALps62nSDsVX",
+    "order": 22.0
+  },
+  {
+    "browsable": true,
+    "name": "Cinnamon Teal (Male)",
+    "parent": "WorXZioWBALps62nSDsVX",
+    "level": 3,
+    "version": 1,
+    "external_id": "Y4E6s4HBfecFBnzZv4gEzJ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Cinnamon Teal (Female/juvenile)",
+    "parent": "WorXZioWBALps62nSDsVX",
+    "level": 3,
+    "version": 1,
+    "external_id": "RmzvARiLS44hC79unD5vKi",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Northern Shoveler",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "S5DqxkUvRe27M9ZgdaDGuV",
+    "order": 23.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Shoveler (Breeding male)",
+    "parent": "S5DqxkUvRe27M9ZgdaDGuV",
+    "level": 3,
+    "version": 1,
+    "external_id": "reQAxtHuYK4bxJV3mfmZom",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Shoveler (Female/Eclipse male)",
+    "parent": "S5DqxkUvRe27M9ZgdaDGuV",
+    "level": 3,
+    "version": 1,
+    "external_id": "AYNSw3tBK6f4hnV77nGCVk",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Northern Pintail",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "gk6BAVzPbdVYQX3qxBR2wG",
+    "order": 24.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Pintail (Breeding male)",
+    "parent": "gk6BAVzPbdVYQX3qxBR2wG",
+    "level": 3,
+    "version": 1,
+    "external_id": "JmRWAsdbFFU6yDAY8C2FdJ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Pintail (Female/Eclipse male)",
+    "parent": "gk6BAVzPbdVYQX3qxBR2wG",
+    "level": 3,
+    "version": 1,
+    "external_id": "g9r2fzj6pfDCT4hdB2ZUgA",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Green-winged Teal",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "anHEqThHbwNpspb7wCGkvN",
+    "order": 25.0
+  },
+  {
+    "browsable": true,
+    "name": "Green-winged Teal (Male)",
+    "parent": "anHEqThHbwNpspb7wCGkvN",
+    "level": 3,
+    "version": 1,
+    "external_id": "zxtntWQw3UNn4WC6HBUeMJ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Green-winged Teal  (Female/juvenile)",
+    "parent": "anHEqThHbwNpspb7wCGkvN",
+    "level": 3,
+    "version": 1,
+    "external_id": "BygNfKTAY6hPWZAxJvXHSW",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Canvasback",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "7JrRMnD6EKPtFZhJREJgga",
+    "order": 26.0
+  },
+  {
+    "browsable": true,
+    "name": "Canvasback (Breeding male)",
+    "parent": "7JrRMnD6EKPtFZhJREJgga",
+    "level": 3,
+    "version": 1,
+    "external_id": "c4s5vBQJSAD7MogunQC7w9",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Canvasback (Female/Eclipse male)",
+    "parent": "7JrRMnD6EKPtFZhJREJgga",
+    "level": 3,
+    "version": 1,
+    "external_id": "JQWNZkVsVM4gY3LRw6MCcF",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Redhead",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "xYutdFLAsYckMvUxrawdvj",
+    "order": 27.0
+  },
+  {
+    "browsable": true,
+    "name": "Redhead (Breeding male)",
+    "parent": "xYutdFLAsYckMvUxrawdvj",
+    "level": 3,
+    "version": 1,
+    "external_id": "dRusGSEnidLUbjdZmmGBFR",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Redhead (Female/Eclipse male)",
+    "parent": "xYutdFLAsYckMvUxrawdvj",
+    "level": 3,
+    "version": 1,
+    "external_id": "rJCXgK2u6Vk4SrDX2kVFwh",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Ring-necked Duck",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "Z4o34dzSvTtM393wmwTv4E",
+    "order": 28.0
+  },
+  {
+    "browsable": true,
+    "name": "Ring-necked Duck (Breeding male)",
+    "parent": "Z4o34dzSvTtM393wmwTv4E",
+    "level": 3,
+    "version": 1,
+    "external_id": "f5TJxCz6M7DkmqaNDVhRiF",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Ring-necked Duck (Female/Eclipse male)",
+    "parent": "Z4o34dzSvTtM393wmwTv4E",
+    "level": 3,
+    "version": 1,
+    "external_id": "K3Be7qmqfxWZTXyhrkSYe6",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Greater Scaup",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "VkZ4sJisAwPiJwwHAyPBjW",
+    "order": 29.0
+  },
+  {
+    "browsable": true,
+    "name": "Greater Scaup (Breeding male)",
+    "parent": "VkZ4sJisAwPiJwwHAyPBjW",
+    "level": 3,
+    "version": 1,
+    "external_id": "4dqLiTM9V4ZynXjACgFhxN",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Greater Scaup (Female/Eclipse male)",
+    "parent": "VkZ4sJisAwPiJwwHAyPBjW",
+    "level": 3,
+    "version": 1,
+    "external_id": "tVWbu7PuZrkSFrLxDTYxp3",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Lesser Scaup",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "vW7pj6Q6jSiUzbHVB4PZBU",
+    "order": 30.0
+  },
+  {
+    "browsable": true,
+    "name": "Lesser Scaup (Breeding male)",
+    "parent": "vW7pj6Q6jSiUzbHVB4PZBU",
+    "level": 3,
+    "version": 1,
+    "external_id": "cyRzMCi8rqttDDEgS4AU4T",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Lesser Scaup (Female/Eclipse male)",
+    "parent": "vW7pj6Q6jSiUzbHVB4PZBU",
+    "level": 3,
+    "version": 1,
+    "external_id": "Vss9be6ydEBYjg7aufJgvH",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Common Eider",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "SVyEEHsFbBoZBnHt2t6diW",
+    "order": 31.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Eider (Adult male)",
+    "parent": "SVyEEHsFbBoZBnHt2t6diW",
+    "level": 3,
+    "version": 1,
+    "external_id": "rJvmfMF846RZABEAxo74LW",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Eider (Female/juvenile)",
+    "parent": "SVyEEHsFbBoZBnHt2t6diW",
+    "level": 3,
+    "version": 1,
+    "external_id": "JSWXxNGCPpqZ3y7SRo5Nn4",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Eider (Immature/Eclipse male)",
+    "parent": "SVyEEHsFbBoZBnHt2t6diW",
+    "level": 3,
+    "version": 1,
+    "external_id": "isXvVtMhBEvTDgJkVJo4we",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "King Eider",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "NBk7y499pMCPRxPmYe4c8J",
+    "order": 32.0
+  },
+  {
+    "browsable": false,
+    "name": "Steller's Eider",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "7hVFNV8CTeyatPP9urKGVP",
+    "order": 33.0
+  },
+  {
+    "browsable": false,
+    "name": "Harlequin Duck",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "GzuzcLiKNawtBqrRK4cQQS",
+    "order": 34.0
+  },
+  {
+    "browsable": true,
+    "name": "Harlequin Duck (Male)",
+    "parent": "GzuzcLiKNawtBqrRK4cQQS",
+    "level": 3,
+    "version": 1,
+    "external_id": "iRkzHQa4YzWE3pg6W2X3pb",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Harlequin Duck (Female/juvenile)",
+    "parent": "GzuzcLiKNawtBqrRK4cQQS",
+    "level": 3,
+    "version": 1,
+    "external_id": "byM7TuP5FUVotw8wmtsK2a",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Surf Scoter",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "ZtQWTLJwEXjfDQKn92WoVm",
+    "order": 35.0
+  },
+  {
+    "browsable": true,
+    "name": "Surf Scoter (Male)",
+    "parent": "ZtQWTLJwEXjfDQKn92WoVm",
+    "level": 3,
+    "version": 1,
+    "external_id": "oH5LmPXZZ7D2CHPUkghVfX",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Surf Scoter (Female/immature)",
+    "parent": "ZtQWTLJwEXjfDQKn92WoVm",
+    "level": 3,
+    "version": 1,
+    "external_id": "Xf7AMExyxbxRBwd8hjWsaG",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "White-winged Scoter",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "RM8eLteUgFocPJdNULrtoW",
+    "order": 36.0
+  },
+  {
+    "browsable": true,
+    "name": "White-winged Scoter (Male)",
+    "parent": "RM8eLteUgFocPJdNULrtoW",
+    "level": 3,
+    "version": 1,
+    "external_id": "SeXw4DPVqViX8MmowwEmod",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "White-winged Scoter (Female/juvenile)",
+    "parent": "RM8eLteUgFocPJdNULrtoW",
+    "level": 3,
+    "version": 1,
+    "external_id": "qpBxetXhgFmmLawBjNpaSg",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Black Scoter",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "CCmmaFok794CjdNuP7UPFD",
+    "order": 37.0
+  },
+  {
+    "browsable": true,
+    "name": "Black Scoter (Male)",
+    "parent": "CCmmaFok794CjdNuP7UPFD",
+    "level": 3,
+    "version": 1,
+    "external_id": "z5zRUXBYuo9DzedZsAnZeh",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black Scoter (Female/juvenile)",
+    "parent": "CCmmaFok794CjdNuP7UPFD",
+    "level": 3,
+    "version": 1,
+    "external_id": "QQvTDipBvJ4fYmCGNX9CWC",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Long-tailed Duck",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "pAWiGgwuZHfQrja5qLcE3J",
+    "order": 38.0
+  },
+  {
+    "browsable": true,
+    "name": "Long-tailed Duck (Winter male)",
+    "parent": "pAWiGgwuZHfQrja5qLcE3J",
+    "level": 3,
+    "version": 1,
+    "external_id": "BDoFjoV8qt9g8CRTwvvbLd",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Long-tailed Duck (Summer male)",
+    "parent": "pAWiGgwuZHfQrja5qLcE3J",
+    "level": 3,
+    "version": 1,
+    "external_id": "a23aPQCgELnJ3TmZC7DWUi",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Long-tailed Duck (Female/juvenile)",
+    "parent": "pAWiGgwuZHfQrja5qLcE3J",
+    "level": 3,
+    "version": 1,
+    "external_id": "bXRrcscUazXdB65o6qimSS",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Bufflehead",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "ARdQTNUhgsuMkthLvzQTgF",
+    "order": 39.0
+  },
+  {
+    "browsable": true,
+    "name": "Bufflehead (Breeding male)",
+    "parent": "ARdQTNUhgsuMkthLvzQTgF",
+    "level": 3,
+    "version": 1,
+    "external_id": "MbyqMNvdxQEWomZjPpJrNZ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Bufflehead (Female/immature male)",
+    "parent": "ARdQTNUhgsuMkthLvzQTgF",
+    "level": 3,
+    "version": 1,
+    "external_id": "PwCqYnvdBQqoQc7KrgH7jQ",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Common Goldeneye",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "zyooHodEgmDA5xQTgxT94X",
+    "order": 40.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Goldeneye (Breeding male)",
+    "parent": "zyooHodEgmDA5xQTgxT94X",
+    "level": 3,
+    "version": 1,
+    "external_id": "EKFRdfJWQ3YXFY7L3yxTi6",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Goldeneye (Female/Eclipse male)",
+    "parent": "zyooHodEgmDA5xQTgxT94X",
+    "level": 3,
+    "version": 1,
+    "external_id": "P6AJwiK33stvRhDJQmhBMf",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Barrow's Goldeneye",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "ip3wYisDDYtUVHS5KoEUNR",
+    "order": 41.0
+  },
+  {
+    "browsable": true,
+    "name": "Barrow's Goldeneye (Breeding male)",
+    "parent": "ip3wYisDDYtUVHS5KoEUNR",
+    "level": 3,
+    "version": 1,
+    "external_id": "WfiyCJ9ARjMzCJHtKCcA4U",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Barrow's Goldeneye (Female/Eclipse male)",
+    "parent": "ip3wYisDDYtUVHS5KoEUNR",
+    "level": 3,
+    "version": 1,
+    "external_id": "J8YixSUNZhjySZDsBTbGFH",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Hooded Merganser",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "8SpUoNF5LZQxGyQSQRKU4",
+    "order": 42.0
+  },
+  {
+    "browsable": true,
+    "name": "Hooded Merganser (Breeding male)",
+    "parent": "8SpUoNF5LZQxGyQSQRKU4",
+    "level": 3,
+    "version": 1,
+    "external_id": "upWZ8PmtsgcftFSHdvpEi8",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Hooded Merganser (Female/immature male)",
+    "parent": "8SpUoNF5LZQxGyQSQRKU4",
+    "level": 3,
+    "version": 1,
+    "external_id": "hZLtAvfzAWFGQ3MejKE9wQ",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Common Merganser",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "253zDrSXDDZMGCueaHm3zk",
+    "order": 43.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Merganser (Breeding male)",
+    "parent": "253zDrSXDDZMGCueaHm3zk",
+    "level": 3,
+    "version": 1,
+    "external_id": "yFoV5VsE3yoDC6Sv2TK2JD",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Merganser (Female/immature male)",
+    "parent": "253zDrSXDDZMGCueaHm3zk",
+    "level": 3,
+    "version": 1,
+    "external_id": "cMHhurNTPav5zUqqYqoXgF",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Red-breasted Merganser",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "Q2dnjkknBnz7XDKWZXrn7V",
+    "order": 44.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-breasted Merganser (Breeding male)",
+    "parent": "Q2dnjkknBnz7XDKWZXrn7V",
+    "level": 3,
+    "version": 1,
+    "external_id": "8gw3vCmYwpwxMqFba5Fje8",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-breasted Merganser (Female/immature male)",
+    "parent": "Q2dnjkknBnz7XDKWZXrn7V",
+    "level": 3,
+    "version": 1,
+    "external_id": "WKUp77N4MaLY4xBPf8LjX5",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Ruddy Duck",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "uZGrPDBEpkzx947oURwJrH",
+    "order": 45.0
+  },
+  {
+    "browsable": true,
+    "name": "Ruddy Duck (Breeding male)",
+    "parent": "uZGrPDBEpkzx947oURwJrH",
+    "level": 3,
+    "version": 1,
+    "external_id": "eXgHAbmpGJcdmFtnCy3AHg",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Ruddy Duck (Winter male)",
+    "parent": "uZGrPDBEpkzx947oURwJrH",
+    "level": 3,
+    "version": 1,
+    "external_id": "zogee7TeB39xEdVweCK5Yf",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Ruddy Duck (Female/juvenile)",
+    "parent": "uZGrPDBEpkzx947oURwJrH",
+    "level": 3,
+    "version": 1,
+    "external_id": "gh9F68wEv3zpjGLQdV6amE",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Masked Duck",
+    "parent": "svqCRQQpMbCZumzhwxhEuC",
+    "level": 2,
+    "version": 1,
+    "external_id": "ud38iyhyKLMZVbMoLWwHrW",
+    "order": 46.0
+  },
+  {
+    "browsable": false,
+    "name": "Cormorants and Anhinga",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "C7iUuutKwnqTtuoL3VzzoN",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Brandt's Cormorant",
+    "parent": "C7iUuutKwnqTtuoL3VzzoN",
+    "level": 2,
+    "version": 1,
+    "external_id": "7rTKDEMXnQBJFLV6nGS4zD",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Neotropic Cormorant",
+    "parent": "C7iUuutKwnqTtuoL3VzzoN",
+    "level": 2,
+    "version": 1,
+    "external_id": "upGHh3g2CxyeRGDnoh6Dxa",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Double-crested Cormorant",
+    "parent": "C7iUuutKwnqTtuoL3VzzoN",
+    "level": 2,
+    "version": 1,
+    "external_id": "QukRXybSyNhJVu5RC2HXr4",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Double-crested Cormorant (Immature)",
+    "parent": "QukRXybSyNhJVu5RC2HXr4",
+    "level": 3,
+    "version": 1,
+    "external_id": "cLzViPaugvidjgjQNZ2KLE",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Double-crested Cormorant (Adult)",
+    "parent": "QukRXybSyNhJVu5RC2HXr4",
+    "level": 3,
+    "version": 1,
+    "external_id": "D3Up4Sdtu3jq87z7F2FCjB",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Great Cormorant",
+    "parent": "C7iUuutKwnqTtuoL3VzzoN",
+    "level": 2,
+    "version": 1,
+    "external_id": "ujAUhi6o4HFS7PBDtPkH6",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Great Cormorant (Adult)",
+    "parent": "ujAUhi6o4HFS7PBDtPkH6",
+    "level": 3,
+    "version": 1,
+    "external_id": "Khh8Sd58N5FqQ5pA3mABSX",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Great Cormorant (Immature)",
+    "parent": "ujAUhi6o4HFS7PBDtPkH6",
+    "level": 3,
+    "version": 1,
+    "external_id": "CTs2HEabUu4nNzWqe6UeCS",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Pelagic Cormorant",
+    "parent": "C7iUuutKwnqTtuoL3VzzoN",
+    "level": 2,
+    "version": 1,
+    "external_id": "ajje8QbZy6xyePi6n85nv8",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Anhinga",
+    "parent": "C7iUuutKwnqTtuoL3VzzoN",
+    "level": 2,
+    "version": 1,
+    "external_id": "ug5Ww2qrWCZNHwY93HXADP",
+    "order": 6.0
+  },
+  {
+    "browsable": false,
+    "name": "Loons",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "MWtLrrTXaqYzet6ZcVyCvJ",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Red-throated Loon",
+    "parent": "MWtLrrTXaqYzet6ZcVyCvJ",
+    "level": 2,
+    "version": 1,
+    "external_id": "ncaRjTkdRwZ7qzbEp5iF5f",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-throated Loon (Breeding)",
+    "parent": "ncaRjTkdRwZ7qzbEp5iF5f",
+    "level": 3,
+    "version": 1,
+    "external_id": "ELJr4RTDFJVhWfAN29tL5T",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-throated Loon (Nonbreeding/juvenile)",
+    "parent": "ncaRjTkdRwZ7qzbEp5iF5f",
+    "level": 3,
+    "version": 1,
+    "external_id": "BtyM5vYDFQhkLnvqVTffu3",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Pacific Loon",
+    "parent": "MWtLrrTXaqYzet6ZcVyCvJ",
+    "level": 2,
+    "version": 1,
+    "external_id": "NHqBkyLxU9d7bE97g9TfRE",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Pacific Loon (Breeding)",
+    "parent": "NHqBkyLxU9d7bE97g9TfRE",
+    "level": 3,
+    "version": 1,
+    "external_id": "ELajSUFHqEzHr7BCUnPUPa",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Pacific Loon (Nonbreeding/juvenile)",
+    "parent": "NHqBkyLxU9d7bE97g9TfRE",
+    "level": 3,
+    "version": 1,
+    "external_id": "4pvhZmZxYimnHn7tebH3n9",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Arctic Loon",
+    "parent": "MWtLrrTXaqYzet6ZcVyCvJ",
+    "level": 2,
+    "version": 1,
+    "external_id": "LUGdQh8ects8Mj28r8SySd",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Common Loon",
+    "parent": "MWtLrrTXaqYzet6ZcVyCvJ",
+    "level": 2,
+    "version": 1,
+    "external_id": "YsXNhZhTeUaTVQs7sWxXJP",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Loon (Breeding)",
+    "parent": "YsXNhZhTeUaTVQs7sWxXJP",
+    "level": 3,
+    "version": 1,
+    "external_id": "ALQqok7mjD9WagGDBj9WPY",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Loon (Nonbreeding/juvenile)",
+    "parent": "YsXNhZhTeUaTVQs7sWxXJP",
+    "level": 3,
+    "version": 1,
+    "external_id": "iJNPrtPiVShDoabT4D5U65",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Yellow-billed Loon",
+    "parent": "MWtLrrTXaqYzet6ZcVyCvJ",
+    "level": 2,
+    "version": 1,
+    "external_id": "KhUgDHN2VARddd7YRj3nkb",
+    "order": 4.0
+  },
+  {
+    "browsable": false,
+    "name": "Grebes",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "edaJMot9zBzPjyE8ZvNs6F",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Pied-billed Grebe",
+    "parent": "edaJMot9zBzPjyE8ZvNs6F",
+    "level": 2,
+    "version": 1,
+    "external_id": "bMr6W9iNcskmjGGCeBvESB",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Horned Grebe",
+    "parent": "edaJMot9zBzPjyE8ZvNs6F",
+    "level": 2,
+    "version": 1,
+    "external_id": "gkmNDarbhTBFpgBtG8fEbW",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Horned Grebe (Breeding)",
+    "parent": "gkmNDarbhTBFpgBtG8fEbW",
+    "level": 3,
+    "version": 1,
+    "external_id": "dPsNon66QX2ZD3xjmdLqe6",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Horned Grebe (Nonbreeding/juvenile)",
+    "parent": "gkmNDarbhTBFpgBtG8fEbW",
+    "level": 3,
+    "version": 1,
+    "external_id": "YCuGsvDE762Y7dQda4Zmih",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Red-necked Grebe",
+    "parent": "edaJMot9zBzPjyE8ZvNs6F",
+    "level": 2,
+    "version": 1,
+    "external_id": "cci2XUPmo3yGMhQR3bWjDD",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-necked Grebe (Breeding)",
+    "parent": "cci2XUPmo3yGMhQR3bWjDD",
+    "level": 3,
+    "version": 1,
+    "external_id": "HoUi6iZbNt4RoaFCt64hcE",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-necked Grebe (Nonbreeding/juvenile)",
+    "parent": "cci2XUPmo3yGMhQR3bWjDD",
+    "level": 3,
+    "version": 1,
+    "external_id": "BbQZ5K8aWYpzxFYcWh8JfR",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Eared Grebe",
+    "parent": "edaJMot9zBzPjyE8ZvNs6F",
+    "level": 2,
+    "version": 1,
+    "external_id": "gDs7Pj2r4tQ9jNA8tft3iU",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Eared Grebe (Breeding)",
+    "parent": "gDs7Pj2r4tQ9jNA8tft3iU",
+    "level": 3,
+    "version": 1,
+    "external_id": "4WtX3GQ7TKmXjzG5aBAwg8",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Eared Grebe (Nonbreeding/juvenile)",
+    "parent": "gDs7Pj2r4tQ9jNA8tft3iU",
+    "level": 3,
+    "version": 1,
+    "external_id": "m9L3GdpEgDAg56Umg6KrUa",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Grebe",
+    "parent": "edaJMot9zBzPjyE8ZvNs6F",
+    "level": 2,
+    "version": 1,
+    "external_id": "K94yAUkBXpF6zydo6mKn2b",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Clark's Grebe",
+    "parent": "edaJMot9zBzPjyE8ZvNs6F",
+    "level": 2,
+    "version": 1,
+    "external_id": "k6UFQ5EYgDH2zWoZgapM2D",
+    "order": 6.0
+  },
+  {
+    "browsable": false,
+    "name": "Alcids",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "HpX5vCDHitE8CHcxMjsLzA",
+    "order": 4.0
+  },
+  {
+    "browsable": false,
+    "name": "Dovekie",
+    "parent": "HpX5vCDHitE8CHcxMjsLzA",
+    "level": 2,
+    "version": 1,
+    "external_id": "7fAsUJQHKP9sk5AWqieUoJ",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Common Murre",
+    "parent": "HpX5vCDHitE8CHcxMjsLzA",
+    "level": 2,
+    "version": 1,
+    "external_id": "6eDfesru8sGDWySWRrd8i3",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Thick-billed Murre",
+    "parent": "HpX5vCDHitE8CHcxMjsLzA",
+    "level": 2,
+    "version": 1,
+    "external_id": "UNG6NfPQTPDimnGEjXZu6H",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Black Guillemot",
+    "parent": "HpX5vCDHitE8CHcxMjsLzA",
+    "level": 2,
+    "version": 1,
+    "external_id": "NBhjUG9CvBEJqXrxcVAgZJ",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Black Guillemot (Breeding)",
+    "parent": "NBhjUG9CvBEJqXrxcVAgZJ",
+    "level": 3,
+    "version": 1,
+    "external_id": "sWx8QXBr9atq4zU4T95zBJ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black Guillemot (Nonbreeding, juvenile)",
+    "parent": "NBhjUG9CvBEJqXrxcVAgZJ",
+    "level": 3,
+    "version": 1,
+    "external_id": "Y8kcnYGLGmxLNfPrqsTRmA",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Pigeon Guillemot",
+    "parent": "HpX5vCDHitE8CHcxMjsLzA",
+    "level": 2,
+    "version": 1,
+    "external_id": "MtgFaAsoovXGAYjRKoXmAe",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Pigeon Guillemot (Breeding)",
+    "parent": "MtgFaAsoovXGAYjRKoXmAe",
+    "level": 3,
+    "version": 1,
+    "external_id": "LZqVsLeGFECVw49B2ELRRX",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Pigeon Guillemot (Nonbreeding, juvenile)",
+    "parent": "MtgFaAsoovXGAYjRKoXmAe",
+    "level": 3,
+    "version": 1,
+    "external_id": "7wycWr86P4h6MF6f9m93LZ",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Marbled Murrelet",
+    "parent": "HpX5vCDHitE8CHcxMjsLzA",
+    "level": 2,
+    "version": 1,
+    "external_id": "pMsLJZqk6jyPBQNEcejU55",
+    "order": 6.0
+  },
+  {
+    "browsable": false,
+    "name": "Kittlitz's Murrelet",
+    "parent": "HpX5vCDHitE8CHcxMjsLzA",
+    "level": 2,
+    "version": 1,
+    "external_id": "iR4jXXYdqShaPb7MeZtGv8",
+    "order": 10.0
+  },
+  {
+    "browsable": false,
+    "name": "Shearwaters, Petrels, and Storm-Petrels",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "3tsh2erYHCc9Hd2jhZHoh4",
+    "order": 5.0
+  },
+  {
+    "browsable": false,
+    "name": "Northern Fulmar",
+    "parent": "3tsh2erYHCc9Hd2jhZHoh4",
+    "level": 2,
+    "version": 1,
+    "external_id": "fX2pvsL7YY6yxLT25qEZnC",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Herald Petrel",
+    "parent": "3tsh2erYHCc9Hd2jhZHoh4",
+    "level": 2,
+    "version": 1,
+    "external_id": "RK5g53vsoQ3CFYE7WBACa3",
+    "order": 3.0
+  },
+  {
+    "browsable": false,
+    "name": "Albatrosses",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "Ud9p9ikVYhR5LqQuHtRm23",
+    "order": 6.0
+  },
+  {
+    "browsable": false,
+    "name": "Short-tailed Albatross",
+    "parent": "Ud9p9ikVYhR5LqQuHtRm23",
+    "level": 2,
+    "version": 1,
+    "external_id": "GG9Lmd5zk5x3RP9wiHq98o",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Tropicbirds",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "EiZM2msrZoNx35Dz7A9P3H",
+    "order": 7.0
+  },
+  {
+    "browsable": false,
+    "name": "Pelicans, Frigatebirds, Boobies, and Gannet",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "ithKqssWoRiiQmVsKfUbTQ",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "American White Pelican",
+    "parent": "ithKqssWoRiiQmVsKfUbTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "UrUcyPsi7PLH8ohachfXda",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Brown Pelican",
+    "parent": "ithKqssWoRiiQmVsKfUbTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "DoBHCDNyrN8pZrancxLEUH",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Masked Booby",
+    "parent": "ithKqssWoRiiQmVsKfUbTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "CPFyGnCwLLbgUbHTUyeWpc",
+    "order": 3.0
+  },
+  {
+    "browsable": false,
+    "name": "Brown Booby",
+    "parent": "ithKqssWoRiiQmVsKfUbTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "58WZtohPJLLP9ZZFvfMMKQ",
+    "order": 4.0
+  },
+  {
+    "browsable": false,
+    "name": "Blue-footed Booby",
+    "parent": "ithKqssWoRiiQmVsKfUbTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "5JZhFwyH67CGjnRMQFZLwY",
+    "order": 5.0
+  },
+  {
+    "browsable": false,
+    "name": "Red-footed Booby",
+    "parent": "ithKqssWoRiiQmVsKfUbTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "hfv5w5WvRURfwqkY8sWkG9",
+    "order": 6.0
+  },
+  {
+    "browsable": false,
+    "name": "Northern Gannet",
+    "parent": "ithKqssWoRiiQmVsKfUbTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "L9D5tgAYP65qD6685iwEb9",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Gannet (Adult, Subadult)",
+    "parent": "L9D5tgAYP65qD6685iwEb9",
+    "level": 3,
+    "version": 1,
+    "external_id": "uzad26wnZFYP3pcs6jggbN",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Gannet (Immature/Juvenile)",
+    "parent": "L9D5tgAYP65qD6685iwEb9",
+    "level": 3,
+    "version": 1,
+    "external_id": "8oXQSRViuHaKfLrZXmCv3F",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Jaegers and Skuas",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "3dt3kciA6XwECB4UJPZCoi",
+    "order": 9.0
+  },
+  {
+    "browsable": false,
+    "name": "Pomarine Jaeger",
+    "parent": "3dt3kciA6XwECB4UJPZCoi",
+    "level": 2,
+    "version": 1,
+    "external_id": "uCr2yPFLhafjFsuVHUFwC3",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Parasitic Jaeger",
+    "parent": "3dt3kciA6XwECB4UJPZCoi",
+    "level": 2,
+    "version": 1,
+    "external_id": "n6sHy2LScEwXkDihHdPzKh",
+    "order": 3.0
+  },
+  {
+    "browsable": false,
+    "name": "Long-tailed Jaeger",
+    "parent": "3dt3kciA6XwECB4UJPZCoi",
+    "level": 2,
+    "version": 1,
+    "external_id": "Hmydv4aFLi92geKFPpnaXZ",
+    "order": 4.0
+  },
+  {
+    "browsable": false,
+    "name": "Gulls, Terns, and Skimmer",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "94SjPSSrfYhHAT4DpNefkA",
+    "order": 10.0
+  },
+  {
+    "browsable": false,
+    "name": "Black-legged Kittiwake",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "GjYMVxaZSGSc49Dz5UoTcK",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-legged Kittiwake (Adult)",
+    "parent": "GjYMVxaZSGSc49Dz5UoTcK",
+    "level": 3,
+    "version": 1,
+    "external_id": "KF2xt4zpTAcNmt9aJdT3VM",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-legged Kittiwake (Immature)",
+    "parent": "GjYMVxaZSGSc49Dz5UoTcK",
+    "level": 3,
+    "version": 1,
+    "external_id": "SfdJyZghYcDguPM4tSSeVh",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Ivory Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "fsxArg7gzwrxSVUraYFuDa",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Sabine's Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "tH76YgZHcGdBgfeHZqw7ck",
+    "order": 3.0
+  },
+  {
+    "browsable": false,
+    "name": "Little Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "HnbnBEAuSPrVYYqudDDkXS",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Bonaparte's Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "h8YdpvGn6XkWXR2jQGaGk8",
+    "order": 5.0
+  },
+  {
+    "browsable": false,
+    "name": "Ross's Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "JjpDuySceXgz7vTiMhn3X4",
+    "order": 6.0
+  },
+  {
+    "browsable": false,
+    "name": "Black-headed Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "tfPnLThfXdjrdDdVAtj6e8",
+    "order": 7.0
+  },
+  {
+    "browsable": false,
+    "name": "Laughing Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "aCnmaZohSyikhFuBQRrBZU",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Laughing Gull (Breeding)",
+    "parent": "aCnmaZohSyikhFuBQRrBZU",
+    "level": 3,
+    "version": 1,
+    "external_id": "3AmRrSn9ftC927wu8Ynv6K",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Laughing Gull (Nonbreeding/Immature)",
+    "parent": "aCnmaZohSyikhFuBQRrBZU",
+    "level": 3,
+    "version": 1,
+    "external_id": "mxgHvkp6hjLE6pwz9Ztuhf",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Franklin's Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "yCFrZ8ZwUaWNaGpGcDWdtf",
+    "order": 9.0
+  },
+  {
+    "browsable": false,
+    "name": "Heermann's Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "XircCQjhcukXWrvqANtNJg",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Heermann's Gull (Adult)",
+    "parent": "XircCQjhcukXWrvqANtNJg",
+    "level": 3,
+    "version": 1,
+    "external_id": "kEN9CtaeMfYpJK4ihcEpMA",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Heermann's Gull (Immature)",
+    "parent": "XircCQjhcukXWrvqANtNJg",
+    "level": 3,
+    "version": 1,
+    "external_id": "DFJYP6GouiCYawws9ynsB3",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Mew Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "DX2WsHKcAAWbLDrqmwTJzd",
+    "order": 11.0
+  },
+  {
+    "browsable": false,
+    "name": "Ring-billed Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "5bVMphuHg4hDXKy7fDMeRQ",
+    "order": 12.0
+  },
+  {
+    "browsable": true,
+    "name": "Ring-billed Gull (Adult)",
+    "parent": "5bVMphuHg4hDXKy7fDMeRQ",
+    "level": 3,
+    "version": 1,
+    "external_id": "cWkP9qhJxnGow3n2d7bLmT",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Ring-billed Gull (Immature)",
+    "parent": "5bVMphuHg4hDXKy7fDMeRQ",
+    "level": 3,
+    "version": 1,
+    "external_id": "H5yQzoZ3d9RqhFMnB4cxFM",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Western Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "Eyeu85HJBoBkZQ2nkEa2eg",
+    "order": 13.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Gull (Adult)",
+    "parent": "Eyeu85HJBoBkZQ2nkEa2eg",
+    "level": 3,
+    "version": 1,
+    "external_id": "672VUwFEiPpLvxKVkzkCwE",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Gull (Immature)",
+    "parent": "Eyeu85HJBoBkZQ2nkEa2eg",
+    "level": 3,
+    "version": 1,
+    "external_id": "UiN4wy7W359yZux7fcdw4X",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Yellow-footed Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "ziLYNRE9W72cmQJkJD3e4g",
+    "order": 14.0
+  },
+  {
+    "browsable": false,
+    "name": "Slaty-backed Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "7GBuXqMqBuyyKe4Yz4YzfY",
+    "order": 15.0
+  },
+  {
+    "browsable": false,
+    "name": "California Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "ttFjn9fi96BK3PZTZwEgeM",
+    "order": 16.0
+  },
+  {
+    "browsable": true,
+    "name": "California Gull (Adult)",
+    "parent": "ttFjn9fi96BK3PZTZwEgeM",
+    "level": 3,
+    "version": 1,
+    "external_id": "DY5XVdeXdfkWYYpwVXnR6D",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "California Gull (Immature)",
+    "parent": "ttFjn9fi96BK3PZTZwEgeM",
+    "level": 3,
+    "version": 1,
+    "external_id": "E7AbJo3EU5dXKPQjhUd9w6",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Herring Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "LWBKupQzZCGDWjkFr5SkUW",
+    "order": 17.0
+  },
+  {
+    "browsable": true,
+    "name": "Herring Gull (Adult)",
+    "parent": "LWBKupQzZCGDWjkFr5SkUW",
+    "level": 3,
+    "version": 1,
+    "external_id": "KkZWT7GZxAmSQhRFFvthnC",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Herring Gull (Immature)",
+    "parent": "LWBKupQzZCGDWjkFr5SkUW",
+    "level": 3,
+    "version": 1,
+    "external_id": "Ziy635RCE4c9siMEsCNVwE",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Thayer's Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "Dq6x8jRMoLiJv4BTCCtf2M",
+    "order": 18.0
+  },
+  {
+    "browsable": false,
+    "name": "Iceland Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "RvmgBesJ7kbWFUNeJ7ChCo",
+    "order": 19.0
+  },
+  {
+    "browsable": false,
+    "name": "Glaucous-winged Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "fdcKvwcTmxUopVA4rjpJAJ",
+    "order": 20.0
+  },
+  {
+    "browsable": true,
+    "name": "Glaucous-winged Gull (Adult)",
+    "parent": "fdcKvwcTmxUopVA4rjpJAJ",
+    "level": 3,
+    "version": 1,
+    "external_id": "jngZyEEUbaEmNuuRv3rDfW",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Glaucous-winged Gull (Immature)",
+    "parent": "fdcKvwcTmxUopVA4rjpJAJ",
+    "level": 3,
+    "version": 1,
+    "external_id": "352MaWSG9uUNsyj4TUXDzj",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Glaucous Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "BVsJGinQPYTZMTLghqC2g",
+    "order": 21.0
+  },
+  {
+    "browsable": false,
+    "name": "Lesser Black-backed Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "2ipJJPzpQwaFz74hu9kNAD",
+    "order": 22.0
+  },
+  {
+    "browsable": false,
+    "name": "Great Black-backed Gull",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "6mBQqQEo3Nqr8AHot74qn7",
+    "order": 23.0
+  },
+  {
+    "browsable": true,
+    "name": "Great Black-backed Gull (Adult)",
+    "parent": "6mBQqQEo3Nqr8AHot74qn7",
+    "level": 3,
+    "version": 1,
+    "external_id": "bVYxt7gxv2GtZexdmWJBek",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Great Black-backed Gull (Immature)",
+    "parent": "6mBQqQEo3Nqr8AHot74qn7",
+    "level": 3,
+    "version": 1,
+    "external_id": "KSt7LHqqpRRsLVmccWowbF",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Caspian Tern",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "zNYfsHmZjrcNRdfbR9vWb",
+    "order": 29.0
+  },
+  {
+    "browsable": true,
+    "name": "Black Tern",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "NznxLeu85acGsQvb2gvQMV",
+    "order": 30.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Tern",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "KfrGQ6GmYom3WBDZnfacNB",
+    "order": 32.0
+  },
+  {
+    "browsable": true,
+    "name": "Forster's Tern",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "5SA4foRbFWnedyHRJrhGif",
+    "order": 34.0
+  },
+  {
+    "browsable": true,
+    "name": "Royal Tern",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "8PtJJwQ8N8qyhttAvKQWvH",
+    "order": 35.0
+  },
+  {
+    "browsable": true,
+    "name": "Black Skimmer",
+    "parent": "94SjPSSrfYhHAT4DpNefkA",
+    "level": 2,
+    "version": 1,
+    "external_id": "SUdUbYqfBGmkWi2qduc72W",
+    "order": 38.0
+  },
+  {
+    "browsable": false,
+    "name": "Shorebirds",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "NcFLoW4dVzQYcBKDmmTeeY",
+    "order": 11.0
+  },
+  {
+    "browsable": false,
+    "name": "Black-bellied Plover",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "QRdmYYKLQ7BNsvNkp9tpGg",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-bellied Plover (Breeding)",
+    "parent": "QRdmYYKLQ7BNsvNkp9tpGg",
+    "level": 3,
+    "version": 1,
+    "external_id": "KhV42icbBbjqzrMv5HDzHi",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-bellied Plover (Nonbreeding/juvenile)",
+    "parent": "QRdmYYKLQ7BNsvNkp9tpGg",
+    "level": 3,
+    "version": 1,
+    "external_id": "HcknEy4RkVMS97hLW7X56S",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "American Golden-Plover",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "PasoDSMq3jYxW8TjrY9sbY",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Pacific Golden-Plover",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "PvRQWkH9DW6hkxzmLrjcf7",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Lesser Sand-Plover",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "pCTydMnzMW9bxLvLzUPnTd",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Semipalmated Plover",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "wJFAmqjwiNi6NEGCGUGdpc",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Killdeer",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "8dUmqJV7CCDFAAUL6RQDo5",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "American Oystercatcher",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "5MrMEZLg3VnijjTSuEE5k6",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Black Oystercatcher",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "uzVDdmZcx9qS4KNpAWWUm7",
+    "order": 11.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-necked Stilt",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "HyzaYr9ot65nX2rsvDYHgB",
+    "order": 12.0
+  },
+  {
+    "browsable": true,
+    "name": "American Avocet",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "pNtUU9k9RDFsoKSZYcimW8",
+    "order": 13.0
+  },
+  {
+    "browsable": false,
+    "name": "Spotted Sandpiper",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "4m6Esb6MDpYpfcNCNCSs64",
+    "order": 14.0
+  },
+  {
+    "browsable": true,
+    "name": "Spotted Sandpiper (Breeding)",
+    "parent": "4m6Esb6MDpYpfcNCNCSs64",
+    "level": 3,
+    "version": 1,
+    "external_id": "quS2rVHsYS4GbhXymKPX9E",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Spotted Sandpiper (Nonbreeding/juvenile)",
+    "parent": "4m6Esb6MDpYpfcNCNCSs64",
+    "level": 3,
+    "version": 1,
+    "external_id": "iyZgBEVtxUDkXGiRQb8Vte",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Solitary Sandpiper",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "witwK8EUhrcNXzjE2LETsm",
+    "order": 15.0
+  },
+  {
+    "browsable": true,
+    "name": "Greater Yellowlegs",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "LWbe4oNvXSPqtWvcfHo7h8",
+    "order": 17.0
+  },
+  {
+    "browsable": true,
+    "name": "Willet",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "8A2AmNSZYaJNCJrj4Rf2G7",
+    "order": 18.0
+  },
+  {
+    "browsable": true,
+    "name": "Lesser Yellowlegs",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "4jLTyj352D6qKPmxNNuLcA",
+    "order": 19.0
+  },
+  {
+    "browsable": true,
+    "name": "Whimbrel",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "PAoaz2ngzKu9uALVDpzyBE",
+    "order": 21.0
+  },
+  {
+    "browsable": true,
+    "name": "Long-billed Curlew",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "ndgHjtkV6YDgbwnRJukDT5",
+    "order": 22.0
+  },
+  {
+    "browsable": false,
+    "name": "Hudsonian Godwit",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "5yBeCApALCyLghEZ2HpDth",
+    "order": 24.0
+  },
+  {
+    "browsable": true,
+    "name": "Marbled Godwit",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "wAiPHqKdtKRPxM7JAuxzqK",
+    "order": 25.0
+  },
+  {
+    "browsable": false,
+    "name": "Black-tailed Godwit",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "U3TMH4o6vtfRP9qudqiFmG",
+    "order": 26.0
+  },
+  {
+    "browsable": false,
+    "name": "Bar-tailed Godwit",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "A3pSsSYSepvKhzxZzy5gZk",
+    "order": 27.0
+  },
+  {
+    "browsable": true,
+    "name": "Ruddy Turnstone",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "oFGxfzsHmiffDiaX6qfsLg",
+    "order": 28.0
+  },
+  {
+    "browsable": true,
+    "name": "Black Turnstone",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "Z9HsWcoLxnrLepAKjwoSm",
+    "order": 29.0
+  },
+  {
+    "browsable": true,
+    "name": "Surfbird",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "igMp9hBe8Dk95ziTxccAo3",
+    "order": 30.0
+  },
+  {
+    "browsable": false,
+    "name": "Red Knot",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "wWZBLwSjpCkbuPe7Bdjs5d",
+    "order": 31.0
+  },
+  {
+    "browsable": false,
+    "name": "Ruff",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "R9ceB8kSAt5PgeiroeoaU6",
+    "order": 32.0
+  },
+  {
+    "browsable": false,
+    "name": "Sanderling",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "DiUokgk5XnXgAxnbgANqmN",
+    "order": 33.0
+  },
+  {
+    "browsable": true,
+    "name": "Sanderling (Breeding)",
+    "parent": "DiUokgk5XnXgAxnbgANqmN",
+    "level": 3,
+    "version": 1,
+    "external_id": "DmQpK33AgjJyiKm6i7bQRC",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Sanderling (Nonbreeding/juvenile)",
+    "parent": "DiUokgk5XnXgAxnbgANqmN",
+    "level": 3,
+    "version": 1,
+    "external_id": "eGDYn8TFNuWooKmL4cfTGK",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Semipalmated Sandpiper",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "D9YspKsVpmnVXuUWZcfSLD",
+    "order": 34.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Sandpiper",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "MKbajzcahyBcpxEVWUv4z3",
+    "order": 35.0
+  },
+  {
+    "browsable": true,
+    "name": "Least Sandpiper",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "2Atfh5cjAovQcwJmoFZB2M",
+    "order": 36.0
+  },
+  {
+    "browsable": false,
+    "name": "Red-necked Stint",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "K8NYez67HhQkHeWEJebVF5",
+    "order": 39.0
+  },
+  {
+    "browsable": false,
+    "name": "Dunlin",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "m7fBeDKCKbv4Y9AXTSGG64",
+    "order": 46.0
+  },
+  {
+    "browsable": true,
+    "name": "Dunlin (Breeding)",
+    "parent": "m7fBeDKCKbv4Y9AXTSGG64",
+    "level": 3,
+    "version": 1,
+    "external_id": "czkZR9AvnJqmpotRXMYzCm",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Dunlin (Nonbreeding/juvenile)",
+    "parent": "m7fBeDKCKbv4Y9AXTSGG64",
+    "level": 3,
+    "version": 1,
+    "external_id": "qawfCRaPtvgRgY8ciqnfAE",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Curlew Sandpiper",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "s5b6euZsShkfPyRnEh5ATU",
+    "order": 47.0
+  },
+  {
+    "browsable": false,
+    "name": "Stilt Sandpiper",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "VQqFvW243hKyWizdfvyho7",
+    "order": 49.0
+  },
+  {
+    "browsable": true,
+    "name": "Short-billed Dowitcher",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "QGuDJSWUZTbvXhqP8yhGQ9",
+    "order": 50.0
+  },
+  {
+    "browsable": false,
+    "name": "Long-billed Dowitcher",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "WktzyMuYS35ewug8SsKtK7",
+    "order": 51.0
+  },
+  {
+    "browsable": true,
+    "name": "Wilson's Snipe",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "nfqmDqCQvBiH4jxpRxt87",
+    "order": 52.0
+  },
+  {
+    "browsable": true,
+    "name": "American Woodcock",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "Pb5RxhK5oued4xLVyrRXm5",
+    "order": 53.0
+  },
+  {
+    "browsable": false,
+    "name": "Wilson's Phalarope",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "BZKVNQ5ujPM2j3MopoNJhe",
+    "order": 54.0
+  },
+  {
+    "browsable": true,
+    "name": "Wilson's Phalarope (Breeding)",
+    "parent": "BZKVNQ5ujPM2j3MopoNJhe",
+    "level": 3,
+    "version": 1,
+    "external_id": "td7924xFkmfRYRJEwSGGBU",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Wilson's Phalarope (Nonbreeding, juvenile)",
+    "parent": "BZKVNQ5ujPM2j3MopoNJhe",
+    "level": 3,
+    "version": 1,
+    "external_id": "t3yFhyJgmXJcmrcnzyBuKN",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Red-necked Phalarope",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "6UpAYL3G4rk2fkHuZ5KFyd",
+    "order": 55.0
+  },
+  {
+    "browsable": false,
+    "name": "Red Phalarope",
+    "parent": "NcFLoW4dVzQYcBKDmmTeeY",
+    "level": 2,
+    "version": 1,
+    "external_id": "zEe4YgsivMq6AEbKA4iHfT",
+    "order": 56.0
+  },
+  {
+    "browsable": false,
+    "name": "Herons and Large Wading Birds",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "wThSJF2cGGSvXXkNrBLur5",
+    "order": 12.0
+  },
+  {
+    "browsable": true,
+    "name": "Great Blue Heron",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "Te6MMYCpPrzKGUDM6yz6jH",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Great Egret",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "7GPVDvjorFZs5zQCJMsZef",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Snowy Egret",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "sUstjVcYr4jKcXqinduAT8",
+    "order": 4.0
+  },
+  {
+    "browsable": false,
+    "name": "Little Blue Heron",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "mjx2R4tWTfK9oN2XPQZHJ5",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Little Blue Heron (Adult)",
+    "parent": "mjx2R4tWTfK9oN2XPQZHJ5",
+    "level": 3,
+    "version": 1,
+    "external_id": "7eWWPGcj5CWiBJtgDAYUSf",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Little Blue Heron (Immature)",
+    "parent": "mjx2R4tWTfK9oN2XPQZHJ5",
+    "level": 3,
+    "version": 1,
+    "external_id": "j8WKjChyLNZYy7jSQtCHdR",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Tricolored Heron",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "Far2qzCkJBzH7M4ffVBzvT",
+    "order": 6.0
+  },
+  {
+    "browsable": false,
+    "name": "Reddish Egret",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "FN3XswJftx7Gvx6TMksXfe",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Reddish Egret (Dark morph)",
+    "parent": "FN3XswJftx7Gvx6TMksXfe",
+    "level": 3,
+    "version": 1,
+    "external_id": "T9M8GgMKN7A8V4TXLQNKHg",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Reddish Egret (White morph)",
+    "parent": "FN3XswJftx7Gvx6TMksXfe",
+    "level": 3,
+    "version": 1,
+    "external_id": "2bKT5wUa5n9hjrWffJc3uE",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Cattle Egret",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "pUkbBvN58hVP7pGFZwY7zG",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Green Heron",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "8ynJK4qes3b3he2RXrjtPn",
+    "order": 9.0
+  },
+  {
+    "browsable": false,
+    "name": "Black-crowned Night-Heron",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "YU7dmEBxqYRbc2VFixAvLP",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-crowned Night-Heron (Adult)",
+    "parent": "YU7dmEBxqYRbc2VFixAvLP",
+    "level": 3,
+    "version": 1,
+    "external_id": "KbL8ULxDT26WK6s3kJ2dxU",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-crowned Night-Heron (Immature)",
+    "parent": "YU7dmEBxqYRbc2VFixAvLP",
+    "level": 3,
+    "version": 1,
+    "external_id": "VbEM7qMJQsDdf28sC8Ys5H",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Yellow-crowned Night-Heron",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "8nRqcPxeYAzBfoD9D89hb6",
+    "order": 11.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-crowned Night-Heron (Adult)",
+    "parent": "8nRqcPxeYAzBfoD9D89hb6",
+    "level": 3,
+    "version": 1,
+    "external_id": "ES8TaGK3ggH26pwRaPYjvY",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-crowned Night-Heron (Immature)",
+    "parent": "8nRqcPxeYAzBfoD9D89hb6",
+    "level": 3,
+    "version": 1,
+    "external_id": "sdSzjdbaPQMYcdrMJWQDUJ",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "White Ibis",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "F8H8nLRKbAbffQLSqYU2fU",
+    "order": 12.0
+  },
+  {
+    "browsable": true,
+    "name": "White Ibis (Adult)",
+    "parent": "F8H8nLRKbAbffQLSqYU2fU",
+    "level": 3,
+    "version": 1,
+    "external_id": "pDwrYdff8GJdRbvpGUD7bU",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "White Ibis (Immature)",
+    "parent": "F8H8nLRKbAbffQLSqYU2fU",
+    "level": 3,
+    "version": 1,
+    "external_id": "UGa6VdqWWgsUr6y2DkhJF5",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Glossy Ibis",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "4qRmoTiKdmR7pH4z6ZAhLF",
+    "order": 13.0
+  },
+  {
+    "browsable": true,
+    "name": "White-faced Ibis",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "DdemHAuCe5sbHuSG6TmKoL",
+    "order": 14.0
+  },
+  {
+    "browsable": true,
+    "name": "Roseate Spoonbill",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "jmu3RUcSNyGxsGJvYWtxX8",
+    "order": 16.0
+  },
+  {
+    "browsable": true,
+    "name": "Sandhill Crane",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "vfrJ5iTJcqU87EkLHDo3DX",
+    "order": 19.0
+  },
+  {
+    "browsable": true,
+    "name": "Wood Stork",
+    "parent": "wThSJF2cGGSvXXkNrBLur5",
+    "level": 2,
+    "version": 1,
+    "external_id": "XoFwCeanb88SpozTStnhTd",
+    "order": 20.0
+  },
+  {
+    "browsable": false,
+    "name": "Rails, Gallinules, and Coot",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "3Akcemv2C4ti4L3qKi9F4g",
+    "order": 13.0
+  },
+  {
+    "browsable": false,
+    "name": "Clapper/Ridgway's Rail",
+    "parent": "3Akcemv2C4ti4L3qKi9F4g",
+    "level": 2,
+    "version": 1,
+    "external_id": "ohPL37iQXQNiLoMVitwS6j",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Purple Gallinule",
+    "parent": "3Akcemv2C4ti4L3qKi9F4g",
+    "level": 2,
+    "version": 1,
+    "external_id": "99ztZBYN6SFtR43mEoqXTH",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Purple Gallinule (Adult)",
+    "parent": "99ztZBYN6SFtR43mEoqXTH",
+    "level": 3,
+    "version": 1,
+    "external_id": "G7vtMWDkSPCuuYnytVGoEN",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Purple Gallinule (Immature)",
+    "parent": "99ztZBYN6SFtR43mEoqXTH",
+    "level": 3,
+    "version": 1,
+    "external_id": "zpB8W8TpUV4AyYeBzQWPHV",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Common Gallinule",
+    "parent": "3Akcemv2C4ti4L3qKi9F4g",
+    "level": 2,
+    "version": 1,
+    "external_id": "ci2Q6k7HosAhCkPBJtZUcn",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Gallinule (Adult)",
+    "parent": "ci2Q6k7HosAhCkPBJtZUcn",
+    "level": 3,
+    "version": 1,
+    "external_id": "TsHmsdSbpqR9nSpv5bZadn",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Gallinule (Immature)",
+    "parent": "ci2Q6k7HosAhCkPBJtZUcn",
+    "level": 3,
+    "version": 1,
+    "external_id": "xr49UgvW46BJ2VDndbzdVC",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "American Coot",
+    "parent": "3Akcemv2C4ti4L3qKi9F4g",
+    "level": 2,
+    "version": 1,
+    "external_id": "rG7KykUjWYscXTMy4HutmT",
+    "order": 8.0
+  },
+  {
+    "browsable": false,
+    "name": "Upland Gamebirds",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "jUf6a5ftMpJFMqHviBPnyb",
+    "order": 14.0
+  },
+  {
+    "browsable": true,
+    "name": "Ruffed Grouse",
+    "parent": "jUf6a5ftMpJFMqHviBPnyb",
+    "level": 2,
+    "version": 1,
+    "external_id": "NXqkk4bqNaFFxrL3qzSbS3",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Willow Ptarmigan",
+    "parent": "jUf6a5ftMpJFMqHviBPnyb",
+    "level": 2,
+    "version": 1,
+    "external_id": "owHursvdqjPGxUnjeSYK5G",
+    "order": 9.0
+  },
+  {
+    "browsable": false,
+    "name": "Rock Ptarmigan",
+    "parent": "jUf6a5ftMpJFMqHviBPnyb",
+    "level": 2,
+    "version": 1,
+    "external_id": "DnLEVNz6iZ66tYA32hWEbC",
+    "order": 10.0
+  },
+  {
+    "browsable": false,
+    "name": "White-tailed Ptarmigan",
+    "parent": "jUf6a5ftMpJFMqHviBPnyb",
+    "level": 2,
+    "version": 1,
+    "external_id": "XSiMQKcVjqWERGwEb9wxHY",
+    "order": 11.0
+  },
+  {
+    "browsable": true,
+    "name": "Scaled Quail",
+    "parent": "jUf6a5ftMpJFMqHviBPnyb",
+    "level": 2,
+    "version": 1,
+    "external_id": "weidyUCkxBZnfe3NxcEkyi",
+    "order": 13.0
+  },
+  {
+    "browsable": false,
+    "name": "California Quail",
+    "parent": "jUf6a5ftMpJFMqHviBPnyb",
+    "level": 2,
+    "version": 1,
+    "external_id": "fJQU4yxLq5zxGutEq4rTa9",
+    "order": 14.0
+  },
+  {
+    "browsable": true,
+    "name": "California Quail (Male)",
+    "parent": "fJQU4yxLq5zxGutEq4rTa9",
+    "level": 3,
+    "version": 1,
+    "external_id": "N5Yat9n72Rt6NmeRH4DEmZ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "California Quail (Female/juvenile)",
+    "parent": "fJQU4yxLq5zxGutEq4rTa9",
+    "level": 3,
+    "version": 1,
+    "external_id": "AALsetc4txFSVzsTzdE5te",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Gambel's Quail",
+    "parent": "jUf6a5ftMpJFMqHviBPnyb",
+    "level": 2,
+    "version": 1,
+    "external_id": "AkXs6JSqMUN4nNZH2cKijn",
+    "order": 15.0
+  },
+  {
+    "browsable": true,
+    "name": "Gambel's Quail (Male)",
+    "parent": "AkXs6JSqMUN4nNZH2cKijn",
+    "level": 3,
+    "version": 1,
+    "external_id": "94oQM4MJtkecMwEpXTJaYK",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Gambel's Quail (Female/juvenile)",
+    "parent": "AkXs6JSqMUN4nNZH2cKijn",
+    "level": 3,
+    "version": 1,
+    "external_id": "j9ZVYFZnyXEa6sL9gfAaUg",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Bobwhite",
+    "parent": "jUf6a5ftMpJFMqHviBPnyb",
+    "level": 2,
+    "version": 1,
+    "external_id": "dQ4coyrcxNcMaYJBLoFytj",
+    "order": 16.0
+  },
+  {
+    "browsable": false,
+    "name": "Montezuma Quail",
+    "parent": "jUf6a5ftMpJFMqHviBPnyb",
+    "level": 2,
+    "version": 1,
+    "external_id": "heTPQigDceuYPxtimqTp4g",
+    "order": 17.0
+  },
+  {
+    "browsable": false,
+    "name": "Ring-necked Pheasant",
+    "parent": "jUf6a5ftMpJFMqHviBPnyb",
+    "level": 2,
+    "version": 1,
+    "external_id": "39uBiT7PjLu549nYBy5rBF",
+    "order": 18.0
+  },
+  {
+    "browsable": true,
+    "name": "Ring-necked Pheasant (Male)",
+    "parent": "39uBiT7PjLu549nYBy5rBF",
+    "level": 3,
+    "version": 1,
+    "external_id": "3nY5pdT5ZkCj57f38mTLqk",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Ring-necked Pheasant (Female/juvenile)",
+    "parent": "39uBiT7PjLu549nYBy5rBF",
+    "level": 3,
+    "version": 1,
+    "external_id": "nJSetzHjof4h7zNJPoXvVP",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Wild Turkey",
+    "parent": "jUf6a5ftMpJFMqHviBPnyb",
+    "level": 2,
+    "version": 1,
+    "external_id": "iKNFkgjGFFPFuUQsJgfRsJ",
+    "order": 21.0
+  },
+  {
+    "browsable": false,
+    "name": "Raptors (Hawks, Owls)",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "FZED8bebJLeHa8KGqUEAgM",
+    "order": 15.0
+  },
+  {
+    "browsable": true,
+    "name": "Black Vulture",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "uMjz9xx2BNtrjeYGK95abW",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Turkey Vulture",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "evrbswdNPLxDrCRA276H6h",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Osprey",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "ULaPXsFv4z8jT6ekpmxPhc",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Swallow-tailed Kite",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "xGHLWF9P9VRrE7umDztwpA",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "White-tailed Kite",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "mG45JKey3Fh7ysVpWrDaiQ",
+    "order": 5.0
+  },
+  {
+    "browsable": false,
+    "name": "Snail Kite",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "rGrEzfSE4naTo3BnqyHHBf",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Mississippi Kite",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "zXSmDKJfpNohpJt4njHWr5",
+    "order": 7.0
+  },
+  {
+    "browsable": false,
+    "name": "Bald Eagle",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "zf8UD6bT92eraYM4qqmWXh",
+    "order": 9.0
+  },
+  {
+    "browsable": true,
+    "name": "Bald Eagle (Adult, subadult)",
+    "parent": "zf8UD6bT92eraYM4qqmWXh",
+    "level": 3,
+    "version": 1,
+    "external_id": "KueVAXhXTLLt2wq25vgp3X",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Bald Eagle (Immature, juvenile)",
+    "parent": "zf8UD6bT92eraYM4qqmWXh",
+    "level": 3,
+    "version": 1,
+    "external_id": "ofyc3o5Mm5GqbbDu9xKtrU",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Golden Eagle",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "J26Q4HwN9w4EZr2rpYJujD",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Golden Eagle (Adult)",
+    "parent": "J26Q4HwN9w4EZr2rpYJujD",
+    "level": 3,
+    "version": 1,
+    "external_id": "RLADZakHKWpJTH6kZYCBcD",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Golden Eagle (Immature)",
+    "parent": "J26Q4HwN9w4EZr2rpYJujD",
+    "level": 3,
+    "version": 1,
+    "external_id": "cyivjQbdKawUD5hbEWf2fS",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Northern Harrier",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "Pm4WAb7csGKYX8ZLwhtpsH",
+    "order": 11.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Harrier (Adult male)",
+    "parent": "Pm4WAb7csGKYX8ZLwhtpsH",
+    "level": 3,
+    "version": 1,
+    "external_id": "JWi2ggYpvEqnS8hTsc9qNV",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Harrier (Female, immature)",
+    "parent": "Pm4WAb7csGKYX8ZLwhtpsH",
+    "level": 3,
+    "version": 1,
+    "external_id": "LbQppTFdKMbjFRGxHSypdV",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Sharp-shinned Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "CpTrH4sEtEvBAaqWeX6q7Z",
+    "order": 12.0
+  },
+  {
+    "browsable": true,
+    "name": "Sharp-shinned Hawk (Adult )",
+    "parent": "CpTrH4sEtEvBAaqWeX6q7Z",
+    "level": 3,
+    "version": 1,
+    "external_id": "yAGopHc77mGbjZx9fGeSaZ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Sharp-shinned Hawk (Immature)",
+    "parent": "CpTrH4sEtEvBAaqWeX6q7Z",
+    "level": 3,
+    "version": 1,
+    "external_id": "bRb6tKWEJYzmy9jHZW2otL",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Cooper's Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "iTx3iGqSL2jLSMx8w7ZcZG",
+    "order": 13.0
+  },
+  {
+    "browsable": true,
+    "name": "Cooper's Hawk (Adult)",
+    "parent": "iTx3iGqSL2jLSMx8w7ZcZG",
+    "level": 3,
+    "version": 1,
+    "external_id": "NHeATQfccD5CyMR4ENa2kH",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Cooper's Hawk (Immature)",
+    "parent": "iTx3iGqSL2jLSMx8w7ZcZG",
+    "level": 3,
+    "version": 1,
+    "external_id": "wcYLcNGcTGSDNfVtmSDSvC",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Northern Goshawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "edeuQsRY7q2tRHt9frXpfm",
+    "order": 14.0
+  },
+  {
+    "browsable": false,
+    "name": "Common Black-Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "HJZYuhXrNt6zmPxUVgyBs8",
+    "order": 15.0
+  },
+  {
+    "browsable": true,
+    "name": "Harris's Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "yY7Q7MEYmeQXjw2zktezNK",
+    "order": 16.0
+  },
+  {
+    "browsable": false,
+    "name": "Red-shouldered Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "bUWZVpwUn9dMxyGHsPunh9",
+    "order": 17.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-shouldered Hawk (Adult )",
+    "parent": "bUWZVpwUn9dMxyGHsPunh9",
+    "level": 3,
+    "version": 1,
+    "external_id": "ecfRD3PtWYreSypspBvtm",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-shouldered Hawk (Immature)",
+    "parent": "bUWZVpwUn9dMxyGHsPunh9",
+    "level": 3,
+    "version": 1,
+    "external_id": "WaKfN9qFJznNjtUvPtTjjR",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Broad-winged Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "prRFgH4RxXtkhDwHLUvj8L",
+    "order": 18.0
+  },
+  {
+    "browsable": true,
+    "name": "Broad-winged Hawk (Adult)",
+    "parent": "prRFgH4RxXtkhDwHLUvj8L",
+    "level": 3,
+    "version": 1,
+    "external_id": "z6f33P3z2rLHpEvcVTMsgN",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Broad-winged Hawk (Immature)",
+    "parent": "prRFgH4RxXtkhDwHLUvj8L",
+    "level": 3,
+    "version": 1,
+    "external_id": "3ErweBoufYPGrnMT3j842F",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Short-tailed Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "9NNszVBjzHs66okRLRwC4f",
+    "order": 19.0
+  },
+  {
+    "browsable": false,
+    "name": "Gray Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "jqCRejDY8jktD62YuVai2K",
+    "order": 20.0
+  },
+  {
+    "browsable": false,
+    "name": "Swainson's Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "yEYQkhtrUArZRZoXrhRmDX",
+    "order": 21.0
+  },
+  {
+    "browsable": true,
+    "name": "Swainson's Hawk (Dark morph )",
+    "parent": "yEYQkhtrUArZRZoXrhRmDX",
+    "level": 3,
+    "version": 1,
+    "external_id": "DVqU6puj9afgvfMnywt3X9",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Swainson's Hawk (Light morph )",
+    "parent": "yEYQkhtrUArZRZoXrhRmDX",
+    "level": 3,
+    "version": 1,
+    "external_id": "aNnF2KEVrZijdNDHPF3QPL",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Swainson's Hawk (Immature)",
+    "parent": "yEYQkhtrUArZRZoXrhRmDX",
+    "level": 3,
+    "version": 1,
+    "external_id": "vfhh3Cqto3arUovHJuXNpT",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "White-tailed Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "wdGv9aPBBEq9vCUWjBwGZY",
+    "order": 22.0
+  },
+  {
+    "browsable": false,
+    "name": "Zone-tailed Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "eMgfUT43H3fYJf7VsbCqZi",
+    "order": 23.0
+  },
+  {
+    "browsable": false,
+    "name": "Red-tailed Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "KG4rcCW2ePuqVmsZwUst96",
+    "order": 24.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-tailed Hawk (Light morph adult)",
+    "parent": "KG4rcCW2ePuqVmsZwUst96",
+    "level": 3,
+    "version": 1,
+    "external_id": "UaPH4wGMHmrQDrCoaAohUf",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-tailed Hawk (Dark morph)",
+    "parent": "KG4rcCW2ePuqVmsZwUst96",
+    "level": 3,
+    "version": 1,
+    "external_id": "tVhxJ5tN5vQRJb2amPpAfc",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-tailed Hawk (Light morph immature)",
+    "parent": "KG4rcCW2ePuqVmsZwUst96",
+    "level": 3,
+    "version": 1,
+    "external_id": "GpDijrUWQHrQmywVZx37pm",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Ferruginous Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "roBsJR6BmzBWnkKuzwCYKJ",
+    "order": 25.0
+  },
+  {
+    "browsable": false,
+    "name": "Rough-legged Hawk",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "nRoqtKg6XHesk5Ysirvmdh",
+    "order": 26.0
+  },
+  {
+    "browsable": true,
+    "name": "Rough-legged Hawk (Dark morph)",
+    "parent": "nRoqtKg6XHesk5Ysirvmdh",
+    "level": 3,
+    "version": 1,
+    "external_id": "8Qs7DAkoDfr82NYmUPa3j5",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Rough-legged Hawk (Light morph)",
+    "parent": "nRoqtKg6XHesk5Ysirvmdh",
+    "level": 3,
+    "version": 1,
+    "external_id": "TkuVDbqojASiro9eWbq3z9",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Crested Caracara",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "oM9g7ymNWZsBMqNogL9LU7",
+    "order": 27.0
+  },
+  {
+    "browsable": false,
+    "name": "American Kestrel",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "eqqWHXoGdNjrwCe2FuPbcM",
+    "order": 28.0
+  },
+  {
+    "browsable": true,
+    "name": "American Kestrel (Adult male)",
+    "parent": "eqqWHXoGdNjrwCe2FuPbcM",
+    "level": 3,
+    "version": 1,
+    "external_id": "8VPZivexaXwz6W2aLVshd",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "American Kestrel (Female, immature)",
+    "parent": "eqqWHXoGdNjrwCe2FuPbcM",
+    "level": 3,
+    "version": 1,
+    "external_id": "gSuTRHpMXimc5j42c3HjCK",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Merlin",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "MVgRX7aXkZ8bhbbVaHLZ7",
+    "order": 29.0
+  },
+  {
+    "browsable": false,
+    "name": "Peregrine Falcon",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "HyYyirDihAngkRgHEho6sc",
+    "order": 30.0
+  },
+  {
+    "browsable": true,
+    "name": "Peregrine Falcon (Adult)",
+    "parent": "HyYyirDihAngkRgHEho6sc",
+    "level": 3,
+    "version": 1,
+    "external_id": "bumTuvmuCb8wCW7teC5uwS",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Peregrine Falcon (Immature)",
+    "parent": "HyYyirDihAngkRgHEho6sc",
+    "level": 3,
+    "version": 1,
+    "external_id": "pZomU98YiWM6XQZEzPFt7N",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Prairie Falcon",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "y6mnQWgyxxsJD7bWVRfgy",
+    "order": 31.0
+  },
+  {
+    "browsable": false,
+    "name": "Gyrfalcon",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "idsVgpG6hQp4oPQdXhSHvk",
+    "order": 32.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Screech-Owl",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "jwnHJnNoq3XQLiVNyfDfmc",
+    "order": 34.0
+  },
+  {
+    "browsable": true,
+    "name": "Eastern Screech-Owl",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "jwB3mZhz6X5vLvZnU3GVgd",
+    "order": 35.0
+  },
+  {
+    "browsable": true,
+    "name": "Great Horned Owl",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "Rkh6q3DzBNcebbcwz9h4rC",
+    "order": 37.0
+  },
+  {
+    "browsable": true,
+    "name": "Snowy Owl",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "rugv43iwkhtTWCQr98YgbH",
+    "order": 38.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Pygmy-Owl",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "CeSVyPTb7E2Hf7vfXdyFNi",
+    "order": 40.0
+  },
+  {
+    "browsable": true,
+    "name": "Burrowing Owl",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "aP6EfuGjtyMqZ9xbUyJvMh",
+    "order": 43.0
+  },
+  {
+    "browsable": true,
+    "name": "Barred Owl",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "KKjdXC6kFxbLbHCQ62VHBb",
+    "order": 45.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Saw-whet Owl",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "LQQve8RBXJTuBitaeBNbhT",
+    "order": 50.0
+  },
+  {
+    "browsable": true,
+    "name": "Barn Owl",
+    "parent": "FZED8bebJLeHa8KGqUEAgM",
+    "level": 2,
+    "version": 1,
+    "external_id": "dEUdtBrhm48VktEvEGys5",
+    "order": 51.0
+  },
+  {
+    "browsable": false,
+    "name": "Nightjars",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "Af3f799x5k22KxdXAHpAzT",
+    "order": 16.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Nighthawk",
+    "parent": "Af3f799x5k22KxdXAHpAzT",
+    "level": 2,
+    "version": 1,
+    "external_id": "LMXeJ7ZDnW8KDhvAjpTB2b",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Pigeons and Doves",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "uWRxSodbdBb4h3BPYLbZAo",
+    "order": 17.0
+  },
+  {
+    "browsable": true,
+    "name": "Rock Pigeon",
+    "parent": "uWRxSodbdBb4h3BPYLbZAo",
+    "level": 2,
+    "version": 1,
+    "external_id": "UUSxSBQcZZA8NxVfv3oQKg",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Band-tailed Pigeon",
+    "parent": "uWRxSodbdBb4h3BPYLbZAo",
+    "level": 2,
+    "version": 1,
+    "external_id": "fdb8HaVABPBPBBvCFhquVd",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Eurasian Collared-Dove",
+    "parent": "uWRxSodbdBb4h3BPYLbZAo",
+    "level": 2,
+    "version": 1,
+    "external_id": "9BRvdY5Ere4bzX3zQQEHWD",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "White-winged Dove",
+    "parent": "uWRxSodbdBb4h3BPYLbZAo",
+    "level": 2,
+    "version": 1,
+    "external_id": "cSSvaQ4XBdgHKHP5Dmx6NF",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Mourning Dove",
+    "parent": "uWRxSodbdBb4h3BPYLbZAo",
+    "level": 2,
+    "version": 1,
+    "external_id": "K62NsA2G6veW5tZLySQmCo",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Inca Dove",
+    "parent": "uWRxSodbdBb4h3BPYLbZAo",
+    "level": 2,
+    "version": 1,
+    "external_id": "G7qshPR6CEeUnftXgLjWE6",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Ground-Dove",
+    "parent": "uWRxSodbdBb4h3BPYLbZAo",
+    "level": 2,
+    "version": 1,
+    "external_id": "xmKGmjgRxwHALefdojnSiB",
+    "order": 8.0
+  },
+  {
+    "browsable": false,
+    "name": "Cuckoos",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "NrbXix2tTtpusW82MtesTd",
+    "order": 18.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-billed Cuckoo",
+    "parent": "NrbXix2tTtpusW82MtesTd",
+    "level": 2,
+    "version": 1,
+    "external_id": "EFU6rFemGgQjbLUT5WYVmB",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-billed Cuckoo",
+    "parent": "NrbXix2tTtpusW82MtesTd",
+    "level": 2,
+    "version": 1,
+    "external_id": "zrHPgoP8QSGjVhRN2Mhq4i",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Greater Roadrunner",
+    "parent": "NrbXix2tTtpusW82MtesTd",
+    "level": 2,
+    "version": 1,
+    "external_id": "h5iuDBfAd3fMMYjyEeja83",
+    "order": 3.0
+  },
+  {
+    "browsable": false,
+    "name": "Parrots",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "eZGB5KoFm7cnsi3dh5nTcV",
+    "order": 19.0
+  },
+  {
+    "browsable": true,
+    "name": "Monk Parakeet",
+    "parent": "eZGB5KoFm7cnsi3dh5nTcV",
+    "level": 2,
+    "version": 1,
+    "external_id": "sYA7GNd4dF2pWBRj6ZFn2E",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Trogons",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "TEXp9QY63jVeSDwodPy4uQ",
+    "order": 20.0
+  },
+  {
+    "browsable": false,
+    "name": "Kingfishers",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "4xkjpKCr9yCDzJZFqjr63g",
+    "order": 21.0
+  },
+  {
+    "browsable": true,
+    "name": "Belted Kingfisher",
+    "parent": "4xkjpKCr9yCDzJZFqjr63g",
+    "level": 2,
+    "version": 1,
+    "external_id": "wUz7gqPHcJmQ6ohikN3f8E",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Woodpeckers",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "cvPirf2cRtsagVvsXdVxpA",
+    "order": 22.0
+  },
+  {
+    "browsable": false,
+    "name": "Red-headed Woodpecker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "mKKaNRVGT4FgtznfRhh7gZ",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-headed Woodpecker (Adult)",
+    "parent": "mKKaNRVGT4FgtznfRhh7gZ",
+    "level": 3,
+    "version": 1,
+    "external_id": "dFag58o4gzgsetHCB6WePo",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-headed Woodpecker (Immature)",
+    "parent": "mKKaNRVGT4FgtznfRhh7gZ",
+    "level": 3,
+    "version": 1,
+    "external_id": "gTBGoBxEza7KfrSoAdRbLc",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Acorn Woodpecker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "fGmiebKY8mETvrZRLcD7P9",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Gila Woodpecker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "kmpZ5CvxcwmXZy8SS4Mx3c",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Golden-fronted Woodpecker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "cD5S63SdvvrhBmLW8V9CaR",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-bellied Woodpecker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "mH2drnW6GQ2rzeC22n92pB",
+    "order": 5.0
+  },
+  {
+    "browsable": false,
+    "name": "Williamson's Sapsucker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "HVHSYWrdrTif67doBTyfk4",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-bellied Sapsucker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "mimMNzNTp8ogQTbmFALAQA",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-naped Sapsucker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "K2ToRbXdZrvsb3cXNh2mFK",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-breasted Sapsucker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "sqG3bhwanmYWrwPjs6mrHc",
+    "order": 9.0
+  },
+  {
+    "browsable": true,
+    "name": "Ladder-backed Woodpecker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "y946SSMPMu6t4CNpFVD6FE",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Nuttall's Woodpecker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "JsqjbU9fHsXYcuDqUGTPUY",
+    "order": 11.0
+  },
+  {
+    "browsable": true,
+    "name": "Downy Woodpecker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "bRmpvNyMMQhGN5vmrWDmnG",
+    "order": 13.0
+  },
+  {
+    "browsable": true,
+    "name": "Hairy Woodpecker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "ivhhBiFs5RBhLbPiq7q4yQ",
+    "order": 14.0
+  },
+  {
+    "browsable": false,
+    "name": "Northern Flicker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "LHiMGrKvtf3KVQ2KcVZU8P",
+    "order": 19.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Flicker (Yellow-shafted)",
+    "parent": "LHiMGrKvtf3KVQ2KcVZU8P",
+    "level": 3,
+    "version": 1,
+    "external_id": "RzBrmSrWrtABMLGubMGvpF",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Flicker (Red-shafted)",
+    "parent": "LHiMGrKvtf3KVQ2KcVZU8P",
+    "level": 3,
+    "version": 1,
+    "external_id": "NBJQuTGPRUnJj2dwcDSrXU",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Pileated Woodpecker",
+    "parent": "cvPirf2cRtsagVvsXdVxpA",
+    "level": 2,
+    "version": 1,
+    "external_id": "qRvKMPgeaLEZAyyYwcCzx3",
+    "order": 21.0
+  },
+  {
+    "browsable": false,
+    "name": "Corvids (Jays, Crows)",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "CEfuJ9BNiCPABNa4427VBK",
+    "order": 23.0
+  },
+  {
+    "browsable": true,
+    "name": "Gray Jay",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "V8fgA8PASFzScxCf7yeBPW",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Steller's Jay",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "nsvgK5LvnhEUXFHpwrcT8Z",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Blue Jay",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "B9NNH7nHup2zxq4UVV5kS7",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Florida Scrub-Jay",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "zwCDgRDqYUJxyLBCEraFhJ",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Scrub-Jay",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "CkQYwoGw5RjQgdYaSvHyH5",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Mexican Jay",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "AG7XJrsufDsCBpyrUzr6XZ",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Clark's Nutcracker",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "afoJu6ASgTTGyGGRS44S",
+    "order": 9.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-billed Magpie",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "NHqvcqxunp2hUHJz2Y4yAm",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-billed Magpie",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "74q4WnrhaqaTNS7RqTscZj",
+    "order": 11.0
+  },
+  {
+    "browsable": true,
+    "name": "American Crow",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "bkWTVCmoo8gpoxhj6tmfZk",
+    "order": 12.0
+  },
+  {
+    "browsable": true,
+    "name": "Northwestern Crow",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "YnM7gJskWqRAVHqjKm3poF",
+    "order": 13.0
+  },
+  {
+    "browsable": true,
+    "name": "Fish Crow",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "pNreQX8FfT23XKQzLE2wxZ",
+    "order": 14.0
+  },
+  {
+    "browsable": true,
+    "name": "Chihuahuan Raven",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "dpNvmt5zb2CktP35X4wsiS",
+    "order": 15.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Raven",
+    "parent": "CEfuJ9BNiCPABNa4427VBK",
+    "level": 2,
+    "version": 1,
+    "external_id": "3XNmGtcPHmKXC8ruk2xEVS",
+    "order": 16.0
+  },
+  {
+    "browsable": false,
+    "name": "Hummingbirds",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "order": 24.0
+  },
+  {
+    "browsable": false,
+    "name": "Broad-billed Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "XpzKnnKw4Upt2v4znUt5FY",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Broad-billed Hummingbird (Adult Male)",
+    "parent": "XpzKnnKw4Upt2v4znUt5FY",
+    "level": 3,
+    "version": 1,
+    "external_id": "vJppMfqFBjc7betfr8AvRj",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Broad-billed Hummingbird (Female, immature)",
+    "parent": "XpzKnnKw4Upt2v4znUt5FY",
+    "level": 3,
+    "version": 1,
+    "external_id": "6ehvypHXQNSWDuUs9MFD99",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Blue-throated Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "56syXxMpfRNGPTCEicvbGd",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Ruby-throated Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "yrNRjFMqeE93rsDg9Wc2YG",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Ruby-throated Hummingbird (Adult Male)",
+    "parent": "yrNRjFMqeE93rsDg9Wc2YG",
+    "level": 3,
+    "version": 1,
+    "external_id": "QwGQxWCR4HchmT3v2Wt2AP",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Ruby-throated Hummingbird (Female, immature)",
+    "parent": "yrNRjFMqeE93rsDg9Wc2YG",
+    "level": 3,
+    "version": 1,
+    "external_id": "7SCWJTCzSw2o69jCmaDFPN",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Black-chinned Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "Xvc9uVBs2Vdy9rGASH9n9W",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-chinned Hummingbird (Adult Male)",
+    "parent": "Xvc9uVBs2Vdy9rGASH9n9W",
+    "level": 3,
+    "version": 1,
+    "external_id": "MLzLLnEKUhY4gjbBzHatQ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-chinned Hummingbird (Female, immature)",
+    "parent": "Xvc9uVBs2Vdy9rGASH9n9W",
+    "level": 3,
+    "version": 1,
+    "external_id": "FLVjNscnK5jVLBfqZFDz2f",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Anna's Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "E8cYVR2D4u5jgyuLRcMmm5",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Anna's Hummingbird (Adult Male)",
+    "parent": "E8cYVR2D4u5jgyuLRcMmm5",
+    "level": 3,
+    "version": 1,
+    "external_id": "fgvK4veGaR7zGHnJKNvBZH",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Anna's Hummingbird (Female, immature)",
+    "parent": "E8cYVR2D4u5jgyuLRcMmm5",
+    "level": 3,
+    "version": 1,
+    "external_id": "htxhjwaCpMWeLmT6CCHEsk",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Costa's Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "vrN5MFJu3Dos4W9X8oHqUj",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Costa's Hummingbird (Adult Male)",
+    "parent": "vrN5MFJu3Dos4W9X8oHqUj",
+    "level": 3,
+    "version": 1,
+    "external_id": "CokyGjbY4JcjtFErPwcWUP",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Costa's Hummingbird (Female, immature)",
+    "parent": "vrN5MFJu3Dos4W9X8oHqUj",
+    "level": 3,
+    "version": 1,
+    "external_id": "FL4E2winMLPBp6NSQVWoY6",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Calliope Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "uMqGQAa66gXgzNUVQCHUxU",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Calliope Hummingbird (Adult Male)",
+    "parent": "uMqGQAa66gXgzNUVQCHUxU",
+    "level": 3,
+    "version": 1,
+    "external_id": "JX6TtBZUYpZqwhBd2HRvab",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Calliope Hummingbird (Female, immature)",
+    "parent": "uMqGQAa66gXgzNUVQCHUxU",
+    "level": 3,
+    "version": 1,
+    "external_id": "xHZi2M4A3m5JZN4tJXo6ZL",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Broad-tailed Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "BQZ2e6VWH633PKTYeX646A",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Broad-tailed Hummingbird (Adult Male)",
+    "parent": "BQZ2e6VWH633PKTYeX646A",
+    "level": 3,
+    "version": 1,
+    "external_id": "SrM5vEX7HjwsNsJbtCW6KG",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Broad-tailed Hummingbird (Female, immature)",
+    "parent": "BQZ2e6VWH633PKTYeX646A",
+    "level": 3,
+    "version": 1,
+    "external_id": "siYWJuz62qcBu6gUAdMysm",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Rufous Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "9ZyMGN5sramugtNpExNigS",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Rufous Hummingbird (Adult Male)",
+    "parent": "9ZyMGN5sramugtNpExNigS",
+    "level": 3,
+    "version": 1,
+    "external_id": "vuE3xtqwys5WymJcmsoZSa",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Rufous Hummingbird (Female, immature)",
+    "parent": "9ZyMGN5sramugtNpExNigS",
+    "level": 3,
+    "version": 1,
+    "external_id": "juDT4oW9iCZgpMZRgqhT3Z",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Allen's Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "n8ExzmRZPa8RGLsq5EVGSE",
+    "order": 9.0
+  },
+  {
+    "browsable": true,
+    "name": "Allen's Hummingbird (Adult Male)",
+    "parent": "n8ExzmRZPa8RGLsq5EVGSE",
+    "level": 3,
+    "version": 1,
+    "external_id": "3sMk3QBtLiPpXP6BKc6r5o",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Allen's Hummingbird (Female, immature)",
+    "parent": "n8ExzmRZPa8RGLsq5EVGSE",
+    "level": 3,
+    "version": 1,
+    "external_id": "bTJyJBM42kaqb7fJG8sHTd",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Magnificent Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "XgNMw8rwRgnHJy5qFcBgtP",
+    "order": 10.0
+  },
+  {
+    "browsable": false,
+    "name": "Lucifer Hummingbird",
+    "parent": "x2Jp4fxdPN6dTKSuoxiMY8",
+    "level": 2,
+    "version": 1,
+    "external_id": "jRNG9QZTqVsa5a54jv52xd",
+    "order": 12.0
+  },
+  {
+    "browsable": false,
+    "name": "Swifts and Swallows",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "k9XkVh58vhvcPSQAhStSHD",
+    "order": 25.0
+  },
+  {
+    "browsable": true,
+    "name": "Chimney Swift",
+    "parent": "k9XkVh58vhvcPSQAhStSHD",
+    "level": 2,
+    "version": 1,
+    "external_id": "SpiKkxN7KeareoExAmoR8C",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Vaux's Swift",
+    "parent": "k9XkVh58vhvcPSQAhStSHD",
+    "level": 2,
+    "version": 1,
+    "external_id": "aJdkffiDgiJmjKsbrsYPKk",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "White-throated Swift",
+    "parent": "k9XkVh58vhvcPSQAhStSHD",
+    "level": 2,
+    "version": 1,
+    "external_id": "k7oirPEuWXev2LdgKMSBq7",
+    "order": 3.0
+  },
+  {
+    "browsable": false,
+    "name": "Purple Martin",
+    "parent": "k9XkVh58vhvcPSQAhStSHD",
+    "level": 2,
+    "version": 1,
+    "external_id": "Pudw2LghHXcSzb7qM2atMc",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Purple Martin (Adult male)",
+    "parent": "Pudw2LghHXcSzb7qM2atMc",
+    "level": 3,
+    "version": 1,
+    "external_id": "Hyj8h43E5aWp3HD4hhWAuN",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Purple Martin (Female/juvenile)",
+    "parent": "Pudw2LghHXcSzb7qM2atMc",
+    "level": 3,
+    "version": 1,
+    "external_id": "ixFPgZZBSa989dDpi44h47",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Tree Swallow",
+    "parent": "k9XkVh58vhvcPSQAhStSHD",
+    "level": 2,
+    "version": 1,
+    "external_id": "pEN6fLHQW6ogZKedP7F9Vf",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Violet-green Swallow",
+    "parent": "k9XkVh58vhvcPSQAhStSHD",
+    "level": 2,
+    "version": 1,
+    "external_id": "SNPxnAWLS5JtkuNmntCXK7",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Rough-winged Swallow",
+    "parent": "k9XkVh58vhvcPSQAhStSHD",
+    "level": 2,
+    "version": 1,
+    "external_id": "ZJ3dnRd7cg9qJ8Ctyoty5W",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Bank Swallow",
+    "parent": "k9XkVh58vhvcPSQAhStSHD",
+    "level": 2,
+    "version": 1,
+    "external_id": "NxTNoAWMwNLZkrjSU6EwtH",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Cliff Swallow",
+    "parent": "k9XkVh58vhvcPSQAhStSHD",
+    "level": 2,
+    "version": 1,
+    "external_id": "HVVJ4VhTfemDthi2KFvXPb",
+    "order": 9.0
+  },
+  {
+    "browsable": true,
+    "name": "Cave Swallow",
+    "parent": "k9XkVh58vhvcPSQAhStSHD",
+    "level": 2,
+    "version": 1,
+    "external_id": "qzpCGrMDWRWzp436Pp6QKd",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Barn Swallow",
+    "parent": "k9XkVh58vhvcPSQAhStSHD",
+    "level": 2,
+    "version": 1,
+    "external_id": "yujGuZ9e49br7ZxR96QJ5c",
+    "order": 11.0
+  },
+  {
+    "browsable": false,
+    "name": "Flycatchers",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "ZjfLhSds72zRvqzzGvbbze",
+    "order": 26.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Wood-Pewee",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "aHe3kUASCLwPV793nUxQxg",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Eastern Wood-Pewee",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "dGLk2qgyhh49NgixJQhQCL",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Least Flycatcher",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "VgG7Sa7cnhbxvwfU2MaEBX",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Pacific-slope Flycatcher",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "ve83Gnh2AhSpo6dKoG9Aa7",
+    "order": 12.0
+  },
+  {
+    "browsable": true,
+    "name": "Cordilleran Flycatcher",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "r6gF9LSmk67tCVCfrfYW8",
+    "order": 13.0
+  },
+  {
+    "browsable": true,
+    "name": "Black Phoebe",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "Mg5EzFRLQYXkCnJWa5Tt5M",
+    "order": 16.0
+  },
+  {
+    "browsable": true,
+    "name": "Eastern Phoebe",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "ZfJe4L7LtQ3bMnmrfsX4rF",
+    "order": 17.0
+  },
+  {
+    "browsable": true,
+    "name": "Say's Phoebe",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "6icymUCA5TJH7NEXqzeTxj",
+    "order": 18.0
+  },
+  {
+    "browsable": false,
+    "name": "Vermilion Flycatcher",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "pqykRkXyAb54eB2AofgfZh",
+    "order": 19.0
+  },
+  {
+    "browsable": true,
+    "name": "Vermilion Flycatcher (Adult male)",
+    "parent": "pqykRkXyAb54eB2AofgfZh",
+    "level": 3,
+    "version": 1,
+    "external_id": "YKiMhzLAou62KyQg38LaZe",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Vermilion Flycatcher (Female, immature)",
+    "parent": "pqykRkXyAb54eB2AofgfZh",
+    "level": 3,
+    "version": 1,
+    "external_id": "LtGdvpvwuV2RByAFivpzp4",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Ash-throated Flycatcher",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "MsgK79KooomKdXo6fsBwU8",
+    "order": 20.0
+  },
+  {
+    "browsable": true,
+    "name": "Great Crested Flycatcher",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "fPjkpsmaRJMD6PFFRuMRHS",
+    "order": 21.0
+  },
+  {
+    "browsable": true,
+    "name": "Cassin's Kingbird",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "nDxnaFHiQToWg8n6oUu5UR",
+    "order": 28.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Kingbird",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "9gDJWo8Kvn8mWpcU5sEHMc",
+    "order": 29.0
+  },
+  {
+    "browsable": true,
+    "name": "Eastern Kingbird",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "8aEDRZmUeQsFvRW2QT2M6J",
+    "order": 30.0
+  },
+  {
+    "browsable": true,
+    "name": "Scissor-tailed Flycatcher",
+    "parent": "ZjfLhSds72zRvqzzGvbbze",
+    "level": 2,
+    "version": 1,
+    "external_id": "w46UpjLzDyrXuLEvYicNnQ",
+    "order": 33.0
+  },
+  {
+    "browsable": false,
+    "name": "Shrikes",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "XbSNf2gWhoeh9NaHj9qPEL",
+    "order": 27.0
+  },
+  {
+    "browsable": true,
+    "name": "Loggerhead Shrike",
+    "parent": "XbSNf2gWhoeh9NaHj9qPEL",
+    "level": 2,
+    "version": 1,
+    "external_id": "ZFWJEooMG4NH3JrMa6wAfd",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Shrike",
+    "parent": "XbSNf2gWhoeh9NaHj9qPEL",
+    "level": 2,
+    "version": 1,
+    "external_id": "HqV2ZTTEZMDHxYYdpeuT5",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Mimids",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "nmw8p7hHyHQJkpYfLQVgU8",
+    "order": 28.0
+  },
+  {
+    "browsable": true,
+    "name": "Gray Catbird",
+    "parent": "nmw8p7hHyHQJkpYfLQVgU8",
+    "level": 2,
+    "version": 1,
+    "external_id": "JL2r89BCk8gqh2f3eZa3wQ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Mockingbird",
+    "parent": "nmw8p7hHyHQJkpYfLQVgU8",
+    "level": 2,
+    "version": 1,
+    "external_id": "VYQXUoFpifEVrLBWnBo93V",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Brown Thrasher",
+    "parent": "nmw8p7hHyHQJkpYfLQVgU8",
+    "level": 2,
+    "version": 1,
+    "external_id": "ANoVWeE5PEPGMRfQ2HZkTL",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Curve-billed Thrasher",
+    "parent": "nmw8p7hHyHQJkpYfLQVgU8",
+    "level": 2,
+    "version": 1,
+    "external_id": "WRKRpUk73agQ7BEQghB8qb",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "California Thrasher",
+    "parent": "nmw8p7hHyHQJkpYfLQVgU8",
+    "level": 2,
+    "version": 1,
+    "external_id": "NE9EyrxX6Mp4t7KdeeqLDH",
+    "order": 7.0
+  },
+  {
+    "browsable": false,
+    "name": "Thrushes",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "Q89angD59xcUYaRqAJxyzb",
+    "order": 29.0
+  },
+  {
+    "browsable": true,
+    "name": "Eastern Bluebird",
+    "parent": "Q89angD59xcUYaRqAJxyzb",
+    "level": 2,
+    "version": 1,
+    "external_id": "4GGEHAwi3bEoUhF5G9cXAj",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Bluebird",
+    "parent": "Q89angD59xcUYaRqAJxyzb",
+    "level": 2,
+    "version": 1,
+    "external_id": "AwG5vM9VeZyzMZoZWX6eVc",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Mountain Bluebird",
+    "parent": "Q89angD59xcUYaRqAJxyzb",
+    "level": 2,
+    "version": 1,
+    "external_id": "e5z3x2qeX2EuBxyCYxw8Ud",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Bluethroat",
+    "parent": "Q89angD59xcUYaRqAJxyzb",
+    "level": 2,
+    "version": 1,
+    "external_id": "FL2hRwLrknz3GnrHiBqhUU",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Townsend's Solitaire",
+    "parent": "Q89angD59xcUYaRqAJxyzb",
+    "level": 2,
+    "version": 1,
+    "external_id": "8jJbnTcKCLmT9mtGwD4ETK",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Veery",
+    "parent": "Q89angD59xcUYaRqAJxyzb",
+    "level": 2,
+    "version": 1,
+    "external_id": "CWuHxSwqybbTjt8sRF8agH",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Swainson's Thrush",
+    "parent": "Q89angD59xcUYaRqAJxyzb",
+    "level": 2,
+    "version": 1,
+    "external_id": "35sk8GB3vXtbE2cHjCCzBX",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Hermit Thrush",
+    "parent": "Q89angD59xcUYaRqAJxyzb",
+    "level": 2,
+    "version": 1,
+    "external_id": "Gs2qHBVqpApHdPkQNTXVfG",
+    "order": 9.0
+  },
+  {
+    "browsable": true,
+    "name": "Wood Thrush",
+    "parent": "Q89angD59xcUYaRqAJxyzb",
+    "level": 2,
+    "version": 1,
+    "external_id": "2BbGPeZoTL4TtsDnyNiRva",
+    "order": 10.0
+  },
+  {
+    "browsable": false,
+    "name": "American Robin",
+    "parent": "Q89angD59xcUYaRqAJxyzb",
+    "level": 2,
+    "version": 1,
+    "external_id": "w3VQw7yD5BNiSsHrddQLsP",
+    "order": 11.0
+  },
+  {
+    "browsable": true,
+    "name": "American Robin (Adult)",
+    "parent": "w3VQw7yD5BNiSsHrddQLsP",
+    "level": 3,
+    "version": 1,
+    "external_id": "gXvLodjhxGngLcMfaJradZ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "American Robin (Juvenile)",
+    "parent": "w3VQw7yD5BNiSsHrddQLsP",
+    "level": 3,
+    "version": 1,
+    "external_id": "5KcnZd5H6cy5s2ZhgjrzzX",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Varied Thrush",
+    "parent": "Q89angD59xcUYaRqAJxyzb",
+    "level": 2,
+    "version": 1,
+    "external_id": "LLT75qFJCxqeUwcotHwjsd",
+    "order": 13.0
+  },
+  {
+    "browsable": false,
+    "name": "Dippers",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "zQz6cyHz57PEBhPGbeVKD8",
+    "order": 30.0
+  },
+  {
+    "browsable": true,
+    "name": "American Dipper",
+    "parent": "zQz6cyHz57PEBhPGbeVKD8",
+    "level": 2,
+    "version": 1,
+    "external_id": "Z2KvYDXAAbZ78SesjrpYeA",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Waxwings",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "WPNxz3gyoG5xLnTMpSvu74",
+    "order": 31.0
+  },
+  {
+    "browsable": true,
+    "name": "Bohemian Waxwing",
+    "parent": "WPNxz3gyoG5xLnTMpSvu74",
+    "level": 2,
+    "version": 1,
+    "external_id": "2ruerh882RBWkgYFkcztHM",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Cedar Waxwing",
+    "parent": "WPNxz3gyoG5xLnTMpSvu74",
+    "level": 2,
+    "version": 1,
+    "external_id": "Ugxyq52ZGAuftDRAEqkBgf",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Silky-flycatchers",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "KZdyfyKZqqJkpEpBehXKjj",
+    "order": 32.0
+  },
+  {
+    "browsable": false,
+    "name": "Phainopepla",
+    "parent": "KZdyfyKZqqJkpEpBehXKjj",
+    "level": 2,
+    "version": 1,
+    "external_id": "VxqqfFKyX9PT9grohadQ7B",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Phainopepla (Female/juvenile)",
+    "parent": "VxqqfFKyX9PT9grohadQ7B",
+    "level": 3,
+    "version": 1,
+    "external_id": "z9JWkTwbjDSVFDMm43YLNY",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Phainopepla (Male)",
+    "parent": "VxqqfFKyX9PT9grohadQ7B",
+    "level": 3,
+    "version": 1,
+    "external_id": "98EEkD8QYfzTmQciixrBU6",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Chickadees and Titmice",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "SGnyfk2xP6UrMTHocwDxjE",
+    "order": 33.0
+  },
+  {
+    "browsable": true,
+    "name": "Carolina Chickadee",
+    "parent": "SGnyfk2xP6UrMTHocwDxjE",
+    "level": 2,
+    "version": 1,
+    "external_id": "7wWxNC2oJmSfpysGD9PqUi",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-capped Chickadee",
+    "parent": "SGnyfk2xP6UrMTHocwDxjE",
+    "level": 2,
+    "version": 1,
+    "external_id": "WgxfM624RDTWzhVHHuaLg7",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Mountain Chickadee",
+    "parent": "SGnyfk2xP6UrMTHocwDxjE",
+    "level": 2,
+    "version": 1,
+    "external_id": "yw7oExy8cJkDtdiorkPZqE",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Chestnut-backed Chickadee",
+    "parent": "SGnyfk2xP6UrMTHocwDxjE",
+    "level": 2,
+    "version": 1,
+    "external_id": "G8NUNpyrPcFawjH3eFcnqd",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Boreal Chickadee",
+    "parent": "SGnyfk2xP6UrMTHocwDxjE",
+    "level": 2,
+    "version": 1,
+    "external_id": "NxyJKeRaEEJR4uppevpFwb",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Bridled Titmouse",
+    "parent": "SGnyfk2xP6UrMTHocwDxjE",
+    "level": 2,
+    "version": 1,
+    "external_id": "ZZDdS8irzVh9ZTx4megYbf",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Oak Titmouse",
+    "parent": "SGnyfk2xP6UrMTHocwDxjE",
+    "level": 2,
+    "version": 1,
+    "external_id": "L7BxzbtTV8J2ATrAF66wFi",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Juniper Titmouse",
+    "parent": "SGnyfk2xP6UrMTHocwDxjE",
+    "level": 2,
+    "version": 1,
+    "external_id": "wXYQE3u68XtgbQYJnENZ7Z",
+    "order": 9.0
+  },
+  {
+    "browsable": true,
+    "name": "Tufted Titmouse",
+    "parent": "SGnyfk2xP6UrMTHocwDxjE",
+    "level": 2,
+    "version": 1,
+    "external_id": "qhqcirGG8QFzdSZbgkbAFX",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-crested Titmouse",
+    "parent": "SGnyfk2xP6UrMTHocwDxjE",
+    "level": 2,
+    "version": 1,
+    "external_id": "x5uXRqrjgBuKoC8TuRYbrn",
+    "order": 11.0
+  },
+  {
+    "browsable": false,
+    "name": "Nuthatches and Creeper",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "EbteeYMku7SmveoXF98gTQ",
+    "order": 34.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-breasted Nuthatch",
+    "parent": "EbteeYMku7SmveoXF98gTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "B5xxn6bKRNvBjpTBwqTEAC",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "White-breasted Nuthatch",
+    "parent": "EbteeYMku7SmveoXF98gTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "JM4sqiK66Wzrr4AP8vTit4",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Pygmy Nuthatch",
+    "parent": "EbteeYMku7SmveoXF98gTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "GqHngHX7tYit7PpFm7FJnA",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Brown-headed Nuthatch",
+    "parent": "EbteeYMku7SmveoXF98gTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "AxktSLxiuKoxbaSPHEDNYN",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Brown Creeper",
+    "parent": "EbteeYMku7SmveoXF98gTQ",
+    "level": 2,
+    "version": 1,
+    "external_id": "Moiamz8Kbdf8iRpfx8B32C",
+    "order": 4.0
+  },
+  {
+    "browsable": false,
+    "name": "Penduline-Tits",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "UgP2cmZaY4Z2SLVjyVEkrS",
+    "order": 35.0
+  },
+  {
+    "browsable": true,
+    "name": "Verdin",
+    "parent": "UgP2cmZaY4Z2SLVjyVEkrS",
+    "level": 2,
+    "version": 1,
+    "external_id": "k967Y8zQuntF5gbR2A2YuW",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Long-tailed Tits",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "a3ATVjV22R2MSTNrwY9aya",
+    "order": 36.0
+  },
+  {
+    "browsable": true,
+    "name": "Bushtit",
+    "parent": "a3ATVjV22R2MSTNrwY9aya",
+    "level": 2,
+    "version": 1,
+    "external_id": "c8WxbM3nUzfqkGUJqtkqo5",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Wrentit",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "AgNB7AKxXUoXtQhRbaLvBJ",
+    "order": 37.0
+  },
+  {
+    "browsable": false,
+    "name": "Wrens",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "jJK8NvspzHaoRq438PHD7A",
+    "order": 38.0
+  },
+  {
+    "browsable": true,
+    "name": "Cactus Wren",
+    "parent": "jJK8NvspzHaoRq438PHD7A",
+    "level": 2,
+    "version": 1,
+    "external_id": "GSFynMBgY89ZurcCCAVmfn",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Canyon Wren",
+    "parent": "jJK8NvspzHaoRq438PHD7A",
+    "level": 2,
+    "version": 1,
+    "external_id": "jUjHgVFaT2Pv3GtDTWbLUW",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Carolina Wren",
+    "parent": "jJK8NvspzHaoRq438PHD7A",
+    "level": 2,
+    "version": 1,
+    "external_id": "EWNJ4gPffHTqKcg9EU56j3",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Bewick's Wren",
+    "parent": "jJK8NvspzHaoRq438PHD7A",
+    "level": 2,
+    "version": 1,
+    "external_id": "kr5CLWqAyC2a5ad4dNCLVj",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "House Wren",
+    "parent": "jJK8NvspzHaoRq438PHD7A",
+    "level": 2,
+    "version": 1,
+    "external_id": "VfMC4A625eeFERaBc5hgZe",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Pacific Wren",
+    "parent": "jJK8NvspzHaoRq438PHD7A",
+    "level": 2,
+    "version": 1,
+    "external_id": "zGneMnTWQDV22ruTFWbzAT",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Winter Wren",
+    "parent": "jJK8NvspzHaoRq438PHD7A",
+    "level": 2,
+    "version": 1,
+    "external_id": "BTXWEoWsBnnzsMMGmGuFvi",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Marsh Wren",
+    "parent": "jJK8NvspzHaoRq438PHD7A",
+    "level": 2,
+    "version": 1,
+    "external_id": "ft4qEzVhgMztK9s88Vi2g3",
+    "order": 9.0
+  },
+  {
+    "browsable": false,
+    "name": "Gnatcatchers",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "RQMUfvxoUJGBp53quoHNUJ",
+    "order": 39.0
+  },
+  {
+    "browsable": true,
+    "name": "Blue-gray Gnatcatcher",
+    "parent": "RQMUfvxoUJGBp53quoHNUJ",
+    "level": 2,
+    "version": 1,
+    "external_id": "jrnyrr64qyDd6oosH3Az9m",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-tailed Gnatcatcher",
+    "parent": "RQMUfvxoUJGBp53quoHNUJ",
+    "level": 2,
+    "version": 1,
+    "external_id": "ougNAXKUHVTZmMYdBZqCgS",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Kinglets",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "4DNYNZASCcMBDNiu7EvBcU",
+    "order": 40.0
+  },
+  {
+    "browsable": true,
+    "name": "Golden-crowned Kinglet",
+    "parent": "4DNYNZASCcMBDNiu7EvBcU",
+    "level": 2,
+    "version": 1,
+    "external_id": "waxC6Y4Eee9ziLPszWu2ta",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Ruby-crowned Kinglet",
+    "parent": "4DNYNZASCcMBDNiu7EvBcU",
+    "level": 2,
+    "version": 1,
+    "external_id": "YiSC7XdTvMpV8iiLYGxNxE",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Vireos",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "etPsWvNybHcdPajv3gBGsH",
+    "order": 41.0
+  },
+  {
+    "browsable": true,
+    "name": "White-eyed Vireo",
+    "parent": "etPsWvNybHcdPajv3gBGsH",
+    "level": 2,
+    "version": 1,
+    "external_id": "2uZNvXHNX4LKP4ijFbmX46",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Bell's Vireo",
+    "parent": "etPsWvNybHcdPajv3gBGsH",
+    "level": 2,
+    "version": 1,
+    "external_id": "zP3ZJ5SmB4nFcpr2eKDtbC",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-throated Vireo",
+    "parent": "etPsWvNybHcdPajv3gBGsH",
+    "level": 2,
+    "version": 1,
+    "external_id": "zBC3hoJttSdMiiz2GAQXic",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Plumbeous Vireo",
+    "parent": "etPsWvNybHcdPajv3gBGsH",
+    "level": 2,
+    "version": 1,
+    "external_id": "hinTjF77asaiQpoJSGGChR",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Cassin's Vireo",
+    "parent": "etPsWvNybHcdPajv3gBGsH",
+    "level": 2,
+    "version": 1,
+    "external_id": "KGsVNGFV5cwnnKxJhNq5jL",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Blue-headed Vireo",
+    "parent": "etPsWvNybHcdPajv3gBGsH",
+    "level": 2,
+    "version": 1,
+    "external_id": "tPMWKftdFnHbkK6M6ZrmCL",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Hutton's Vireo",
+    "parent": "etPsWvNybHcdPajv3gBGsH",
+    "level": 2,
+    "version": 1,
+    "external_id": "ykafixBBYzV7WLdnAz5GDe",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Warbling Vireo",
+    "parent": "etPsWvNybHcdPajv3gBGsH",
+    "level": 2,
+    "version": 1,
+    "external_id": "qn6qRBEaGq9NmKFF8nn6mY",
+    "order": 9.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-eyed Vireo",
+    "parent": "etPsWvNybHcdPajv3gBGsH",
+    "level": 2,
+    "version": 1,
+    "external_id": "h3dDCeZWMc8Wp9VLUugqn5",
+    "order": 11.0
+  },
+  {
+    "browsable": false,
+    "name": "Old World Warblers",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "4juiuVMiErrN3tNmhdXsQ",
+    "order": 42.0
+  },
+  {
+    "browsable": false,
+    "name": "Wood-Warblers",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "7QkRKNcYP2cJvBVGQK3pPT",
+    "order": 43.0
+  },
+  {
+    "browsable": true,
+    "name": "Ovenbird",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "pkqPSUpCWUd93TZKLnuHv6",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Louisiana Waterthrush",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "z5Eq7KVAy3oHWfasisZjVY",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Waterthrush",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "v2mCgF29irQC3bhDmbXHkm",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Blue-winged Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "Fq9CvaGYpQhFpkMahdAgcJ",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-and-white Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "NjGc4TQz8YkSM8QBwRV3DJ",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Prothonotary Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "rYuCMnPqJipmSu5U8w6zEj",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Tennessee Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "iwC88RicnbSGHFCNzWCx5C",
+    "order": 9.0
+  },
+  {
+    "browsable": true,
+    "name": "Orange-crowned Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "PTVfJvG8URfmgSG38ayhm3",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Nashville Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "CJcMRUHvV9ukCPGUrtexbB",
+    "order": 12.0
+  },
+  {
+    "browsable": true,
+    "name": "MacGillivray's Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "ypeLTGHtYRDqj4pft2TQvA",
+    "order": 16.0
+  },
+  {
+    "browsable": true,
+    "name": "Mourning Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "vaeFoeMx8FjY7GRis5MJjS",
+    "order": 17.0
+  },
+  {
+    "browsable": false,
+    "name": "Common Yellowthroat",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "MoYs7eWWhWbJQVv7swAPe8",
+    "order": 19.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Yellowthroat (Adult Male)",
+    "parent": "MoYs7eWWhWbJQVv7swAPe8",
+    "level": 3,
+    "version": 1,
+    "external_id": "VYbQ2TzXRkZD8QBr4saLY8",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Yellowthroat (Female/immature male)",
+    "parent": "MoYs7eWWhWbJQVv7swAPe8",
+    "level": 3,
+    "version": 1,
+    "external_id": "baXN5HLdTj2qBk9aGbA2gS",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Hooded Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "tenY5oXt3k2Grsn8U3HQF6",
+    "order": 20.0
+  },
+  {
+    "browsable": false,
+    "name": "American Redstart",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "jAuFzo3tKLxmJCCfvJapgV",
+    "order": 21.0
+  },
+  {
+    "browsable": true,
+    "name": "American Redstart (Adult Male)",
+    "parent": "jAuFzo3tKLxmJCCfvJapgV",
+    "level": 3,
+    "version": 1,
+    "external_id": "wWH2AZ9qg5iA5tVxR7ybu",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "American Redstart (Female/juvenile)",
+    "parent": "jAuFzo3tKLxmJCCfvJapgV",
+    "level": 3,
+    "version": 1,
+    "external_id": "jmESwvvwphCGDSqtF7arx7",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Cape May Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "RPX8srqJbeNCXkCcUGCW94",
+    "order": 23.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Parula",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "ExaB8v5zPNBdzr6NApu6Ej",
+    "order": 25.0
+  },
+  {
+    "browsable": false,
+    "name": "Magnolia Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "5cLy2xskpfU6Ls7QKXAixe",
+    "order": 27.0
+  },
+  {
+    "browsable": true,
+    "name": "Magnolia Warbler (Breeding male)",
+    "parent": "5cLy2xskpfU6Ls7QKXAixe",
+    "level": 3,
+    "version": 1,
+    "external_id": "UYL5att5JW8hGTo8baLHGG",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Magnolia Warbler (Female/immature male)",
+    "parent": "5cLy2xskpfU6Ls7QKXAixe",
+    "level": 3,
+    "version": 1,
+    "external_id": "wcfcAJCK26arVW3Jx2s7pM",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Bay-breasted Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "U7mVX9ftnvZLanEh2kdHYZ",
+    "order": 28.0
+  },
+  {
+    "browsable": true,
+    "name": "Bay-breasted Warbler (Breeding male)",
+    "parent": "U7mVX9ftnvZLanEh2kdHYZ",
+    "level": 3,
+    "version": 1,
+    "external_id": "q28Lw3RmVA8rLSQUfQoYqh",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Bay-breasted Warbler (Female, Nonbreeding male, Immature)",
+    "parent": "U7mVX9ftnvZLanEh2kdHYZ",
+    "level": 3,
+    "version": 1,
+    "external_id": "rRevZkpZRyLfVGnLLkhJcS",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Blackburnian Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "yjrvKcmwd5ha4wNtt8DVqK",
+    "order": 29.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "Za4wCxsN8TxophH8iosKsL",
+    "order": 30.0
+  },
+  {
+    "browsable": false,
+    "name": "Chestnut-sided Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "84q8y7ZvXz4DE8tyfZMx5H",
+    "order": 31.0
+  },
+  {
+    "browsable": true,
+    "name": "Chestnut-sided Warbler (Breeding male)",
+    "parent": "84q8y7ZvXz4DE8tyfZMx5H",
+    "level": 3,
+    "version": 1,
+    "external_id": "dFbF6nbtzPHg6XUx3Me8a7",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Chestnut-sided Warbler (Female/immature male)",
+    "parent": "84q8y7ZvXz4DE8tyfZMx5H",
+    "level": 3,
+    "version": 1,
+    "external_id": "7xFBL8CDLJn3LYUtXB6pWV",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Blackpoll Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "4jSwG4veweTan7gxkZpQYE",
+    "order": 32.0
+  },
+  {
+    "browsable": true,
+    "name": "Blackpoll Warbler (Breeding male)",
+    "parent": "4jSwG4veweTan7gxkZpQYE",
+    "level": 3,
+    "version": 1,
+    "external_id": "BgcMVTR39EbxwWYu5FdvTY",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Blackpoll Warbler (Female/juvenile)",
+    "parent": "4jSwG4veweTan7gxkZpQYE",
+    "level": 3,
+    "version": 1,
+    "external_id": "cqEHyx9riGEXmBzxWwSqR7",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Black-throated Blue Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "xrnLHMXVc8fcr3JdTpqKiS",
+    "order": 33.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-throated Blue Warbler (Adult Male)",
+    "parent": "xrnLHMXVc8fcr3JdTpqKiS",
+    "level": 3,
+    "version": 1,
+    "external_id": "KpXGJJRAHraxzNu4TJG9CZ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-throated Blue Warbler (Female/Immature male)",
+    "parent": "xrnLHMXVc8fcr3JdTpqKiS",
+    "level": 3,
+    "version": 1,
+    "external_id": "fQw5F2F2hTtVR23eFXrgV4",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Palm Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "jeRMvvGK7gK4bytAFXaemn",
+    "order": 34.0
+  },
+  {
+    "browsable": true,
+    "name": "Pine Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "Fqnp2ZAhKwavJmTvQdrNeS",
+    "order": 35.0
+  },
+  {
+    "browsable": false,
+    "name": "Yellow-rumped Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "r2kvt49dLn5TL7HdU2wRrG",
+    "order": 36.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-rumped Warbler (Breeding Myrtle)",
+    "parent": "r2kvt49dLn5TL7HdU2wRrG",
+    "level": 3,
+    "version": 1,
+    "external_id": "8eKY9MUhYr9H6DCFqdfCLA",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-rumped Warbler (Winter/juvenile Myrtle)",
+    "parent": "r2kvt49dLn5TL7HdU2wRrG",
+    "level": 3,
+    "version": 1,
+    "external_id": "EeTpJLR2Y8ao9w664WN62g",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-rumped Warbler (Breeding Audubon's)",
+    "parent": "r2kvt49dLn5TL7HdU2wRrG",
+    "level": 3,
+    "version": 1,
+    "external_id": "8Vmraq2uKVdxmZyqCFRZJ8",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-rumped Warbler (Winter/juvenile Audubon's)",
+    "parent": "r2kvt49dLn5TL7HdU2wRrG",
+    "level": 3,
+    "version": 1,
+    "external_id": "MHRjq8BxaCXLEonTwKfPL9",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-throated Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "hgMTa828Fhsz7tkyhfqiN4",
+    "order": 37.0
+  },
+  {
+    "browsable": true,
+    "name": "Prairie Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "TuNbW7A8rPvfm8tG4EYGAi",
+    "order": 38.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-throated Gray Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "JCHTsZNCyRU6CqtYo7QLHT",
+    "order": 40.0
+  },
+  {
+    "browsable": true,
+    "name": "Townsend's Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "PKtKSiNDaA5neHWXwGRNT7",
+    "order": 41.0
+  },
+  {
+    "browsable": true,
+    "name": "Hermit Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "DDQ7kRLzLv8YFg5uv4tEr7",
+    "order": 43.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-throated Green Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "MrRXWi3Rv6wksXpiBEVjn8",
+    "order": 44.0
+  },
+  {
+    "browsable": true,
+    "name": "Canada Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "aECGoUfFzEc8SL9Uzt98cP",
+    "order": 45.0
+  },
+  {
+    "browsable": true,
+    "name": "Wilson's Warbler",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "iXjcX3QkhjrfL6XEDnFnNd",
+    "order": 46.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-breasted Chat",
+    "parent": "7QkRKNcYP2cJvBVGQK3pPT",
+    "level": 2,
+    "version": 1,
+    "external_id": "BfgAm8BKXfdYf2gmdSRwTC",
+    "order": 50.0
+  },
+  {
+    "browsable": false,
+    "name": "Pipits and Larks",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "qHZyMbY3352QMBGqsHpz5K",
+    "order": 45.0
+  },
+  {
+    "browsable": true,
+    "name": "American Pipit",
+    "parent": "qHZyMbY3352QMBGqsHpz5K",
+    "level": 2,
+    "version": 1,
+    "external_id": "Qd53d4TZX8856y5CyCE5ui",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Horned Lark",
+    "parent": "qHZyMbY3352QMBGqsHpz5K",
+    "level": 2,
+    "version": 1,
+    "external_id": "y8cSoMd9aFUg7gnEdhF62W",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Longspurs and Snow Bunting",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "XDdCkC6qmUWLjpH6ea86Lc",
+    "order": 46.0
+  },
+  {
+    "browsable": false,
+    "name": "Lapland Longspur",
+    "parent": "XDdCkC6qmUWLjpH6ea86Lc",
+    "level": 2,
+    "version": 1,
+    "external_id": "V6p8rRw5m6AuHd7RSwwn8G",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Chestnut-collared Longspur",
+    "parent": "XDdCkC6qmUWLjpH6ea86Lc",
+    "level": 2,
+    "version": 1,
+    "external_id": "SUBbpZRFpgVHNRG72uUZXU",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "McCown's Longspur",
+    "parent": "XDdCkC6qmUWLjpH6ea86Lc",
+    "level": 2,
+    "version": 1,
+    "external_id": "EDbREscT8535JgVTqtH6oC",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Smith's Longspur",
+    "parent": "XDdCkC6qmUWLjpH6ea86Lc",
+    "level": 2,
+    "version": 1,
+    "external_id": "MuhKVgojwFbEHPLjaXNkiH",
+    "order": 3.0
+  },
+  {
+    "browsable": false,
+    "name": "Snow Bunting",
+    "parent": "XDdCkC6qmUWLjpH6ea86Lc",
+    "level": 2,
+    "version": 1,
+    "external_id": "DAuZwJmMXYF4gzh8PcuDAS",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Snow Bunting (Breeding adult)",
+    "parent": "DAuZwJmMXYF4gzh8PcuDAS",
+    "level": 3,
+    "version": 1,
+    "external_id": "8FEHebUvL2MUVXtoBKureb",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Snow Bunting (Nonbreeding)",
+    "parent": "DAuZwJmMXYF4gzh8PcuDAS",
+    "level": 3,
+    "version": 1,
+    "external_id": "wCw2HqwBCDUbNQFEGYDvL9",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Sparrows",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "ohaFqKxLMwfZHCdZywCffb",
+    "order": 47.0
+  },
+  {
+    "browsable": true,
+    "name": "Green-tailed Towhee",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "ZppFacuUHL6tXeaL48jfkj",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Spotted Towhee",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "9hRUtHWzJRq4aAcyDXyWhG",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Eastern Towhee",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "wFPKKuAaHcHrrwUsipn6DS",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Rufous-crowned Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "h7TurPQLmhq8EmsYuaZWNb",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Canyon Towhee",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "sT269KxLeNVV6GfnDox6pV",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "California Towhee",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "mQhdgksWT7R8JRFPT77HjF",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Abert's Towhee",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "BvknmWAyZCJjTmcBrAUTDB",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "American Tree Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "dBwq4tTqYwvz42sRP4q4SS",
+    "order": 12.0
+  },
+  {
+    "browsable": false,
+    "name": "Chipping Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "id3m7fA3Bg8zUu4nqzVDR5",
+    "order": 13.0
+  },
+  {
+    "browsable": true,
+    "name": "Chipping Sparrow (Breeding)",
+    "parent": "id3m7fA3Bg8zUu4nqzVDR5",
+    "level": 3,
+    "version": 1,
+    "external_id": "ymjFtxmaLuEDg3KFAC2fT8",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Chipping Sparrow (Immature/nonbreeding adult)",
+    "parent": "id3m7fA3Bg8zUu4nqzVDR5",
+    "level": 3,
+    "version": 1,
+    "external_id": "mvNPDoxu7DdwUvicAxT4t4",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Clay-colored Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "CavsnrAcrA26kV8VDrrdwf",
+    "order": 14.0
+  },
+  {
+    "browsable": true,
+    "name": "Brewer's Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "2XrBHMBnEZ5TYSTRwZFWoP",
+    "order": 15.0
+  },
+  {
+    "browsable": true,
+    "name": "Field Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "YD2KogThtCXhPoZb2Nq4xP",
+    "order": 16.0
+  },
+  {
+    "browsable": true,
+    "name": "Vesper Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "w4N2bZ5qfm7KBSV4aAY76f",
+    "order": 18.0
+  },
+  {
+    "browsable": true,
+    "name": "Lark Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "srwVJki7nxuSkVAWDSQQa5",
+    "order": 19.0
+  },
+  {
+    "browsable": false,
+    "name": "Sagebrush Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "jCDGrQwchoefWKqdQGPmuP",
+    "order": 22.0
+  },
+  {
+    "browsable": false,
+    "name": "Lark Bunting",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "DVLNkRYHMWRZ5HemqyXbLX",
+    "order": 23.0
+  },
+  {
+    "browsable": true,
+    "name": "Lark Bunting (Breeding male)",
+    "parent": "DVLNkRYHMWRZ5HemqyXbLX",
+    "level": 3,
+    "version": 1,
+    "external_id": "xYKyzyLAcZXmGjCoqcoHbX",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Lark Bunting (Female/Nonbreeding male)",
+    "parent": "DVLNkRYHMWRZ5HemqyXbLX",
+    "level": 3,
+    "version": 1,
+    "external_id": "cXhjrnnyAVsvKB6auWKTbV",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Savannah Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "aR64R9eYBDuMkgYFkzrgjk",
+    "order": 24.0
+  },
+  {
+    "browsable": false,
+    "name": "Fox Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "5xqCWpZCDPGTVsnRcEpVdZ",
+    "order": 32.0
+  },
+  {
+    "browsable": true,
+    "name": "Fox Sparrow (Red)",
+    "parent": "5xqCWpZCDPGTVsnRcEpVdZ",
+    "level": 3,
+    "version": 1,
+    "external_id": "VfHUT35ct6grLtHVQ2DdRU",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Fox Sparrow (Sooty)",
+    "parent": "5xqCWpZCDPGTVsnRcEpVdZ",
+    "level": 3,
+    "version": 1,
+    "external_id": "C4BGaxmwXudobcmSNGLtMJ",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Fox Sparrow (Thick-billed/Slate-colored)",
+    "parent": "5xqCWpZCDPGTVsnRcEpVdZ",
+    "level": 3,
+    "version": 1,
+    "external_id": "xg9HWPtsk5CxcVeLgxRgLN",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Song Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "4vubTfszA7G22ryG5GtPU3",
+    "order": 33.0
+  },
+  {
+    "browsable": true,
+    "name": "Lincoln's Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "5bzcnXPQgMRkxtJCDhyCra",
+    "order": 34.0
+  },
+  {
+    "browsable": true,
+    "name": "Swamp Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "AUJaQz5KUhduo5esHbAHfM",
+    "order": 35.0
+  },
+  {
+    "browsable": false,
+    "name": "White-throated Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "cqMfN7TjtvUgkAfzsYAqCB",
+    "order": 36.0
+  },
+  {
+    "browsable": true,
+    "name": "White-throated Sparrow (White-striped)",
+    "parent": "cqMfN7TjtvUgkAfzsYAqCB",
+    "level": 3,
+    "version": 1,
+    "external_id": "MRsGLswbQ44s48CVoUXzoM",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "White-throated Sparrow (Tan-striped/immature)",
+    "parent": "cqMfN7TjtvUgkAfzsYAqCB",
+    "level": 3,
+    "version": 1,
+    "external_id": "NsauuKJBfEoZCFbVkoW593",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Harris's Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "ZpSLFATtpogKQom9hXp9tA",
+    "order": 37.0
+  },
+  {
+    "browsable": true,
+    "name": "Harris's Sparrow (Adult)",
+    "parent": "ZpSLFATtpogKQom9hXp9tA",
+    "level": 3,
+    "version": 1,
+    "external_id": "75FjyxFCWDxT7FAWaLQewm",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Harris's Sparrow (Immature)",
+    "parent": "ZpSLFATtpogKQom9hXp9tA",
+    "level": 3,
+    "version": 1,
+    "external_id": "D2HfjBF7cybLD5LDoJueQn",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "White-crowned Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "gcaJXQ8coH5GRZrGG8aQUh",
+    "order": 38.0
+  },
+  {
+    "browsable": true,
+    "name": "White-crowned Sparrow (Adult)",
+    "parent": "gcaJXQ8coH5GRZrGG8aQUh",
+    "level": 3,
+    "version": 1,
+    "external_id": "wwpk2FC3ffFjNNnMBBsWRX",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "White-crowned Sparrow (Immature)",
+    "parent": "gcaJXQ8coH5GRZrGG8aQUh",
+    "level": 3,
+    "version": 1,
+    "external_id": "RktAftwnFnVYCRt8rVP74e",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Golden-crowned Sparrow",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "pH3uZzvWjuyf4PeD5HsEJb",
+    "order": 39.0
+  },
+  {
+    "browsable": true,
+    "name": "Golden-crowned Sparrow (Adult)",
+    "parent": "pH3uZzvWjuyf4PeD5HsEJb",
+    "level": 3,
+    "version": 1,
+    "external_id": "iZSiFb4YLNe67yxUHQmMwe",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Golden-crowned Sparrow (Immature)",
+    "parent": "pH3uZzvWjuyf4PeD5HsEJb",
+    "level": 3,
+    "version": 1,
+    "external_id": "Ev243opxqMqSPsZaouac8Z",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Dark-eyed Junco",
+    "parent": "ohaFqKxLMwfZHCdZywCffb",
+    "level": 2,
+    "version": 1,
+    "external_id": "42VdzL8nz4Spz2vVBKWwcA",
+    "order": 40.0
+  },
+  {
+    "browsable": true,
+    "name": "Dark-eyed Junco (Slate-colored)",
+    "parent": "42VdzL8nz4Spz2vVBKWwcA",
+    "level": 3,
+    "version": 1,
+    "external_id": "knfgX2rmxTYpvdtx9yGPJY",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Dark-eyed Junco (Oregon)",
+    "parent": "42VdzL8nz4Spz2vVBKWwcA",
+    "level": 3,
+    "version": 1,
+    "external_id": "NJLLGNhAqKmNzbkarBDE6Y",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Dark-eyed Junco (Pink-sided)",
+    "parent": "42VdzL8nz4Spz2vVBKWwcA",
+    "level": 3,
+    "version": 1,
+    "external_id": "nzqxcFP9f7vEWn4F9XsR9J",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Dark-eyed Junco (White-winged)",
+    "parent": "42VdzL8nz4Spz2vVBKWwcA",
+    "level": 3,
+    "version": 1,
+    "external_id": "RBMTQPhML8AWx35ir8zRVS",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Dark-eyed Junco (Red-backed/Gray-headed)",
+    "parent": "42VdzL8nz4Spz2vVBKWwcA",
+    "level": 3,
+    "version": 1,
+    "external_id": "v2rnynHkmAgSqwNmvpQ3Th",
+    "order": 4.0
+  },
+  {
+    "browsable": false,
+    "name": "Old World Sparrows",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "3M5ZH4qJXaAAbWn9ZDAmHW",
+    "order": 48.0
+  },
+  {
+    "browsable": false,
+    "name": "House Sparrow",
+    "parent": "3M5ZH4qJXaAAbWn9ZDAmHW",
+    "level": 2,
+    "version": 1,
+    "external_id": "JC8UxEdYd3wHt4unmAVBMg",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "House Sparrow (Male)",
+    "parent": "JC8UxEdYd3wHt4unmAVBMg",
+    "level": 3,
+    "version": 1,
+    "external_id": "u8SkGPrmHDRxUyCfJBAC5K",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "House Sparrow (Female/Juvenile)",
+    "parent": "JC8UxEdYd3wHt4unmAVBMg",
+    "level": 3,
+    "version": 1,
+    "external_id": "XQ7dKSMqm52wdiBypx5add",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Seedeaters",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "sAvGfwqkbtNw8bTCwVG9qT",
+    "order": 49.0
+  },
+  {
+    "browsable": false,
+    "name": "White-collared Seedeater",
+    "parent": "sAvGfwqkbtNw8bTCwVG9qT",
+    "level": 2,
+    "version": 1,
+    "external_id": "oYLoRaxUYcVeqsMwqAwj5R",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Finches",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "NZiAhuyyjokdrETfJggMx4",
+    "order": 50.0
+  },
+  {
+    "browsable": true,
+    "name": "Gray-crowned Rosy-Finch",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "ccZPBq3UUbyK8NCcUKauJ6",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black Rosy-Finch",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "aezzYmazVgGFAgd5BScjD4",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Brown-capped Rosy-Finch",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "QHRMY4kxkLwNjewdpy5uMc",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Pine Grosbeak",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "zUu4yJc6wkxtqdRVTnLZhV",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Pine Grosbeak (Adult Male)",
+    "parent": "zUu4yJc6wkxtqdRVTnLZhV",
+    "level": 3,
+    "version": 1,
+    "external_id": "Cy2xbfuQdWL7v36pZ9dxNo",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Pine Grosbeak (Female/juvenile)",
+    "parent": "zUu4yJc6wkxtqdRVTnLZhV",
+    "level": 3,
+    "version": 1,
+    "external_id": "SybThGzo4ceouaoTKJfecf",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Purple Finch",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "tJP6roQLock9gQGg3b3vqA",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Purple Finch (Adult Male)",
+    "parent": "tJP6roQLock9gQGg3b3vqA",
+    "level": 3,
+    "version": 1,
+    "external_id": "Zkg6ATMDLqW7hvWEjwRVtf",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Purple Finch (Female/immature)",
+    "parent": "tJP6roQLock9gQGg3b3vqA",
+    "level": 3,
+    "version": 1,
+    "external_id": "HmVucfuFnjTGxa8VK7CFjT",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Cassin's Finch",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "CZz963x5CcqDmeh3CZBWCR",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Cassin's Finch (Adult Male)",
+    "parent": "CZz963x5CcqDmeh3CZBWCR",
+    "level": 3,
+    "version": 1,
+    "external_id": "aVEtZsphaoMrQfnERiBydS",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Cassin's Finch (Female/immature)",
+    "parent": "CZz963x5CcqDmeh3CZBWCR",
+    "level": 3,
+    "version": 1,
+    "external_id": "ugAoqxWNgDYLMkTeC9WsNB",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "House Finch",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "xC7ECeR7TKYsfUxtpyS4QH",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "House Finch (Adult Male)",
+    "parent": "xC7ECeR7TKYsfUxtpyS4QH",
+    "level": 3,
+    "version": 1,
+    "external_id": "APGV4SSaiCim8kPTb8FNuA",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "House Finch (Female/immature)",
+    "parent": "xC7ECeR7TKYsfUxtpyS4QH",
+    "level": 3,
+    "version": 1,
+    "external_id": "RropS874Tb9ekQmpFSRsXf",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Red Crossbill",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "d8VuMRPyWYttXmBPyXakBi",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Red Crossbill (Adult Male)",
+    "parent": "d8VuMRPyWYttXmBPyXakBi",
+    "level": 3,
+    "version": 1,
+    "external_id": "XyDY58muHX4gmiYNYd7pDN",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Red Crossbill (Female/juvenile)",
+    "parent": "d8VuMRPyWYttXmBPyXakBi",
+    "level": 3,
+    "version": 1,
+    "external_id": "GmnGgAdP7L2ErvdgzNtczd",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "White-winged Crossbill",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "5YebcmH5mG2WjUtddT3TAh",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "White-winged Crossbill (Adult Male)",
+    "parent": "5YebcmH5mG2WjUtddT3TAh",
+    "level": 3,
+    "version": 1,
+    "external_id": "7ewQ27gV4u57tBK8padq5j",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "White-winged Crossbill (Female/juvenile)",
+    "parent": "5YebcmH5mG2WjUtddT3TAh",
+    "level": 3,
+    "version": 1,
+    "external_id": "jUUrxYSorDhwsL6ZAtds8R",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Redpoll",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "DBjVivxm7Ns9bbKkJzgqEo",
+    "order": 9.0
+  },
+  {
+    "browsable": true,
+    "name": "Hoary Redpoll",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "kc5ZBuSQEgvG8GWvZNTnqY",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Pine Siskin",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "cYHTH6dvn7YbREarHRNx8E",
+    "order": 11.0
+  },
+  {
+    "browsable": false,
+    "name": "Lesser Goldfinch",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "7hEuf2WGsnupi6y7icfVuZ",
+    "order": 12.0
+  },
+  {
+    "browsable": true,
+    "name": "Lesser Goldfinch (Adult Male)",
+    "parent": "7hEuf2WGsnupi6y7icfVuZ",
+    "level": 3,
+    "version": 1,
+    "external_id": "cjdArhkRKbySdtZLiV2omP",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Lesser Goldfinch (Female/juvenile)",
+    "parent": "7hEuf2WGsnupi6y7icfVuZ",
+    "level": 3,
+    "version": 1,
+    "external_id": "SbQdeGLBFzP9W49m4rJWyD",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "American Goldfinch",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "Qt3C36UqYsqy2hDGxxKXuU",
+    "order": 13.0
+  },
+  {
+    "browsable": true,
+    "name": "American Goldfinch (Breeding Male)",
+    "parent": "Qt3C36UqYsqy2hDGxxKXuU",
+    "level": 3,
+    "version": 1,
+    "external_id": "JLVfQMzcmK4N4mZ3u9DJkU",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "American Goldfinch (Female/Nonbreeding Male)",
+    "parent": "Qt3C36UqYsqy2hDGxxKXuU",
+    "level": 3,
+    "version": 1,
+    "external_id": "WmqeHWPVjXkxydVcWecAR7",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Lawrence's Goldfinch",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "BQm44xLs5HBQFhtr9ibTfB",
+    "order": 14.0
+  },
+  {
+    "browsable": false,
+    "name": "Evening Grosbeak",
+    "parent": "NZiAhuyyjokdrETfJggMx4",
+    "level": 2,
+    "version": 1,
+    "external_id": "jCj78jbL7GG97sUGfhCD6K",
+    "order": 15.0
+  },
+  {
+    "browsable": true,
+    "name": "Evening Grosbeak (Adult Male)",
+    "parent": "jCj78jbL7GG97sUGfhCD6K",
+    "level": 3,
+    "version": 1,
+    "external_id": "gsgSPiZAUrByriaWCL5RzN",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Evening Grosbeak (Female/Juvenile)",
+    "parent": "jCj78jbL7GG97sUGfhCD6K",
+    "level": 3,
+    "version": 1,
+    "external_id": "tWQFaqqhJG9Qw9JQPkJWE8",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Cardinalids (Cardinal, Grosbeaks)",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "emZUWaZgSpotm2bdawNLuk",
+    "order": 51.0
+  },
+  {
+    "browsable": false,
+    "name": "Northern Cardinal",
+    "parent": "emZUWaZgSpotm2bdawNLuk",
+    "level": 2,
+    "version": 1,
+    "external_id": "m7k9WVzyGZpiKocGQgKoQW",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Cardinal (Adult Male)",
+    "parent": "m7k9WVzyGZpiKocGQgKoQW",
+    "level": 3,
+    "version": 1,
+    "external_id": "LCbtCCsaGZoJUQ8N2VezJC",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Northern Cardinal (Female/Juvenile)",
+    "parent": "m7k9WVzyGZpiKocGQgKoQW",
+    "level": 3,
+    "version": 1,
+    "external_id": "46omj8HmTCDMFir2CFNFPA",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Pyrrhuloxia",
+    "parent": "emZUWaZgSpotm2bdawNLuk",
+    "level": 2,
+    "version": 1,
+    "external_id": "9MbXiDojMjazHcYBt9HQXX",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Rose-breasted Grosbeak",
+    "parent": "emZUWaZgSpotm2bdawNLuk",
+    "level": 2,
+    "version": 1,
+    "external_id": "DwcfvXfiYdP897mi6pz47j",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Rose-breasted Grosbeak (Adult Male)",
+    "parent": "DwcfvXfiYdP897mi6pz47j",
+    "level": 3,
+    "version": 1,
+    "external_id": "NvgbdJBeEdUyKGv9xKG8kT",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Rose-breasted Grosbeak (Female/immature male)",
+    "parent": "DwcfvXfiYdP897mi6pz47j",
+    "level": 3,
+    "version": 1,
+    "external_id": "9hb4Hxyg4RGyJnMvAxwJX7",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Black-headed Grosbeak",
+    "parent": "emZUWaZgSpotm2bdawNLuk",
+    "level": 2,
+    "version": 1,
+    "external_id": "sDb99zugdBzM9oTJGieLsR",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-headed Grosbeak (Adult Male)",
+    "parent": "sDb99zugdBzM9oTJGieLsR",
+    "level": 3,
+    "version": 1,
+    "external_id": "a92A5CjYCGqE7sDnpDZDSh",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Black-headed Grosbeak (Female/immature male)",
+    "parent": "sDb99zugdBzM9oTJGieLsR",
+    "level": 3,
+    "version": 1,
+    "external_id": "ZyTnLJMiJBMQknBoV4C9SQ",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Blue Grosbeak",
+    "parent": "emZUWaZgSpotm2bdawNLuk",
+    "level": 2,
+    "version": 1,
+    "external_id": "pt5yXPBp7AzqMVVrfpZMeX",
+    "order": 4.0
+  },
+  {
+    "browsable": true,
+    "name": "Blue Grosbeak (Adult Male)",
+    "parent": "pt5yXPBp7AzqMVVrfpZMeX",
+    "level": 3,
+    "version": 1,
+    "external_id": "3j2PLjDxtEgj3huRzaVP2H",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Blue Grosbeak (Female/juvenile)",
+    "parent": "pt5yXPBp7AzqMVVrfpZMeX",
+    "level": 3,
+    "version": 1,
+    "external_id": "rd7MLfdUDp7orYByaeUiW7",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Lazuli Bunting",
+    "parent": "emZUWaZgSpotm2bdawNLuk",
+    "level": 2,
+    "version": 1,
+    "external_id": "gimNirnPy4Dki8P4nMagdG",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Lazuli Bunting (Adult Male)",
+    "parent": "gimNirnPy4Dki8P4nMagdG",
+    "level": 3,
+    "version": 1,
+    "external_id": "d7jfaWyUgxwFYdFqzR3yKc",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Lazuli Bunting (Female/juvenile)",
+    "parent": "gimNirnPy4Dki8P4nMagdG",
+    "level": 3,
+    "version": 1,
+    "external_id": "N5bnLtSmBFnjvDKo7WZbH6",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Indigo Bunting",
+    "parent": "emZUWaZgSpotm2bdawNLuk",
+    "level": 2,
+    "version": 1,
+    "external_id": "sVKYtU5iaFC4BSrVPpgGiN",
+    "order": 6.0
+  },
+  {
+    "browsable": true,
+    "name": "Indigo Bunting (Adult Male)",
+    "parent": "sVKYtU5iaFC4BSrVPpgGiN",
+    "level": 3,
+    "version": 1,
+    "external_id": "yEkbCAZXmQaD9cS6w6WzYL",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Indigo Bunting (Female/juvenile)",
+    "parent": "sVKYtU5iaFC4BSrVPpgGiN",
+    "level": 3,
+    "version": 1,
+    "external_id": "hG4oscTrMLttzJVU9xiMNa",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Varied Bunting",
+    "parent": "emZUWaZgSpotm2bdawNLuk",
+    "level": 2,
+    "version": 1,
+    "external_id": "7Dbp9QLcJ4ADsQzugaYMbf",
+    "order": 7.0
+  },
+  {
+    "browsable": false,
+    "name": "Painted Bunting",
+    "parent": "emZUWaZgSpotm2bdawNLuk",
+    "level": 2,
+    "version": 1,
+    "external_id": "RoCKzLhTmjWJpz6ADcYTRG",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Painted Bunting (Adult Male)",
+    "parent": "RoCKzLhTmjWJpz6ADcYTRG",
+    "level": 3,
+    "version": 1,
+    "external_id": "84Q8nnYsxaYtwkwGUVKFvJ",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Painted Bunting (Female/juvenile)",
+    "parent": "RoCKzLhTmjWJpz6ADcYTRG",
+    "level": 3,
+    "version": 1,
+    "external_id": "q3aGn2qvjh3dy2y8eGm6GY",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Dickcissel",
+    "parent": "emZUWaZgSpotm2bdawNLuk",
+    "level": 2,
+    "version": 1,
+    "external_id": "JP98CAhdhq5nLGMRb8XngP",
+    "order": 9.0
+  },
+  {
+    "browsable": false,
+    "name": "Tanagers",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "CWTmmSxMuwTurQohpXMvtJ",
+    "order": 52.0
+  },
+  {
+    "browsable": false,
+    "name": "Hepatic Tanager",
+    "parent": "CWTmmSxMuwTurQohpXMvtJ",
+    "level": 2,
+    "version": 1,
+    "external_id": "vhuuVjzY6fNQr6jQCFLzjU",
+    "order": 0.0
+  },
+  {
+    "browsable": false,
+    "name": "Summer Tanager",
+    "parent": "CWTmmSxMuwTurQohpXMvtJ",
+    "level": 2,
+    "version": 1,
+    "external_id": "aokTpykJJkY6RCdZNZrGe3",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Summer Tanager (Adult Male)",
+    "parent": "aokTpykJJkY6RCdZNZrGe3",
+    "level": 3,
+    "version": 1,
+    "external_id": "4nXsCvTVSCnSerzJxsDCFE",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Summer Tanager (Female)",
+    "parent": "aokTpykJJkY6RCdZNZrGe3",
+    "level": 3,
+    "version": 1,
+    "external_id": "49HV6LeqBxobxcBsH7VjQE",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Summer Tanager (Immature Male)",
+    "parent": "aokTpykJJkY6RCdZNZrGe3",
+    "level": 3,
+    "version": 1,
+    "external_id": "VqB3X5zNyeg7zosiSwLPMc",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Scarlet Tanager",
+    "parent": "CWTmmSxMuwTurQohpXMvtJ",
+    "level": 2,
+    "version": 1,
+    "external_id": "nW73BomSmKmVLuf3k4mSU7",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Scarlet Tanager (Breeding Male)",
+    "parent": "nW73BomSmKmVLuf3k4mSU7",
+    "level": 3,
+    "version": 1,
+    "external_id": "tUvZJFTjEAw3QhzVmebh95",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Scarlet Tanager (Female/Nonbreeding Male)",
+    "parent": "nW73BomSmKmVLuf3k4mSU7",
+    "level": 3,
+    "version": 1,
+    "external_id": "yXeDZeAxp5hUY36RXex6Wo",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Western Tanager",
+    "parent": "CWTmmSxMuwTurQohpXMvtJ",
+    "level": 2,
+    "version": 1,
+    "external_id": "V3uPDn3FjpPRs4xthmkdc",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Tanager (Breeding Male)",
+    "parent": "V3uPDn3FjpPRs4xthmkdc",
+    "level": 3,
+    "version": 1,
+    "external_id": "pqsGn7fqrTM2hnTKf2okiN",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Tanager (Female/Nonbreeding Male)",
+    "parent": "V3uPDn3FjpPRs4xthmkdc",
+    "level": 3,
+    "version": 1,
+    "external_id": "QZiDqBhBgKAkHrLf6XvzRY",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Icterids (Orioles, Blackbirds)",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "YzjrbmaXurSu8jWhUVa9hm",
+    "order": 53.0
+  },
+  {
+    "browsable": false,
+    "name": "Bobolink",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "37s5vtSq3v49aSfScPzpAH",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Bobolink (Breeding male)",
+    "parent": "37s5vtSq3v49aSfScPzpAH",
+    "level": 3,
+    "version": 1,
+    "external_id": "n9edfNboTaFtyGC49S5gv7",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Bobolink (Female/juvenile/nonbreeding male)",
+    "parent": "37s5vtSq3v49aSfScPzpAH",
+    "level": 3,
+    "version": 1,
+    "external_id": "F5X4rYsjUTNrivExcrD2L7",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Red-winged Blackbird",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "xBBgyuZvSRgq7XHLuUGzN8",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-winged Blackbird (Male)",
+    "parent": "xBBgyuZvSRgq7XHLuUGzN8",
+    "level": 3,
+    "version": 1,
+    "external_id": "FhWLF7A76Qdc245mzYYXjV",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Red-winged Blackbird (Female/juvenile)",
+    "parent": "xBBgyuZvSRgq7XHLuUGzN8",
+    "level": 3,
+    "version": 1,
+    "external_id": "2ZB7Bz4Fp8eraQk7buxkwP",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Tricolored Blackbird",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "4QQMU7hTNCSFkeWBNeRdpk",
+    "order": 2.0
+  },
+  {
+    "browsable": true,
+    "name": "Eastern Meadowlark",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "pmz8HsgoLZ5tKn5nYJPJGU",
+    "order": 3.0
+  },
+  {
+    "browsable": true,
+    "name": "Western Meadowlark",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "CDogQgebstcNdq7DiLN9ik",
+    "order": 4.0
+  },
+  {
+    "browsable": false,
+    "name": "Yellow-headed Blackbird",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "TR23LVFHWZ4BXUuUDCPzGZ",
+    "order": 5.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-headed Blackbird (Adult Male)",
+    "parent": "TR23LVFHWZ4BXUuUDCPzGZ",
+    "level": 3,
+    "version": 1,
+    "external_id": "WApyUUsUYm5YELKRGXSqjD",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Yellow-headed Blackbird (Female/Immature Male)",
+    "parent": "TR23LVFHWZ4BXUuUDCPzGZ",
+    "level": 3,
+    "version": 1,
+    "external_id": "jHLx6LWEU3pjkkRgnsF6DU",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Rusty Blackbird",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "MFrME3bX4yPCVJ3tNeQYKE",
+    "order": 6.0
+  },
+  {
+    "browsable": false,
+    "name": "Brewer's Blackbird",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "jwvUzx85ncrhJCVdcoDDud",
+    "order": 7.0
+  },
+  {
+    "browsable": true,
+    "name": "Brewer's Blackbird (Female/Juvenile)",
+    "parent": "jwvUzx85ncrhJCVdcoDDud",
+    "level": 3,
+    "version": 1,
+    "external_id": "oEkxZegWafY222jiU4gDuG",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Brewer's Blackbird (Male)",
+    "parent": "jwvUzx85ncrhJCVdcoDDud",
+    "level": 3,
+    "version": 1,
+    "external_id": "YuMiKnj4Z7CGR9YNqwczcD",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Common Grackle",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "Siqpz8kDoDci4fJAUVbVan",
+    "order": 8.0
+  },
+  {
+    "browsable": true,
+    "name": "Boat-tailed Grackle",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "CHubrk8f7bdao85QrGEqiB",
+    "order": 9.0
+  },
+  {
+    "browsable": true,
+    "name": "Great-tailed Grackle",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "8mq5v2Jr3idoQhq3JQkPyS",
+    "order": 10.0
+  },
+  {
+    "browsable": true,
+    "name": "Bronzed Cowbird",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "KYrgzYGvrH9m2PREr9jbEX",
+    "order": 11.0
+  },
+  {
+    "browsable": false,
+    "name": "Shiny Cowbird",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "WBHNzFvfBkKhe5wwBLFa9A",
+    "order": 12.0
+  },
+  {
+    "browsable": false,
+    "name": "Brown-headed Cowbird",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "Su7JgoLCKfGnNBZzPWL3CH",
+    "order": 13.0
+  },
+  {
+    "browsable": true,
+    "name": "Brown-headed Cowbird (Male)",
+    "parent": "Su7JgoLCKfGnNBZzPWL3CH",
+    "level": 3,
+    "version": 1,
+    "external_id": "XupHZmmnhQpLURfk5GXeKL",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Brown-headed Cowbird (Female/Juvenile)",
+    "parent": "Su7JgoLCKfGnNBZzPWL3CH",
+    "level": 3,
+    "version": 1,
+    "external_id": "NUpYMeFefeqEqZziJWAaGG",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Orchard Oriole",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "R5ivifq9LYhDeoFQNHQ45Q",
+    "order": 14.0
+  },
+  {
+    "browsable": true,
+    "name": "Orchard Oriole (Adult Male)",
+    "parent": "R5ivifq9LYhDeoFQNHQ45Q",
+    "level": 3,
+    "version": 1,
+    "external_id": "QXoMBMY42W8ueihVsPAwC8",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Orchard Oriole (Immature Male)",
+    "parent": "R5ivifq9LYhDeoFQNHQ45Q",
+    "level": 3,
+    "version": 1,
+    "external_id": "oP9PNcdraGbRksZgHYuEPf",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "Orchard Oriole (Female/Juvenile)",
+    "parent": "R5ivifq9LYhDeoFQNHQ45Q",
+    "level": 3,
+    "version": 1,
+    "external_id": "Pc6EwH8fHcoYo7L5Wae3NX",
+    "order": 2.0
+  },
+  {
+    "browsable": false,
+    "name": "Hooded Oriole",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "kMeKuxQaQQbrN6ko7ScniY",
+    "order": 15.0
+  },
+  {
+    "browsable": true,
+    "name": "Hooded Oriole (Adult male)",
+    "parent": "kMeKuxQaQQbrN6ko7ScniY",
+    "level": 3,
+    "version": 1,
+    "external_id": "8gA97sqwUmG4498nrTmAjG",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Hooded Oriole (Female/Immature male)",
+    "parent": "kMeKuxQaQQbrN6ko7ScniY",
+    "level": 3,
+    "version": 1,
+    "external_id": "VfX84mYAozQk43CXVCxTXo",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Bullock's Oriole",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "9fsFC5Uv3ragvTMhNGGAR3",
+    "order": 16.0
+  },
+  {
+    "browsable": true,
+    "name": "Bullock's Oriole (Adult male)",
+    "parent": "9fsFC5Uv3ragvTMhNGGAR3",
+    "level": 3,
+    "version": 1,
+    "external_id": "atfNcu6wpCATAwivJPAa3",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Bullock's Oriole (Female/Immature male)",
+    "parent": "9fsFC5Uv3ragvTMhNGGAR3",
+    "level": 3,
+    "version": 1,
+    "external_id": "88kGXKEjKwD3vn2pda5wxK",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Baltimore Oriole",
+    "parent": "YzjrbmaXurSu8jWhUVa9hm",
+    "level": 2,
+    "version": 1,
+    "external_id": "LUkebXwvZPPGDDEihuviPN",
+    "order": 20.0
+  },
+  {
+    "browsable": true,
+    "name": "Baltimore Oriole (Adult male)",
+    "parent": "LUkebXwvZPPGDDEihuviPN",
+    "level": 3,
+    "version": 1,
+    "external_id": "9Apq7DXBErGsdKnniFeSbi",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "Baltimore Oriole (Female/Immature male)",
+    "parent": "LUkebXwvZPPGDDEihuviPN",
+    "level": 3,
+    "version": 1,
+    "external_id": "chBL9xgSsdKggJkxecjHU",
+    "order": 1.0
+  },
+  {
+    "browsable": false,
+    "name": "Starlings",
+    "parent": "XMvTNcmDmF4ZbZJBtndZLM",
+    "level": 1,
+    "version": 1,
+    "external_id": "XtVCm8bHMdGqnmLSGdYEJm",
+    "order": 54.0
+  },
+  {
+    "browsable": false,
+    "name": "European Starling",
+    "parent": "XtVCm8bHMdGqnmLSGdYEJm",
+    "level": 2,
+    "version": 1,
+    "external_id": "gWNTK6kfxSBTcAVDmecGLN",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "European Starling (Breeding Adult)",
+    "parent": "gWNTK6kfxSBTcAVDmecGLN",
+    "level": 3,
+    "version": 1,
+    "external_id": "gYr3iJ2XkbgLaoD6DVCPyh",
+    "order": 0.0
+  },
+  {
+    "browsable": true,
+    "name": "European Starling (Nonbreeding Adult)",
+    "parent": "gWNTK6kfxSBTcAVDmecGLN",
+    "level": 3,
+    "version": 1,
+    "external_id": "fH76XBPqYjmd8zTJJxQW47",
+    "order": 1.0
+  },
+  {
+    "browsable": true,
+    "name": "European Starling (Juvenile)",
+    "parent": "gWNTK6kfxSBTcAVDmecGLN",
+    "level": 3,
+    "version": 1,
+    "external_id": "fCNJNDmtRVED3QpgUsvQz3",
+    "order": 2.0
+  }
+]
