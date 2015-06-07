@@ -29,12 +29,15 @@ class Share(TimeStampedModel):
     A share represents any post/tweet/snap/poke/prod
     made publicly available on a social network.
     """
+    # TODO, network specific ID
 
-    TWITTER = 0
-    FACEBOOK = 1
-    INSTAGRAM = 2
+    UNKNOWN = 0
+    TWITTER = 1
+    FACEBOOK = 2
+    INSTAGRAM = 3
 
     NETWORK_CHOICES = (
+        (UNKNOWN, 'Unknown'),
         (TWITTER, 'Twitter'),
         (FACEBOOK, 'Facebook'),
         (INSTAGRAM, 'Instagram')

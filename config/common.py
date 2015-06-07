@@ -18,13 +18,11 @@ from os.path import dirname, abspath
 from configurations import Configuration, values
 
 
-BASE_DIR = dirname(dirname(abspath(__file__)))
-
-
 class Common(Configuration):
 
-    # Quick-start development settings - unsuitable for production
     # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
+
+    BASE_DIR = dirname(dirname(abspath(__file__)))
 
     # SECURITY WARNING: keep the secret key used in production secret!
     SECRET_KEY = 'vhmc9lo887c)w%dum0oln(!wof(m#+f5$j8p#%&v=(3946n2ht'

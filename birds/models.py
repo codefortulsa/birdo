@@ -18,6 +18,9 @@ class Bird(MPTTModel, TimeStampedModel):
     vispedia_id = models.CharField(
         blank=True, null=True, max_length=50, unique=True, db_index=True)
 
+    shares = models.ManyToManyField(
+        Share, related_name='birds', blank=True)
+
     class Meta:
         ordering = ('order', 'created',)
 
@@ -28,5 +31,24 @@ class Bird(MPTTModel, TimeStampedModel):
         return self.name
 
 
-class SharedBird(Bird):
-    shares = models.ManyToManyField(Share, related_name='birds')
+class PermutationType(models.Model):
+    name = models.CharField(max_length=50)
+
+    def __unicode__(self):
+        return self.name
+
+
+class BirdPermutation(models.Model):
+    types = models.ManyToManyField(PermutationType, related_name='bird_perms')
+    bird = models.ForeignKey(Bird, related_name='permutations')
+    vispedia_id = models.CharField(
+        blank=True, null=True, max_length=50, unique=True, db_index=True)
+
+    def __unicode__(self):
+        # return ", ".join(self.types.all())
+        return "temp"
+
+
+
+# TODO: grab bird image data from this endpoint.
+# http://visipedia-load-balancer-254488388.us-east-1.elb.amazonaws.com/taxons/categories/<vispedia_id>/basic_details/
