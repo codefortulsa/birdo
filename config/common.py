@@ -121,5 +121,5 @@ class Common(Configuration):
 
     # Social Network settings
 
-    TWITTER_KEY = 'your_key'
-    TWITTER_SECRET = 'your_secret'
+    TWITTER_KEY = values.SecretValue()
+    TWITTER_SECRET = values.SecretValue()

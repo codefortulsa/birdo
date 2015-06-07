@@ -20,3 +20,6 @@ class Local(Common):
     SECRET_KEY = os.environ.get(
         "SECRET_KEY", get_random_string(50, (
             "abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)")))
+
+    TWITTER_KEY = values.Value()
+    TWITTER_SECRET = values.Value()
