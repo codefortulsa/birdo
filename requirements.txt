@@ -1,5 +1,8 @@
 Django==1.8.2
 django-mptt==0.7.4
+#django-configurations==0.8
+git+https://github.com/jezdez/django-configurations.git@5ece107044
+django-secure==1.0.1
 
 # database
 psycopg2==2.6
@@ -8,3 +11,7 @@ psycopg2==2.6
 ipython==3.1.0
 ipdb==0.8.1
 Werkzeug==0.10.4
+
+# social network APIs
+twython==3.2.0
+dj-database-url==0.3.0
