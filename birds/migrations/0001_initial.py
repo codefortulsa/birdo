@@ -10,7 +10,7 @@ import django_extensions.db.fields
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('shares', '0002_auto_20150607_1640'),
+        ('shares', '0001_initial'),
     ]
 
     operations = [

@@ -10,6 +10,8 @@ Scrape social networks for information about birds
 * install geos libraries
     * mac: `$ brew install geos`
     * more: https://docs.djangoproject.com/en/1.8/ref/contrib/gis/install/geolibs/
+* install gdal libraries
+    * mac: `# brew install gdal`
 * create database
     * `$ createdb birdo`
     * more: https://docs.djangoproject.com/en/1.8/ref/contrib/gis/tutorial/

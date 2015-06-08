@@ -106,11 +106,11 @@ class Common(Configuration):
 
     TIME_ZONE = 'UTC'
 
-    USE_I18N = True
+    USE_I18N = False
 
-    USE_L10N = True
+    USE_L10N = False
 
-    USE_TZ = True
+    USE_TZ = False
 
     # Static files (CSS, JavaScript, Images)
     # https://docs.djangoproject.com/en/1.8/howto/static-files/
@@ -121,3 +121,5 @@ class Common(Configuration):
 
     TWITTER_KEY = values.SecretValue()
     TWITTER_SECRET = values.SecretValue()
+    TWITTER_TOKEN = values.SecretValue()
+    TWITTER_TOKEN_SECRET = values.SecretValue()

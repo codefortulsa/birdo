@@ -23,3 +23,5 @@ class Local(Common):
 
     TWITTER_KEY = values.Value()
     TWITTER_SECRET = values.Value()
+    TWITTER_TOKEN = values.Value()
+    TWITTER_TOKEN_SECRET = values.Value()

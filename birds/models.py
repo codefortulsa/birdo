@@ -1,9 +1,15 @@
 from django.db import models
-from mptt.models import MPTTModel, TreeForeignKey
+from mptt.models import MPTTModel, TreeForeignKey, TreeManager
 
 from django_extensions.db.models import TimeStampedModel
 
 from shares.models import Share
+
+
+class BirdManager(TreeManager):
+
+    def leafs(self):
+        return self.get_queryset().filter(lft=models.F('rght')-1)
 
 
 class Bird(MPTTModel, TimeStampedModel):
@@ -20,6 +26,8 @@ class Bird(MPTTModel, TimeStampedModel):
 
     shares = models.ManyToManyField(
         Share, related_name='birds', blank=True)
+
+    objects = BirdManager()
 
     class Meta:
         ordering = ('order', 'created',)
