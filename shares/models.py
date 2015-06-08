@@ -73,7 +73,7 @@ class Share(TimeStampedModel):
 
     class Meta:
         unique_together = ('network_id', 'network')
-        ordering = ('created',)
+        ordering = ('-posted',)
 
     def __unicode__(self):
         return "{} @{} - {} [{}]".format(
@@ -83,5 +83,14 @@ class Share(TimeStampedModel):
             ', '.join(map(lambda tag: str(tag), self.tags.all())))
 
 
-# class SearchResults(TimeStampedModel):
-#     results =
+class BirdSearchResult(TimeStampedModel):
+    last_network_id = models.BigIntegerField(blank=False)
+    target_bird = models.ForeignKey('birds.Bird')
+    count = models.PositiveIntegerField()
+
+    class Meta:
+        get_latest_by = 'created'
+        ordering = ('-created',)
+
+    def __unicode__(self):
+        return "{} {}".format(self.target_bird, self.created)

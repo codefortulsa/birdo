@@ -1,15 +1,17 @@
 from django.utils.timezone import now
 
-from shares.models import Share, SearchTag
+from shares.models import Share, BirdSearchResult
 from birds.models import Bird
 
 
 class BirdKeywordMixin(object):
     bird_keywords = [
-        'bird', 'birds', 'watching', 'birding', 'outdoors', 'sky',
-        'watch', 'flying', 'flight', 'feeding', '']
+        'bird', 'birds', 'birder', 'watching', 'birding', 'outdoors',
+        'sky', 'watch', 'flying', 'flight', 'feeding', 'nest',
+        'nesting', 'ornithology', 'pond']
     negative_keywords = [
-        'buy', 'bar', '$', 'out', 'hot', 'eat', 'dinner', 'club']
+        'buy', 'bar', '$', 'out', 'hot', 'eat', 'dinner', 'club',
+        'tap', 'drink', 'cream', 'ale', 'free', 'drinking', 'tavern']
     full_bird_names = []
     all_keywords = []
 
@@ -79,23 +81,38 @@ class Network(object):
     def transform_share_kwargs(self, share):
         raise NotImplementedError
 
-    def search_social_shares(self, tag):
+    def search_social_shares(self, prev_results, search_query):
         raise NotImplementedError
 
-    def grab(self):
-        social_shares = self.search_social_shares(self.tag)
-        print('found {} social shares'.format(len(social_shares)))
+    def grab_bird(self, bird):
 
-        # SearchResults.objects.create()
+        try:
+            prev_results = BirdSearchResult.objects.filter(
+                target_bird=bird).latest()
+        except BirdSearchResult.DoesNotExist:
+            prev_results = None
 
+        search_query = bird.name
+
+        meta, social_shares = self.search_social_shares(
+            prev_results, search_query)
+        print('found {} social shares for {}'.format(
+            len(social_shares), search_query))
+
+        self.create_search_results(bird, meta)
+
+        # exit early if nothing to do
         if not len(social_shares) > 0:
             return
 
-        # save individual social_share
         for social_share in social_shares:
             new_share, created = self.create_share(social_share)
             if new_share:
                 new_share.rel = self.calculate_relevance(
                     new_share, social_share)
+                new_share.birds.add(bird)
                 new_share.save()
                 print(new_share, created)
+
+    def create_search_results(self, meta):
+        raise NotImplementedError

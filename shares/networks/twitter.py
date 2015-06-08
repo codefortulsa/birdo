@@ -4,16 +4,14 @@ from django.conf import settings
 from django.contrib.gis.geos import Point
 
 # import arrow
-from twython import Twython
+from twython import Twython, TwythonRateLimitError
 
 from .base import Network, BirdKeywordMixin
-from shares.models import Share
+from shares.models import Share, BirdSearchResult
 
 
 class TwitterNetwork(BirdKeywordMixin, Network):
 
-    # Temporary single tag lookup
-    tag = 'Goose'
     network_type = Share.TWITTER
 
     def init_api(self):
@@ -23,23 +21,41 @@ class TwitterNetwork(BirdKeywordMixin, Network):
             settings.TWITTER_TOKEN,
             settings.TWITTER_TOKEN_SECRET)
 
-    def search_social_shares(self, search_query=''):
+    def search_social_shares(self, prev_results, search_query=''):
         """
         How to search for twitter and return a list
         Only search in a radius surounding america
         """
 
-        self.api.verify_credentials()
-        results = self.api.search(
-            q=search_query,
-            result_type='recent',
-            geocode='39,-96,1400mi',
-            count='100')
-        self.meta = results['search_metadata']
+        try:
+            # if not self.api.verify_credentials():
+            #     raise Exception('cant verify credentials!')
+            search_kwargs = {}
+            if prev_results:
+                search_kwargs.update({
+                    'since_id': prev_results.last_network_id
+                })
+            results = self.api.search(
+                q=search_query,
+                result_type='recent',
+                geocode='39,-96,1400mi',
+                count='100',
+                **search_kwargs)
+        except TwythonRateLimitError:
+            print('rate limited')
+            return ({}, [])
+
         print('rate limit: {}, resets: {}'.format(
             self.api.get_lastfunction_header('x-rate-limit-remaining'),
             self.api.get_lastfunction_header('x-rate-limit-reset')))
-        return results['statuses']
+        return results['search_metadata'], results['statuses']
+
+    def create_search_results(self, bird, meta):
+        if meta and bird:
+            BirdSearchResult.objects.create(
+                target_bird=bird,
+                count=meta['count'],
+                last_network_id=meta['max_id'])
 
     def calculate_relevance(self, share_model, share_data):
         # if we have a lot of hashtags, don't consider it relevant

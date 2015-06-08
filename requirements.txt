@@ -6,6 +6,7 @@ django-secure==1.0.1
 
 # database
 psycopg2==2.6
+dj-database-url==0.3.0
 
 # debugging
 ipython==3.1.0
@@ -14,4 +15,3 @@ Werkzeug==0.10.4
 
 # social network APIs
 twython==3.2.0
-dj-database-url==0.3.0

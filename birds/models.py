@@ -53,8 +53,7 @@ class BirdPermutation(models.Model):
         blank=True, null=True, max_length=50, unique=True, db_index=True)
 
     def __unicode__(self):
-        # return ", ".join(self.types.all())
-        return "temp"
+        return ', '.join(map(lambda tag: str(tag), self.types.all()))
 
 
 
