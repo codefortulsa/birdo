@@ -52,12 +52,14 @@ class Common(Configuration):
         'mptt',
         'django_mptt_admin',
         'django_extensions',
+        'rest_framework',
     )
 
     # Apps specific for this project go here.
     LOCAL_APPS = (
         'birds',
         'shares',
+        'api',
     )
 
     INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -123,3 +125,11 @@ class Common(Configuration):
     TWITTER_SECRET = values.SecretValue()
     TWITTER_TOKEN = values.SecretValue()
     TWITTER_TOKEN_SECRET = values.SecretValue()
+
+    # Rest framework settings
+
+    REST_FRAMEWORK = {
+        'DEFAULT_PERMISSION_CLASSES': (
+            'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
+        )
+    }

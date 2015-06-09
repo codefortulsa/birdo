@@ -38,6 +38,10 @@ class Bird(MPTTModel, TimeStampedModel):
     def __unicode__(self):
         return self.name
 
+    @property
+    def ancestors(self):
+        return self.get_ancestors(include_self=True)
+
 
 class PermutationType(models.Model):
     name = models.CharField(max_length=50)
