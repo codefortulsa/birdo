@@ -13,6 +13,7 @@ def load_json(file=None):
         return json.load(data_file)
 
 
+# TODO, when a 2nd level nesting to split on comma, and trim all permutation names
 def run():
     birds = load_json(
         path.os.path.normpath(
@@ -30,8 +31,8 @@ def run():
             found_permutation = perm_pattern.match(name)
             if found_permutation:
                 found_name, permutations = found_permutation.groups()
-            # Don't recognize comma seperated, want to pull this int the re
-            if permutations and ',' in permutations:
+            # if the parent is the root, it's a category
+            if parent_id == 'XMvTNcmDmF4ZbZJBtndZLM':
                 permutations = None
                 found_name = None
             if found_name:
@@ -45,16 +46,21 @@ def run():
                 bird_model, created = Bird.objects.get_or_create(
                     vispedia_id=vispedia_id, defaults=bird_props)
             # split off permutations
-            # permutations should only be added if the bird model
-            # already exists
-            if permutations and not created:
-                permutations = permutations.split('/')
+            print(bird_model)
+            if permutations:
+                # split on
+                permutations = re.split(r'[,/]+', permutations)
+                # always create a new permutations for this vispedia ID
                 bird_perm = BirdPermutation.objects.create(
                     bird=bird_model,
                     vispedia_id=vispedia_id)
                 for perm in permutations:
-                    the_perm, created = PermutationType.objects.get_or_create(
+                    perm = perm.lower().strip()
+                    the_perm, pcreated = PermutationType.objects.get_or_create(
                         name=perm)
+                    if pcreated:
+                        print('creating perm type {}'.format(the_perm))
+                    print('assigning perm type {} to {}'.format(the_perm, bird_perm))
                     bird_perm.types.add(the_perm)
                 bird_perm.save()
             # add parent bird if not already added and available
