@@ -1,7 +1,9 @@
 from rest_framework import viewsets, filters
+from rest_framework_extensions.mixins import DetailSerializerMixin
 
 from .serializers import (
-    BirdSerializer, PermutationSerializer, PermutationTypeSerializer)
+    BirdSerializer, PermutationSerializer, PermutationTypeSerializer,
+    PermutationTypeDetailSerializer)
 
 from birds.models import Bird, BirdPermutation, PermutationType
 
@@ -26,6 +28,7 @@ class PermutationViewSet(viewsets.ModelViewSet):
     serializer_class = PermutationSerializer
 
 
-class PermutationTypeViewSet(viewsets.ModelViewSet):
+class PermutationTypeViewSet(DetailSerializerMixin, viewsets.ModelViewSet):
     queryset = PermutationType.objects.all()
     serializer_class = PermutationTypeSerializer
+    serializer_detail_class = PermutationTypeDetailSerializer

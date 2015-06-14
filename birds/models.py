@@ -67,8 +67,3 @@ class BirdPermutation(models.Model):
     def __unicode__(self):
         return "{} [{}]".format(
             self.bird, ', '.join(map(lambda tag: str(tag), self.types.all())))
-
-
-
-# TODO: grab bird image data from this endpoint.
-# http://visipedia-load-balancer-254488388.us-east-1.elb.amazonaws.com/taxons/categories/<vispedia_id>/basic_details/
