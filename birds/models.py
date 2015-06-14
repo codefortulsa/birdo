@@ -9,7 +9,12 @@ from shares.models import Share
 class BirdManager(TreeManager):
 
     def leafs(self):
+        "Leaf birds do not contain anything"
         return self.get_queryset().filter(lft=models.F('rght')-1)
+
+    def branches(self):
+        "Branches contain children"
+        return self.get_queryset().exclude(lft=models.F('rght')-1)
 
 
 class Bird(MPTTModel, TimeStampedModel):
@@ -49,6 +54,9 @@ class PermutationType(models.Model):
     def __unicode__(self):
         return self.name
 
+    class Meta:
+        ordering = ('name',)
+
 
 class BirdPermutation(models.Model):
     types = models.ManyToManyField(PermutationType, related_name='bird_perms')
@@ -57,7 +65,8 @@ class BirdPermutation(models.Model):
         blank=True, null=True, max_length=50, unique=True, db_index=True)
 
     def __unicode__(self):
-        return ', '.join(map(lambda tag: str(tag), self.types.all()))
+        return "{} [{}]".format(
+            self.bird, ', '.join(map(lambda tag: str(tag), self.types.all())))
 
 
 
