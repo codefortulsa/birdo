@@ -1,3 +1,4 @@
+import django_filters
 from rest_framework import viewsets, filters
 from rest_framework_extensions.mixins import DetailSerializerMixin
 
@@ -8,10 +9,18 @@ from .serializers import (
 from birds.models import Bird, BirdPermutation, PermutationType
 
 
+class BirdFilter(django_filters.FilterSet):
+    name = django_filters.CharFilter(name='name', lookup_type='icontains')
+
+    class Meta:
+        model = Bird
+        fields = ('name', 'parent', 'vispedia_id',)
+
+
 class BirdViewSet(viewsets.ModelViewSet):
     queryset = Bird.objects.order_by('id')
     filter_backends = (filters.DjangoFilterBackend,)
-    filter_fields = ('name', 'parent')
+    filter_class = BirdFilter
     serializer_class = BirdSerializer
 
     def filter_queryset(self, queryset):
