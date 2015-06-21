@@ -6,7 +6,7 @@ Scrape social networks for information about birds
 
 * make a virtualenv
 * `$ pip install -r requirements.txt`
-* install postgres
+* install postgres >= 9.4
 * install geos libraries
     * mac: `$ brew install geos`
     * more: https://docs.djangoproject.com/en/1.8/ref/contrib/gis/install/geolibs/
@@ -29,4 +29,7 @@ Run it:
 
 Create bird models from vispedia data
 
-`$ python manage.py runscript import_birds`
+```
+$ python manage.py runscript import_birds
+$ python manage.py runscript import_details
+```
