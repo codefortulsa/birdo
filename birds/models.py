@@ -1,4 +1,5 @@
 from django.db import models
+from django_pgjson.fields import JsonField
 from mptt.models import MPTTModel, TreeForeignKey, TreeManager
 
 from django_extensions.db.models import TimeStampedModel
@@ -6,18 +7,29 @@ from django_extensions.db.models import TimeStampedModel
 from shares.models import Share
 
 
+class VispediaURLMixin(object):
+
+    @property
+    def vispedia_url(self):
+        return (
+            "http://visipedia-load-balancer-254488388.us-east-1.elb."
+            "amazonaws.com/taxons/categories/{}/basic_details/"
+            "?format=json").format(self.vispedia_id)
+
+
 class BirdManager(TreeManager):
 
     def leafs(self):
         "Leaf birds do not contain anything"
-        return self.get_queryset().filter(lft=models.F('rght')-1)
+        return self.get_queryset().filter(lft=models.F('rght') - 1)
 
     def branches(self):
         "Branches contain children"
-        return self.get_queryset().exclude(lft=models.F('rght')-1)
+        return self.get_queryset().exclude(lft=models.F('rght') - 1)
 
 
-class Bird(MPTTModel, TimeStampedModel):
+class Bird(VispediaURLMixin, MPTTModel, TimeStampedModel):
+
     """
     Birds are heirarchically organized to support sub types and for
     searchability when needing to find all references to a group of birds.
@@ -28,6 +40,7 @@ class Bird(MPTTModel, TimeStampedModel):
     order = models.PositiveSmallIntegerField(blank=False, default=0)
     vispedia_id = models.CharField(
         blank=True, null=True, max_length=50, unique=True, db_index=True)
+    details = JsonField(null=True, blank=True)
 
     shares = models.ManyToManyField(
         Share, related_name='birds', blank=True)
@@ -58,7 +71,7 @@ class PermutationType(models.Model):
         ordering = ('name',)
 
 
-class BirdPermutation(models.Model):
+class BirdPermutation(VispediaURLMixin, models.Model):
     types = models.ManyToManyField(PermutationType, related_name='bird_perms')
     bird = models.ForeignKey(Bird, related_name='permutations')
     vispedia_id = models.CharField(

@@ -1,4 +1,4 @@
-from rest_framework.serializers import PrimaryKeyRelatedField
+from rest_framework.serializers import Field, PrimaryKeyRelatedField
 
 
 class MPTTRelationField(PrimaryKeyRelatedField):
@@ -21,3 +21,9 @@ class MPTTRelationField(PrimaryKeyRelatedField):
         assert read_only, 'read_only must be True'
         super(MPTTRelationField, self).__init__(
             read_only=read_only, **kwargs)
+
+
+class StraightJSONField(Field):
+
+    def to_representation(self, obj):
+        return obj
