@@ -194,6 +194,6 @@ class Common(Configuration):
 
     # Webpack
     WEBPACK_LOADER = {
-        'BASE_URL': STATIC_URL + 'bundles/',
+        'BUNDLE_DIR_NAME': STATIC_URL + 'bundles/',
         'STATS_FILE': abspath(BASE_DIR + '/assets/webpack-stats.json')
     }
