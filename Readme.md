@@ -17,11 +17,13 @@ Scrape social networks for information about birds
     * more: https://docs.djangoproject.com/en/1.8/ref/contrib/gis/tutorial/
 * sync database
     * `$ python manage.py migrate`
+* build frontend
+    * `$ cd assets`
+    * `$ npm install && npm run build`
 
 Run it:
 
 `$ python manage.py runserver_plus`
-
 
 ## Fixtures
 
