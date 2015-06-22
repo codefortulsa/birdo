@@ -2,6 +2,7 @@ React = require 'react'
 
 Header = require './Header.cjsx'
 BirdList = require './BirdList.cjsx'
+MainContainer = require './MainContainer.cjsx'
 
 RouteHandler = require 'react-router/lib/components/RouteHandler'
 

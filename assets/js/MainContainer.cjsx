@@ -9,8 +9,8 @@ MainContainer = React.createClass
   render: ->
     <Grid className="main-container">
       <Row>
-        <Col xs={12}>
-          {this.props.children}
+        <Col xs={12} {...@props}>
+          {@props.children}
         </Col>
       </Row>
     </Grid>
