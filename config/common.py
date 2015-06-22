@@ -13,7 +13,7 @@ For the configurations module and it's values, see
 https://github.com/jezdez/django-configurations
 """
 
-from os.path import dirname, abspath
+from os.path import dirname, abspath, join
 
 from configurations import Configuration, values
 
@@ -23,6 +23,8 @@ class Common(Configuration):
     # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
     BASE_DIR = dirname(dirname(abspath(__file__)))
+
+    # PROJECT_ROOT = dirname(abspath(__file__))
 
     # SECURITY WARNING: keep the secret key used in production secret!
     SECRET_KEY = 'vhmc9lo887c)w%dum0oln(!wof(m#+f5$j8p#%&v=(3946n2ht'
@@ -53,6 +55,7 @@ class Common(Configuration):
         'django_mptt_admin',
         'django_extensions',
         'rest_framework',
+        'webpack_loader',
     )
 
     # Apps specific for this project go here.
@@ -132,4 +135,65 @@ class Common(Configuration):
         'DEFAULT_PERMISSION_CLASSES': (
             'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
         )
+    }
+
+    # Templates
+
+    # List of processors used by RequestContext to populate the context.
+    # Each one should be a callable that takes the request object as its
+    # only parameter and returns a dictionary to add to the context.
+    TEMPLATE_CONTEXT_PROCESSORS = (
+        "django.contrib.auth.context_processors.auth",
+        # "django.contrib.messages.context_processors.messages",
+        "django.core.context_processors.debug",
+        # "django.core.context_processors.i18n",
+        "django.core.context_processors.static",
+        "django.core.context_processors.media",
+        "django.core.context_processors.request",
+        # "django.core.context_processors.tz",
+    )
+
+    TEMPLATES = [
+        {
+            "BACKEND": "django_jinja.backend.Jinja2",
+            "APP_DIRS": True,
+            "OPTIONS": {
+                "match_extension": ".jinja",
+                "match_regex": r"^(?!admin|debug_toolbar/).*",
+                "newstyle_gettext": True,
+                "extensions": [
+                    # "jinja2.ext.do",
+                    # "jinja2.ext.loopcontrols",
+                    # "jinja2.ext.with_",
+                    "jinja2.ext.i18n",
+                    # "jinja2.ext.autoescape",
+                    # "django_jinja.builtins.extensions.CsrfExtension",
+                    # "django_jinja.builtins.extensions.CacheExtension",
+                    # "django_jinja.builtins.extensions.TimezoneExtension",
+                    # "django_jinja.builtins.extensions.UrlsExtension",
+                    # "django_jinja.builtins.extensions.StaticFilesExtension",
+                    # "django_jinja.builtins.extensions.DjangoFiltersExtension",
+                    # "django_jinja.builtins.extensions.DjangoExtraFiltersExtension",
+                    "webpack_loader.contrib.jinja2ext.WebpackExtension",
+                ],
+                "context_processors": TEMPLATE_CONTEXT_PROCESSORS,
+                "autoescape": True,
+                "auto_reload": DEBUG,
+                "translation_engine": "django.utils.translation",
+            }
+        },
+        {
+            "BACKEND": "django.template.backends.django.DjangoTemplates",
+            "DIRS": [],
+            "APP_DIRS": True,
+            "OPTIONS": {
+                "context_processors": TEMPLATE_CONTEXT_PROCESSORS
+            },
+        },
+    ]
+
+    # Webpack
+    WEBPACK_LOADER = {
+        'BASE_URL': STATIC_URL + 'bundles/',
+        'STATS_FILE': abspath(BASE_DIR + '/assets/webpack-stats.json')
     }
