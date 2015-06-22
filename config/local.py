@@ -17,6 +17,8 @@ class Local(Common):
     DEBUG = values.BooleanValue(True)
     TEMPLATE_DEBUG = DEBUG
 
+    INTERNAL_IPS = ('*', '127.0.0.1',)
+
     SECRET_KEY = os.environ.get(
         "SECRET_KEY", get_random_string(50, (
             "abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)")))

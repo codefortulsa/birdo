@@ -7,14 +7,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap-theme.min.css">
-
   </head>
   <body>
     <div id="react_app"></div>
-    {% if DEBUG %}
+    {% if debug -%}
     <script src="//127.0.0.1:2992/js/bundle.js"></script>
-    {% else %}
+    {%- else -%}
     {{ render_bundle('main') }}
-    {% endif %}
+    {%- endif %}
   </body>
 </html>
