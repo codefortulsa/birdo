@@ -68,7 +68,7 @@ BirdsList = React.createClass
     <MainContainer style={paddingTop: 60}>
       <div>{amount} birds yo</div>
       <ListGroup>
-        <VirtualList items={birds} renderItem={@renderBird} itemHeight={(birdBoxHeight) + 10}/>
+        <VirtualList items={birds} renderItem={@renderBird} itemHeight={birdBoxHeight}/>
       </ListGroup>
     </MainContainer>
 
