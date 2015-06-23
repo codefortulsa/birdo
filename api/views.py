@@ -11,10 +11,16 @@ from birds.models import Bird, BirdPermutation, PermutationType
 
 class BirdFilter(django_filters.FilterSet):
     name = django_filters.CharFilter(name='name', lookup_type='icontains')
+    only_leafs = django_filters.MethodFilter(action='get_leafs')
 
     class Meta:
         model = Bird
-        fields = ('name', 'parent', 'vispedia_id',)
+        fields = ('name', 'parent', 'vispedia_id', 'only_leafs')
+
+    def get_leafs(self, qs, value):
+        if bool(value):
+            return qs.leafs()
+        return qs
 
 
 class BirdViewSet(viewsets.ModelViewSet):

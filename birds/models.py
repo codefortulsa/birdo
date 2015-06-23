@@ -17,15 +17,27 @@ class VispediaURLMixin(object):
             "?format=json").format(self.vispedia_id)
 
 
-class BirdManager(TreeManager):
+class BirdQuerySet(models.QuerySet):
 
     def leafs(self):
         "Leaf birds do not contain anything"
-        return self.get_queryset().filter(lft=models.F('rght') - 1)
+        return self.filter(lft=models.F('rght') - 1)
 
     def branches(self):
         "Branches contain children"
-        return self.get_queryset().exclude(lft=models.F('rght') - 1)
+        return self.exclude(lft=models.F('rght') - 1)
+
+
+class BirdManager(TreeManager):
+
+    def get_queryset(self):
+        return BirdQuerySet(self.model, using=self._db)
+
+    def leafs(self):
+        return self.get_queryset().leafs()
+
+    def branches(self):
+        return self.get_queryset().branches()
 
 
 class Bird(VispediaURLMixin, MPTTModel, TimeStampedModel):

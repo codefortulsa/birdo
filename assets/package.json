@@ -43,6 +43,7 @@
     "react-bootstrap": "^0.23.4",
     "react-router": "^0.13.3",
     "react-router-bootstrap": "^0.16.0",
+    "react-virtual-list": "^1.2.1",
     "reflux": "^0.2.8",
     "style-loader": "^0.12.3",
     "stylus-loader": "^1.2.1",
