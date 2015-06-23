@@ -13,9 +13,15 @@ BirdStore = Reflux.createStore
   getInitialState: ->
     @birds = []
 
-  fetchData: ->
-    request.get '/api/birds/?only_leafs=true', (err, res) =>
-      @updateBirds(res.body)
+  fetchData: (name='') ->
+    request
+      .get('/api/birds/')
+      .query(
+        only_leafs: true
+        name: name
+      )
+      .end (err, res) =>
+        @updateBirds(res.body)
 
   updateBirds: (birds) ->
     @birds = birds
