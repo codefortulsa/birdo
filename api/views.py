@@ -14,15 +14,15 @@ class BirdFilter(
         CacheResponseMixin,
         django_filters.FilterSet):
     name = django_filters.CharFilter(name='name', lookup_type='icontains')
-    only_leafs = django_filters.MethodFilter(action='get_leafs')
+    object_type = django_filters.MethodFilter(action='get_object_type')
 
     class Meta:
         model = Bird
-        fields = ('name', 'parent', 'vispedia_id', 'only_leafs')
+        fields = ('name', 'parent', 'vispedia_id', 'object_type')
 
-    def get_leafs(self, qs, value):
-        if bool(value):
-            return qs.leafs()
+    def get_object_type(self, qs, value):
+        if value in ['leafs', 'branches']:
+            return getattr(qs, value)()
         return qs
 
 
