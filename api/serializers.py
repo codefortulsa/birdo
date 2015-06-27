@@ -35,7 +35,7 @@ class PermutationSerializer(serializers.ModelSerializer):
     class Meta:
         model = BirdPermutation
         fields = ('id', 'resource_uri', 'types', 'bird', 'vispedia_id',
-                  'vispedia_url')
+                  'vispedia_url', 'details')
 
 
 class BirdSerializer(serializers.ModelSerializer):
