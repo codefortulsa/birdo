@@ -1,15 +1,32 @@
 Reflux = require 'reflux'
-request = require 'superagent'
+
+request = require './agent'
 
 
 BirdActions = Reflux.createActions
   load:
-    children: ['completed', 'failed']
-  # addBird: undefined
+    asyncResult: true
+  loadTypes:
+    asyncResult: true
 
 
-# BirdActions.addBird.preEmit = (bird) ->
-#   request.post('/api/birds')
+BirdActions.load.listenAndPromise (search={}) ->
+  request
+    .get('/api/birds/')
+    .query(
+      object_ype: 'leafs'
+      name: search.birdName
+      parent: search.birdType
+    )
+    .end()
+
+BirdActions.loadTypes.listenAndPromise ->
+  request
+    .get('/api/birds/')
+    .query(
+      object_type: 'branches'
+    )
+    .end()
 
 
 module.exports = BirdActions

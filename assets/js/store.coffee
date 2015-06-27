@@ -8,23 +8,20 @@ BirdStore = Reflux.createStore
   linstenables: [BirdActions]
 
   init: ->
-    @listenTo(BirdActions.load, @fetchData)
+    @listenTo(BirdActions.load.completed, @onLoadCompleted)
 
   getInitialState: ->
-    @birds = []
+    []
 
-  fetchData: (name='') ->
-    request
-      .get('/api/birds/')
-      .query(
-        only_leafs: true
-        name: name
-      )
-      .end (err, res) =>
-        @updateBirds(res.body)
+  onLoad: ->
+    console.log 'load birds started'
+
+  onLoadCompleted: (res) ->
+    console.log 'load birds completed'
+    @updateBirds(res.body)
 
   updateBirds: (birds) ->
-    @birds = birds
+    console.log 'updating birds store'
     @trigger(birds)
 
 

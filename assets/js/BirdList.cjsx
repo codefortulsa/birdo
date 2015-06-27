@@ -21,18 +21,20 @@ VirtualList = require 'react-virtual-list/dist/VirtualList'
 BirdsList = React.createClass
   mixins: [
     Reflux.connect(BirdStore, 'birds')
-    React.addons.LinkedStateMixin
   ]
 
   getInitialState: ->
     birdBoxHeight: 300
-    nameSearch: ''
 
   componentDidMount: ->
     BirdActions.load()
 
-  checkName: ->
-    {nameSearch} = @state
+  renderPermutations: (bird) ->
+    type_groups = _.map bird.permutations, (perm) ->
+      <strong>({_.pluck(perm.types, 'name').join(', ')})&nbsp;</strong>
+    <span className="permutations">
+      {type_groups}
+    </span>
 
   renderBird: (bird) ->
     {birdBoxHeight} = @state
@@ -57,10 +59,14 @@ BirdsList = React.createClass
           </Thumbnail>
         </Col>
 
-    <ListGroupItem style={maxHeight: birdBoxHeight, height: birdBoxHeight, overflow: 'hidden'} key={bird.id}>
+    # TODO show permutations
+    permutations = @renderPermutations(bird)
+    <ListGroupItem
+        style={height: birdBoxHeight, overflow: 'hidden'}
+        key={bird.id}>
       <Row>
         <Col md={12}>
-          <h4>{bird.name} <small>{bird.id}</small></h4>
+          <h4>{bird.name} <small>{bird.id} {permutations}</small> </h4>
           <Row style={overflowX: 'scroll', whiteSpace: 'nowrap'}>
             {thumbnails}
           </Row>
@@ -70,26 +76,8 @@ BirdsList = React.createClass
 
   render: ->
     {birds, birdBoxHeight} = @state
-    amount = 0
-    if birds
-      amount = birds.length
-
-    valueLink = @linkState('nameSearch')
-    handleChange = (e) ->
-      value = e.target.value
-      valueLink.requestChange(value)
-      if @timeout
-        clearTimeout @timeout
-      @timeout = setTimeout( =>
-        BirdActions.load(value)
-      , 500)
 
     <MainContainer style={paddingTop: 60}>
-      <div>{amount} birds yo</div>
-      <Input
-        type="text"
-        value={valueLink.value}
-        onChange={handleChange}/>
       <VirtualList tagName="ul" className="list-group" items={birds} renderItem={@renderBird} itemHeight={birdBoxHeight}/>
     </MainContainer>
 

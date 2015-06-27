@@ -6,6 +6,8 @@ MainContainer = require './MainContainer.cjsx'
 
 RouteHandler = require 'react-router/lib/components/RouteHandler'
 
+require '../css/styles.styl'
+
 
 AppBase = React.createClass
   render: ->
