@@ -1,6 +1,7 @@
 import django_filters
 from rest_framework import viewsets, filters
 from rest_framework_extensions.mixins import DetailSerializerMixin
+from rest_framework_extensions.cache.mixins import CacheResponseMixin
 
 from .serializers import (
     BirdSerializer, PermutationSerializer, PermutationTypeSerializer,
@@ -9,7 +10,9 @@ from .serializers import (
 from birds.models import Bird, BirdPermutation, PermutationType
 
 
-class BirdFilter(django_filters.FilterSet):
+class BirdFilter(
+        CacheResponseMixin,
+        django_filters.FilterSet):
     name = django_filters.CharFilter(name='name', lookup_type='icontains')
     only_leafs = django_filters.MethodFilter(action='get_leafs')
 
@@ -23,7 +26,9 @@ class BirdFilter(django_filters.FilterSet):
         return qs
 
 
-class BirdViewSet(viewsets.ModelViewSet):
+class BirdViewSet(
+        CacheResponseMixin,
+        viewsets.ModelViewSet):
     queryset = Bird.objects.order_by('id')
     filter_backends = (filters.DjangoFilterBackend,)
     filter_class = BirdFilter
@@ -38,12 +43,17 @@ class BirdViewSet(viewsets.ModelViewSet):
         return qs
 
 
-class PermutationViewSet(viewsets.ModelViewSet):
+class PermutationViewSet(
+        CacheResponseMixin,
+        viewsets.ModelViewSet):
     queryset = BirdPermutation.objects.all()
     serializer_class = PermutationSerializer
 
 
-class PermutationTypeViewSet(DetailSerializerMixin, viewsets.ModelViewSet):
+class PermutationTypeViewSet(
+        CacheResponseMixin,
+        DetailSerializerMixin,
+        viewsets.ModelViewSet):
     queryset = PermutationType.objects.all()
     serializer_class = PermutationTypeSerializer
     serializer_detail_class = PermutationTypeDetailSerializer
