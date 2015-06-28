@@ -42,7 +42,7 @@ BirdsList = React.createClass
     if not bird.details
       return undefined
     images = bird.details.representative_images
-    show_date = false
+    # show_date = true
 
     if images.length > 0
       thumbnails = images.map (image) ->
@@ -77,7 +77,7 @@ BirdsList = React.createClass
   render: ->
     {birds, birdBoxHeight} = @state
 
-    <MainContainer style={paddingTop: 60}>
+    <MainContainer>
       <VirtualList tagName="ul" className="list-group" items={birds} renderItem={@renderBird} itemHeight={birdBoxHeight}/>
     </MainContainer>
 

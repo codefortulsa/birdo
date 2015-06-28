@@ -31,6 +31,7 @@ class PermutationSerializer(serializers.ModelSerializer):
         view_name='api:permutation-detail', read_only=True)
     bird = serializers.HyperlinkedRelatedField(
         view_name='api:bird-detail', read_only=True)
+    details = StraightJSONField()
 
     class Meta:
         model = BirdPermutation

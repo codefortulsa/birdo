@@ -8,6 +8,7 @@ Nav = require('react-bootstrap/lib/Nav')
 NavItemLink = require('react-router-bootstrap/lib/NavItemLink')
 Input = require('react-bootstrap/lib/Input')
 DropdownButton = require('react-bootstrap/lib/DropdownButton')
+Button = require('react-bootstrap/lib/Button')
 
 require('react-select/dist/default.css')
 Select = require('react-select/lib/Select')
@@ -45,8 +46,8 @@ Header = React.createClass
     types = _.map @state.types, (type) =>
       value: type.id
       label: type.name
-    types.unshift({value: undefined, label: 'all types'})
-    # es6 thing
+    # types.unshift({value: undefined, label: 'All Types'})
+    # shim for es6 Array.filter
     types.filter = (filter_cb, ctx) ->
       _.filter(@, filter_cb.bind(ctx))
     return types
@@ -76,30 +77,33 @@ Header = React.createClass
     handleTypeChange = (value) ->
       typeLink.requestChange(value)
 
+    clearButton = <Button bsStyle="danger" onClick={@handleClear}>clear</Button>
     <Navbar brand="Birdo" inverse fixedTop toggleNavKey={0}>
-      <div className="navbar-form navbar-left">
-        <div className="name-group form-group">
-          <Input
-            type="text"
-            valueLink={@linkState('birdName')}
-            className="form-control"
-            placeholder="Bird name"/>
-        </div>
-        <div className="type-group form-group">
-          <Select
-            value={typeLink.value}
-            onChange={handleTypeChange}
-            ignoreCase={true}
-            searchPromptText="select optional type"
-            options={@typeOptions()}/>
-        </div>
-      </div>
-      { if amount > 0 then (
-        <p className="navbar-text">found {amount} {if amount == 1 then "bird" else "birds"}</p>
-      ) else (
-        <p className="navbar-text">no birds found</p>
-      )}
       <Nav right eventKey={0}>
+        <div className="navbar-form navbar-left">
+          <div className="name-group form-group">
+            <Input
+              type="text"
+              valueLink={@linkState('birdName')}
+              className="form-control"
+              placeholder="Bird name"
+              buttonAfter={clearButton}/>
+          </div>
+          <div className="type-group form-group">
+            <Select
+              value={typeLink.value}
+              onChange={handleTypeChange}
+              ignoreCase={true}
+              placeholder="Select optional bird type…"
+              noResultsText="No bird types found"
+              options={@typeOptions()}/>
+          </div>
+        </div>
+        { if amount > 0 then (
+          <p className="navbar-text">found {amount} {if amount == 1 then "bird" else "birds"}</p>
+        ) else (
+          <p className="navbar-text">no birds found</p>
+        )}
         <NavItemLink eventKey={0} to="bird-list">Birds Overview</NavItemLink>
       </Nav>
     </Navbar>
