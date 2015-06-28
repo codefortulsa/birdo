@@ -70,7 +70,7 @@ class Production(Common):
             'mail_admins': {
                 'level': 'ERROR',
                 'filters': ['require_debug_false'],
-                'class': 'django.utils.log.AdminEmailHandler'
+                'class': 'django.utils.log.AdminEmailHandler',
                 'include_html': True,
             }
         },
