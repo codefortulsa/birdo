@@ -25,7 +25,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js(x|)?$/,
-        include: path.join(__dirname, "client"),
+        include: path.join(__dirname, "js"),
         loaders: ["jsx?harmony", "babel-loader?optional[]=runtime"] },
       { test: /\.(coffee|cjsx)$/,
         loaders: ["coffee", "cjsx"]},
@@ -75,7 +75,7 @@ module.exports = {
       path: bundles_path,
       filename: "stats.json"
     }),
-    new BundleTracker({filename: './webpack-stats.json'}),
+    new BundleTracker({path: __dirname, filename: 'webpack-stats.json'}),
     new webpack.optimize.OccurenceOrderPlugin(true), // preferEntry true,
     new ExtractTextPlugin('[name]-[hash].css', {allChunks: true})
     // new webpack.optimize.CommonsChunkPlugin("commons.chunk-[hash].js")

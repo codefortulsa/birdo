@@ -3,17 +3,20 @@
   "version": "1.0.0",
   "description": "Scrape social networks for information about birds",
   "main": "index.js",
+  "engines": {
+    "node" : ">=0.12.2 <0.13"
+  },
   "scripts": {
     "lint-client": "eslint --ext .js,.jsx --rule 'no-extra-parens: 0' client",
     "lint-server": "eslint --env node --rule 'no-var: 0' server *.js",
     "lint": "npm run lint-server && npm run lint-client",
     "test": "npm run lint",
-    "server-dev": "webpack-dev-server --config webpack.config.dev.js --progress --colors --port 2992",
-    "server-hot": "webpack-dev-server --config webpack.config.hot.js --hot --progress --colors --port 2992 --inline",
-    "watch": "webpack --watch",
+    "server-dev": "webpack-dev-server --config assets/webpack.config.dev.js --progress --colors --port 2992",
+    "server-hot": "webpack-dev-server --config assets/webpack.config.hot.js --hot --progress --colors --port 2992 --inline",
+    "watch": "webpack --config assets/webpack.config.js --watch",
     "dev": "npm run server-dev",
     "hot": "npm run server-hot",
-    "build": "webpack",
+    "build": "webpack --config assets/webpack.config.js",
     "postinstall": "npm run build"
   },
   "repository": {

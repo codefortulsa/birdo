@@ -8,13 +8,14 @@ var base = require("./webpack.config");
 // var CleanPlugin = require("clean-webpack-plugin");
 var BundleTracker = require('webpack-bundle-tracker');
 
+var bundles_path = path.join(__dirname, "bundles");
 
 module.exports = {
   cache: true,
   context: base.context,
   entry: base.entry,
   output: {
-    path: path.resolve(__dirname, "bundles"),
+    path: bundles_path,
     filename: "bundle.js",
     publicPath: "http://127.0.0.1:2992/js"
   },
@@ -26,7 +27,7 @@ module.exports = {
     // ignore all moment locals
     // new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
 
-    new BundleTracker({filename: './webpack-stats.json'}),
+    new BundleTracker({filename: path.join(__dirname, 'webpack-stats.json')}),
     // Clean
     // new CleanPlugin(["dist"]),
     // if an asset errors during compiling don't include it.
