@@ -197,3 +197,15 @@ class Common(Configuration):
         'BUNDLE_DIR_NAME': STATIC_URL + 'bundles/',
         'STATS_FILE': abspath(BASE_DIR + '/assets/webpack-stats.json')
     }
+    
+    # Place bcrypt first in the list, so it will be the default password hashing
+    # mechanism
+    PASSWORD_HASHERS = (
+        'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
+        'django.contrib.auth.hashers.BCryptPasswordHasher',
+        'django.contrib.auth.hashers.PBKDF2PasswordHasher',
+        'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
+        'django.contrib.auth.hashers.SHA1PasswordHasher',
+        'django.contrib.auth.hashers.MD5PasswordHasher',
+        'django.contrib.auth.hashers.CryptPasswordHasher',
+    )

@@ -1,0 +1,8 @@
+-r base.txt
+
+# debuging
+ipython==3.1.0
+ipdb==0.8.1
+Werkzeug==0.10.4
+
+django-debug-toolbar

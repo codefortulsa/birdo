@@ -1,0 +1,7 @@
+-r base.txt
+
+# webserver
+gunicorn==19.1.1
+
+# static file serving
+whitenoise==1.0.6

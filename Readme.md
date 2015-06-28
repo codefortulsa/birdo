@@ -5,7 +5,7 @@ Scrape social networks for information about birds
 ##Installation
 
 * make a virtualenv
-* `$ pip install -r requirements.txt`
+* `$ pip install -r requirements/local.txt`
 * install postgres >= 9.4
 * install geos libraries
     * mac: `$ brew install geos`
