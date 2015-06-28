@@ -24,8 +24,6 @@ class Common(Configuration):
 
     BASE_DIR = dirname(dirname(abspath(__file__)))
 
-    # PROJECT_ROOT = dirname(abspath(__file__))
-
     # SECURITY WARNING: keep the secret key used in production secret!
     SECRET_KEY = 'vhmc9lo887c)w%dum0oln(!wof(m#+f5$j8p#%&v=(3946n2ht'
 
@@ -120,7 +118,15 @@ class Common(Configuration):
     # Static files (CSS, JavaScript, Images)
     # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
-    STATIC_URL = '/static/'
+    STATIC_ROOT = join(BASE_DIR, 'static')
+    STATIC_URL = values.Value('/static/')
+    STATICFILES_FINDERS = (
+        'django.contrib.staticfiles.finders.FileSystemFinder',
+        'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    )
+
+    MEDIA_ROOT = join(BASE_DIR, 'media/')
+    MEDIA_URL = values.Value("/media/")
 
     # Social Network settings
 
@@ -192,12 +198,18 @@ class Common(Configuration):
         },
     ]
 
+    # CACHES = {
+    #     'default': {
+    #         'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    #     }
+    # }
+
     # Webpack
     WEBPACK_LOADER = {
-        'BUNDLE_DIR_NAME': STATIC_URL + 'bundles/',
+        'BUNDLE_DIR_NAME': STATIC_URL.value + 'bundles/',
         'STATS_FILE': abspath(BASE_DIR + '/assets/webpack-stats.json')
     }
-    
+
     # Place bcrypt first in the list, so it will be the default password hashing
     # mechanism
     PASSWORD_HASHERS = (
