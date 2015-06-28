@@ -53,3 +53,5 @@ class Production(Common):
     EMAIL_PORT = 1025
     EMAIL_BACKEND = values.Value('django.core.mail.backends.console.EmailBackend')
     # End mail settings
+
+    ADMINS = values.SingleNestedTupleValue()
