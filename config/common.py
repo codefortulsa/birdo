@@ -221,3 +221,11 @@ class Common(Configuration):
         'django.contrib.auth.hashers.MD5PasswordHasher',
         'django.contrib.auth.hashers.CryptPasswordHasher',
     )
+
+    # Mail settings
+    EMAIL_BACKEND = values.Value('django.core.mail.backends.console.EmailBackend')
+    EMAIL_HOST = values.Value('localhost')
+    EMAIL_PORT = values.IntegerValue(1025)
+    EMAIL_HOST_USER = values.Value('')
+    EMAIL_HOST_PASSWORD = values.Value('')
+    # End mail settings

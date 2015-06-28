@@ -48,10 +48,45 @@ class Production(Common):
 
     STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-    # Mail settings
-    EMAIL_HOST = 'localhost'
-    EMAIL_PORT = 1025
-    EMAIL_BACKEND = values.Value('django.core.mail.backends.console.EmailBackend')
-    # End mail settings
-
     ADMINS = values.SingleNestedTupleValue()
+
+    LOGGING = {
+        'version': 1,
+        'disable_existing_loggers': True,
+        'filters': {
+            'require_debug_false': {
+                '()': 'django.utils.log.RequireDebugFalse',
+            },
+            'require_debug_true': {
+                '()': 'django.utils.log.RequireDebugTrue',
+            },
+        },
+        'handlers': {
+            'console': {
+                'level': 'DEBUG',
+                # 'filters': ['require_debug_true'],
+                'class': 'logging.StreamHandler',
+            },
+            'mail_admins': {
+                'level': 'ERROR',
+                'filters': ['require_debug_false'],
+                'class': 'django.utils.log.AdminEmailHandler'
+                'include_html': True,
+            }
+        },
+        'loggers': {
+            'django': {
+                'handlers': ['console', 'mail_admins'],
+                'level': 'INFO',
+                'propagate': True,
+            },
+            'django.request': {
+                'handlers': ['console', 'mail_admins'],
+                'level': 'ERROR',
+                'propagate': False,
+            },
+            'py.warnings': {
+                'handlers': ['console'],
+            },
+        }
+    }
