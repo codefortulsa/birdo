@@ -62,4 +62,4 @@ target/
 node_modules
 
 assets/webpack-stats.json
-assets/bundles
+birds/static
