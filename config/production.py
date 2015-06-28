@@ -20,3 +20,5 @@ class Production(Common):
     GEOS_LIBRARY_PATH = values.Value('', environ_prefix=False)
     GDAL_LIBRARY_PATH = values.Value('', environ_prefix=False)
     PROJ4_LIBRARY_PATH = values.Value('', environ_prefix=False)
+
+    ALLOWED_HOSTS = ['*.destos.com']
