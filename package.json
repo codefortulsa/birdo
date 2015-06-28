@@ -11,12 +11,12 @@
     "lint-server": "eslint --env node --rule 'no-var: 0' server *.js",
     "lint": "npm run lint-server && npm run lint-client",
     "test": "npm run lint",
-    "server-dev": "webpack-dev-server --config assets/webpack.config.dev.js --progress --colors --port 2992",
-    "server-hot": "webpack-dev-server --config assets/webpack.config.hot.js --hot --progress --colors --port 2992 --inline",
-    "watch": "webpack --config assets/webpack.config.js --watch",
+    "server-dev": "webpack-dev-server --config birds/assets/webpack.config.dev.js --progress --colors --port 2992",
+    "server-hot": "webpack-dev-server --config birds/assets/webpack.config.hot.js --hot --progress --colors --port 2992 --inline",
+    "watch": "webpack --config birds/assets/webpack.config.js --watch",
     "dev": "npm run server-dev",
     "hot": "npm run server-hot",
-    "build": "webpack --config assets/webpack.config.js",
+    "build": "webpack --config birds/assets/webpack.config.js",
     "postinstall": "npm run build"
   },
   "repository": {

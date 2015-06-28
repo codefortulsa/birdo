@@ -50,6 +50,7 @@ sudo git clone https://github.com/destos/dokku-pgis-plugin.git postgis
 
 ```
 dokku config:set birdo NPM_CONFIG_PRODUCTION=true
+dokku config:set birdo DISABLE_COLLECTSTATIC=1
 dokku config:set birdo DJANGO_CONFIGURATION=Production DJANGO_SETTINGS_MODULE=config
 dokku config:set birdo DJANGO_TWITTER_KEY='your twitter key'
 dokku config:set birdo DJANGO_TWITTER_SECRET='your twitter secret'

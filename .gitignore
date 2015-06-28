@@ -61,5 +61,5 @@ target/
 .env
 node_modules
 
-assets/webpack-stats.json
+birds/assets/webpack-stats.json
 birds/static

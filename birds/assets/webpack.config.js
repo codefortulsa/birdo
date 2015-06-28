@@ -2,7 +2,7 @@
  * Webpack production configuration
  */
 /*globals __dirname:false */
-// var nib = require('nib');
+
 var path = require("path");
 var webpack = require("webpack");
 var CleanPlugin = require("clean-webpack-plugin");
@@ -11,28 +11,28 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var BundleTracker = require('webpack-bundle-tracker');
 var nib = require('nib');
 
-var bundles_path = path.join(__dirname, "bundles");
+var output_path = path.resolve(__dirname, "../static/");
 
 module.exports = {
   cache: true,
   context: __dirname,
   entry: "./js/app.cjsx",
   output: {
-    path: bundles_path,
-    filename: "[name]-[hash].js",
+    path: output_path,
+    filename: "[name].js",
     chunkFilename: "[id].js"
   },
   module: {
     loaders: [
       { test: /\.js(x|)?$/,
-        include: path.join(__dirname, "js"),
+        include: path.join(__dirname, "client"),
         loaders: ["jsx?harmony", "babel-loader?optional[]=runtime"] },
       { test: /\.(coffee|cjsx)$/,
         loaders: ["coffee", "cjsx"]},
       { test: /\.css$/,
-        loaders: ["style-loader", "css-loader"]},
+        loader: ExtractTextPlugin.extract("style-loader", "css-loader")},
       { test: /\.styl$/,
-        loaders: ["style-loader", "css-loader", "stylus-loader"]},
+        loader: ExtractTextPlugin.extract("style-loader", "css-loader!stylus-loader" )},
       { test: /\.(jpe?g|png|gif|svg)$/i,
         loaders: [
             'file?hash=sha512&digest=hex&name=[hash].[ext]',
@@ -52,7 +52,7 @@ module.exports = {
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
 
     // Clean
-    new CleanPlugin(["bundles"]),
+    // new CleanPlugin(["bundles"]),
 
     // Optimize
     new webpack.optimize.DedupePlugin(),
@@ -72,12 +72,12 @@ module.exports = {
     // ),
 
     new StatsWriterPlugin({
-      path: bundles_path,
+      path: output_path,
       filename: "stats.json"
     }),
     new BundleTracker({path: __dirname, filename: 'webpack-stats.json'}),
     new webpack.optimize.OccurenceOrderPlugin(true), // preferEntry true,
-    new ExtractTextPlugin('[name]-[hash].css', {allChunks: true})
+    new ExtractTextPlugin('[name].css', {allChunks: true})
     // new webpack.optimize.CommonsChunkPlugin("commons.chunk-[hash].js")
   ]
 };

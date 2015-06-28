@@ -1,7 +1,10 @@
 echo "-----> Running Birdo post-compile hook"
 
 # Sync and migrate
-# echo "-----> Running migrations"
-# python manage.py migrate --noinput
+echo "-----> Running migrations"
+python manage.py migrate --noinput
+
+echo "-----> Running collect static"
+python manage.py collectstatic --noinput
 
 echo "-----> Birdo Post-compile done"

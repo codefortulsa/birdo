@@ -42,8 +42,8 @@ BirdsList = React.createClass
     if not bird.details
       return undefined
     images = bird.details.representative_images
-    # show_date = true
-
+    show_date = false
+    
     if images.length > 0
       thumbnails = images.map (image) ->
         thumbnail = _.find(image.sizes, size: 5)
@@ -58,6 +58,8 @@ BirdsList = React.createClass
             )}
           </Thumbnail>
         </Col>
+
+    # if bird.permutations
 
     # TODO show permutations
     permutations = @renderPermutations(bird)
