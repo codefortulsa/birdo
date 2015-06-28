@@ -15,7 +15,6 @@ class Production(Common):
 
     SECRET_KEY = values.SecretValue()
 
-    INSTALLED_APPS += ("djangosecure", )
 
     GEOS_LIBRARY_PATH = values.Value('', environ_prefix=False)
     GDAL_LIBRARY_PATH = values.Value('', environ_prefix=False)
