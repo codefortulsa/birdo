@@ -23,8 +23,8 @@ RUN npm install
 # install requirements
 RUN pip install -r requirements.txt
 
-RUN python manage.py migrate --noinput
-RUN python manage.py collectstatic --noinput
+# RUN python manage.py migrate --noinput
+# RUN python manage.py collectstatic --noinput
 
 # build include paths env
 ENV C_INCLUDE_PATH /usr/include/gdal/
