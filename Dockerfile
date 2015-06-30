@@ -37,4 +37,4 @@ VOLUME /app/media
 # expose our gunicorn port
 EXPOSE 5000
 
-# CMD ['python', 'manage.py', 'runserver', '5000']
+CMD ['gunicorn', 'birdo.wsgi:application', '-b', '0.0.0.0:5000', '--log-level=debug', '--error-logfile', '-']
