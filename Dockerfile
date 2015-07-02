@@ -6,7 +6,8 @@ RUN mkdir /app
 WORKDIR /app
 COPY . /app
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update
+RUN apt-get install -y \
   gcc \
   # python-gdal \
   libgdal-dev \
@@ -21,6 +22,7 @@ RUN npm install
 ## Django setup
 
 # install requirements
+RUN pip install gunicorn
 RUN pip install -r requirements.txt
 
 # RUN python manage.py migrate --noinput
