@@ -11,7 +11,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var BundleTracker = require('webpack-bundle-tracker');
 var nib = require('nib');
 
-var output_path = path.resolve(__dirname, "../static/");
+var output_path = path.resolve(__dirname, "../static/bundles/");
 
 module.exports = {
   cache: true,
