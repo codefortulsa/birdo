@@ -18,6 +18,7 @@ RUN apt-get install -y \
 
 ## Node setup, runs postinstall script in package.json
 RUN npm install
+RUN npm run build
 
 ## Django setup
 
