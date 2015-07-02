@@ -31,6 +31,9 @@ RUN pip install -r requirements.txt
 ENV C_INCLUDE_PATH /usr/include/gdal/
 ENV CPLUS_INCLUDE_PATH /usr/include/gdal/
 
+ENV GEOS_LIBRARY_PATH /usr/lib/libgeos_c.so
+ENV GDAL_LIBRARY_PATH /usr/lib/libgdal.so
+
 # static/media dirs
 VOLUME /app/static
 VOLUME /app/media
