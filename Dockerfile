@@ -30,9 +30,6 @@ VOLUME /app/media
 # install requirements
 RUN pip install -r requirements.txt
 
-RUN python manage.py migrate --noinput
-RUN python manage.py collectstatic --noinput
-
 # build include paths env
 ENV C_INCLUDE_PATH /usr/include/gdal/
 ENV CPLUS_INCLUDE_PATH /usr/include/gdal/
@@ -43,4 +40,4 @@ ENV GDAL_LIBRARY_PATH /usr/lib/libgdal.so
 # expose our gunicorn port
 EXPOSE 5000
 
-CMD gunicorn birdo.wsgi:application -b 0.0.0.0:5000 --preload --log-level=debug --error-logfile -
+CMD bin/start_app.sh
