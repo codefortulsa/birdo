@@ -17,6 +17,7 @@ RUN apt-get install -y \
   nodejs
 
 ## Node setup, runs postinstall script in package.json
+RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN npm install
 RUN npm run build
 
