@@ -206,7 +206,7 @@ class Common(Configuration):
 
     # Webpack
     WEBPACK_LOADER = {
-        'BUNDLE_DIR_NAME': STATIC_ROOT + '/bundles/',
+        'BUNDLE_DIR_NAME': 'bundles/',
         'STATS_FILE': abspath(BASE_DIR + '/birds/assets/webpack-stats.json')
     }
 
