@@ -23,11 +23,15 @@ RUN npm run build
 
 ## Django setup
 
+# static/media dirs
+VOLUME /app/static
+VOLUME /app/media
+
 # install requirements
 RUN pip install -r requirements.txt
 
-# RUN python manage.py migrate --noinput
-# RUN python manage.py collectstatic --noinput
+RUN python manage.py migrate --noinput
+RUN python manage.py collectstatic --noinput
 
 # build include paths env
 ENV C_INCLUDE_PATH /usr/include/gdal/
@@ -35,10 +39,6 @@ ENV CPLUS_INCLUDE_PATH /usr/include/gdal/
 
 ENV GEOS_LIBRARY_PATH /usr/lib/libgeos_c.so
 ENV GDAL_LIBRARY_PATH /usr/lib/libgdal.so
-
-# static/media dirs
-VOLUME /app/static
-VOLUME /app/media
 
 # expose our gunicorn port
 EXPOSE 5000
