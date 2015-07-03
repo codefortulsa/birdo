@@ -40,4 +40,4 @@ ENV GDAL_LIBRARY_PATH /usr/lib/libgdal.so
 # expose our gunicorn port
 EXPOSE 5000
 
-CMD bin/start_app.sh
+CMD ./bin/start_app.sh
