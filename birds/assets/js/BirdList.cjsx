@@ -15,7 +15,7 @@ Thumbnail = require 'react-bootstrap/lib/Thumbnail'
 
 MainContainer = require './MainContainer'
 
-VirtualList = require 'react-virtual-list/dist/VirtualList'
+VirtualList = require './virtual-list/VirtualList'
 
 
 BirdsList = React.createClass
