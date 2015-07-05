@@ -140,7 +140,8 @@ class Common(Configuration):
     REST_FRAMEWORK = {
         'DEFAULT_PERMISSION_CLASSES': (
             'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
-        )
+        ),
+        'DEFAULT_PAGINATION_CLASS': 'api.pagination.BirdoPagination',
     }
 
     # Templates

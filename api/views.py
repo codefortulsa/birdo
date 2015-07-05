@@ -1,4 +1,3 @@
-import django_filters
 from rest_framework import viewsets, filters
 from rest_framework_extensions.mixins import DetailSerializerMixin
 from rest_framework_extensions.cache.mixins import CacheResponseMixin
@@ -9,26 +8,19 @@ from .serializers import (
 
 from birds.models import Bird, BirdPermutation, PermutationType
 
-
-class BirdFilter(
-        CacheResponseMixin,
-        django_filters.FilterSet):
-    name = django_filters.CharFilter(name='name', lookup_type='icontains')
-    object_type = django_filters.MethodFilter(action='get_object_type')
-
-    class Meta:
-        model = Bird
-        fields = ('name', 'parent', 'vispedia_id', 'object_type')
-
-    def get_object_type(self, qs, value):
-        if value in ['leafs', 'branches']:
-            return getattr(qs, value)()
-        return qs
+from .filters import BirdFilter
 
 
 class BirdViewSet(
         CacheResponseMixin,
         viewsets.ModelViewSet):
+    """
+    Search for birds and bird categories.
+
+    Use the `object_type` query param to limit results to bird categories and
+    individual birds. `leafs` for birds, and `branches` for categories.
+    """
+
     queryset = Bird.objects.order_by('id')
     filter_backends = (filters.DjangoFilterBackend,)
     filter_class = BirdFilter
