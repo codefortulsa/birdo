@@ -5,24 +5,44 @@ BirdActions = require './actions'
 
 
 BirdStore = Reflux.createStore
-  linstenables: [BirdActions]
+  listenables: BirdActions
 
-  init: ->
-    @listenTo(BirdActions.load.completed, @onLoadCompleted)
+  birds: []
+  prevResult: {}
 
   getInitialState: ->
-    []
+    count: 0
+    items: @birds
+    offset: 0
+    loading: false
 
   onLoad: ->
     console.log 'load birds started'
+    # set the loading sate to true
+    @trigger
+      count: @prevResult.count || 0
+      items: @birds
+      offset: 0
+      loading: true
 
-  onLoadCompleted: (res) ->
+  onLoadCompleted: (body) ->
     console.log 'load birds completed'
-    @updateBirds(res.body)
+    @prevResult = body
+    # detect if offset is > 0 and then append birds
+    @updateBirds(body)
 
-  updateBirds: (birds) ->
+  onLoadFailed: (reason) ->
+    # Does this get called on failure?
+
+  # Need to add to existing bird list unless searching, in which case it's reset
+  updateBirds: (body, append=false) ->
     console.log 'updating birds store'
-    @trigger(birds)
+    @birds = if not append then body.results else @birds = @birds.concat(body.results)
+    @trigger
+      count: body.count
+      items: @birds
+      offset: 0
+      loading: false
 
 
 module.exports = BirdStore

@@ -2,7 +2,7 @@ Reflux = require 'reflux'
 
 _ = require 'lodash'
 
-request = require './agent'
+request = require('superagent-bluebird-promise')
 
 
 BirdActions = Reflux.createActions
@@ -17,25 +17,31 @@ BirdActions.load.listenAndPromise (search={}) ->
     object_ype: 'leafs'
     name: search.birdName
     parent: search.birdType
+    offset: search.offset
 
   # remove undefined/empty values
-  # ( empty parent removes all leafs with parents )
-  search_query = _.omit(query, (val, key) ->
-    return !val
-  )
+  # ( as empty parent query removes all leafs with parents )
+  search_query = _.omit query, (val, key) ->
+    return _.isUndefined(val) or _.isEmpty(val)
 
-  request
+  # Cancel previous request if not done
+  if birdLoadRequest
+    birdLoadRequest.cancel()
+
+  birdLoadRequest = request
     .get('/api/birds/')
     .query(search_query)
-    .end()
+    .then (res) ->
+      return res.body
+
+  return birdLoadRequest
 
 BirdActions.loadTypes.listenAndPromise ->
   request
     .get('/api/birds/')
-    .query(
-      object_type: 'branches'
-    )
-    .end()
+    .query(object_type: 'branches')
+    .then (res) ->
+      return res.body
 
 
 module.exports = BirdActions

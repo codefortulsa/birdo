@@ -37,17 +37,17 @@ Header = React.createClass
 
   selectType: (typeId) ->
     @setState
-      seletedType: @state.types[typeId]
+      seletedType: @state.types.items[typeId]
 
   checkName: ->
     {nameSearch} = @state
 
   typeOptions: ->
-    types = _.map @state.types, (type) =>
+    types = _.map @state.types.items, (type) =>
       value: type.id
       label: type.name
     # types.unshift({value: undefined, label: 'All Types'})
-    # shim for es6 Array.filter
+    # shim for es6 Array.filter, due to issue in select lib not building
     types.filter = (filter_cb, ctx) ->
       _.filter(@, filter_cb.bind(ctx))
     return types
@@ -60,7 +60,7 @@ Header = React.createClass
     if birdName isnt nextState.birdName or birdType isnt nextState.birdType
       @timeout = setTimeout( =>
         BirdActions.load(nextState)
-      , 500)
+      , 200)
     return true
 
   handleClear: ->
@@ -71,7 +71,7 @@ Header = React.createClass
     {birds} = @state
 
     if birds
-      amount = birds.length
+      amount = birds.count
 
     typeLink = @linkState('birdType')
     handleTypeChange = (value) ->
@@ -79,7 +79,7 @@ Header = React.createClass
 
     clearButton = <Button bsStyle="danger" onClick={@handleClear}>clear</Button>
     <Navbar brand="Birdo" inverse fixedTop toggleNavKey={0}>
-      <Nav right eventKey={0}>
+      <Nav eventKey={0}>
         <div className="navbar-form navbar-left">
           <div className="name-group form-group">
             <Input

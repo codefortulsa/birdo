@@ -4,25 +4,24 @@ BirdActions = require './actions'
 
 
 BirdTypesStore = Reflux.createStore
-  linstenables: [BirdActions]
-
-  init: ->
-    @listenTo(BirdActions.loadTypes.completed, @onLoadTypesCompleted)
+  listenables: BirdActions
 
   getInitialState: ->
-    []
+    count: 0
+    items: []
 
   onLoadTypes: ->
     console.log 'load types started'
 
-  onLoadTypesCompleted: (res) ->
+  onLoadTypesCompleted: (body) ->
     console.log 'load types complete'
-    @updateTypes(res.body)
+    @updateTypes(body)
 
-  updateTypes: (types) ->
+  updateTypes: (body) ->
     console.log 'updated types store'
-    @types = types
-    @trigger(types)
+    @trigger
+      count: body.count
+      items: body.results
 
 
 module.exports = BirdTypesStore

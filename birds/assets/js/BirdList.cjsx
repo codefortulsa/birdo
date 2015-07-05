@@ -13,7 +13,7 @@ Input = require 'react-bootstrap/lib/Input'
 ListGroupItem = require 'react-bootstrap/lib/ListGroupItem'
 Thumbnail = require 'react-bootstrap/lib/Thumbnail'
 
-MainContainer = require './MainContainer.cjsx'
+MainContainer = require './MainContainer'
 
 VirtualList = require 'react-virtual-list/dist/VirtualList'
 
@@ -43,7 +43,7 @@ BirdsList = React.createClass
       return undefined
     images = bird.details.representative_images
     show_date = false
-    
+
     if images.length > 0
       thumbnails = images.map (image) ->
         thumbnail = _.find(image.sizes, size: 5)
@@ -80,7 +80,13 @@ BirdsList = React.createClass
     {birds, birdBoxHeight} = @state
 
     <MainContainer>
-      <VirtualList tagName="ul" className="list-group" items={birds} renderItem={@renderBird} itemHeight={birdBoxHeight}/>
+      <VirtualList
+        scrollDelay={10}
+        tagName="ul"
+        className="list-group"
+        items={birds.items}
+        renderItem={@renderBird}
+        itemHeight={birdBoxHeight}/>
     </MainContainer>
 
 
