@@ -48,7 +48,7 @@ module.exports = {
   // },
   stylus: {
     use: [nib()],
-    import: ['variables', 'mixins']
+    import: ['variables']
   },
   plugins: [
     // ignore all moment locals
