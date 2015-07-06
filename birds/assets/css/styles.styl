@@ -14,3 +14,40 @@
       padding-top: 7px
     .Select-clear
       top: -1px
+
+.permutations-header
+  h5
+    float: left
+  .permutations
+    margin: 7px 0 0 10px
+    float: left
+
+.loading-backdrop
+  position: fixed;
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 100
+  background-color: black
+  opacity: 0
+  transition: opacity 0.1s linear
+
+  &.loading-backdrop-leave-active
+  &-enter
+    opacity: 0
+
+  &.loading-backdrop-enter-active
+  &-leave
+    opacity: 0.5
+
+  .loading-indicator
+    position: absolute
+    width: 100px
+    height: 100px
+    left: 50%
+    top: 50%
+    margin-left: -(@width/2)
+    margin-top: -(@height/2)
+
+@import './pacman.styl'

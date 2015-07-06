@@ -22,6 +22,7 @@ module.exports = {
   },
   module: base.module,
   resolve: base.resolve,
+  resolveLoader: base.resolveLoader,
   devtool: "eval-source-map",
   stylus: base.stylus,
   plugins: [
@@ -35,6 +36,7 @@ module.exports = {
       'process.env': {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV)
       }
-    })
+    }),
+    new webpack.ResolverPlugin.ResultSymlinkPlugin()
   ]
 };

@@ -8,13 +8,18 @@ request = require('superagent-bluebird-promise')
 BirdActions = Reflux.createActions
   load:
     asyncResult: true
+  reachedBottom:
+    asyncResult: false
   loadTypes:
     asyncResult: true
 
 
+birdLoadRequest = undefined
+
+
 BirdActions.load.listenAndPromise (search={}) ->
   query =
-    object_ype: 'leafs'
+    object_type: 'leafs'
     name: search.birdName
     parent: search.birdType
     offset: search.offset
@@ -34,7 +39,6 @@ BirdActions.load.listenAndPromise (search={}) ->
     .then (res) ->
       return res.body
 
-  return birdLoadRequest
 
 BirdActions.loadTypes.listenAndPromise ->
   request

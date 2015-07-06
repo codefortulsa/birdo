@@ -32,12 +32,18 @@ BirdStore = Reflux.createStore
     @updateBirds(body)
 
   onLoadFailed: (reason) ->
-    # Does this get called on failure?
+    # when we've failed just clear stuff out
+    @birds = []
+    @trigger
+      count: 0
+      items: @birds
+      offset: 0
+      loading: false
 
   # Need to add to existing bird list unless searching, in which case it's reset
   updateBirds: (body, append=false) ->
     console.log 'updating birds store'
-    @birds = if not append then body.results else @birds = @birds.concat(body.results)
+    @birds = if not append then body.results else @birds.concat(body.results)
     @trigger
       count: body.count
       items: @birds

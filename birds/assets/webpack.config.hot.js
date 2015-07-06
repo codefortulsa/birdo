@@ -18,7 +18,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js(x|)?$/,
-        include: path.join(__dirname, "client"),
+        include: path.join(__dirname, "js"),
         loaders: ["react-hot", "jsx?harmony", "babel-loader?optional[]=runtime"] },
       { test: /\.(coffee|cjsx)$/,
         loaders: ["react-hot", "coffee", "cjsx"]},
@@ -34,6 +34,7 @@ module.exports = {
     ]
   },
   resolve: dev.resolve,
+  resolveLoader: dev.resolveLoader,
   devtool: "eval-source-map",
   stylus: dev.stylus,
   plugins: dev.plugins.push([

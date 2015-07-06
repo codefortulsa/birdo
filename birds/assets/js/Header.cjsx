@@ -94,7 +94,7 @@ Header = React.createClass
               value={typeLink.value}
               onChange={handleTypeChange}
               ignoreCase={true}
-              placeholder="Select optional bird type…"
+              placeholder="Filter by optional bird type…"
               noResultsText="No bird types found"
               options={@typeOptions()}/>
           </div>

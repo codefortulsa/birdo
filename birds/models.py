@@ -60,7 +60,7 @@ class Bird(VispediaURLMixin, MPTTModel, TimeStampedModel):
     objects = BirdManager()
 
     class Meta:
-        ordering = ('order', 'created',)
+        ordering = ('lft',)
 
     class MPTTMeta:
         order_insertion_by = ('order',)
@@ -89,7 +89,7 @@ class BirdPermutation(VispediaURLMixin, models.Model):
     vispedia_id = models.CharField(
         blank=True, null=True, max_length=50, unique=True, db_index=True)
     details = JsonField(null=True, blank=True)
-    
+
     def __unicode__(self):
         return "{} [{}]".format(
             self.bird, ', '.join(map(lambda tag: str(tag), self.types.all())))

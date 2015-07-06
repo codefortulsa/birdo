@@ -25,7 +25,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js(x|)?$/,
-        include: path.join(__dirname, "client"),
+        include: path.join(__dirname, "js"),
         loaders: ["jsx?harmony", "babel-loader?optional[]=runtime"] },
       { test: /\.(coffee|cjsx)$/,
         loaders: ["coffee", "cjsx"]},
@@ -43,9 +43,12 @@ module.exports = {
   resolve: {
     extensions: ["", ".js", ".jsx", ".cjsx", ".coffee"]
   },
+  // resolveLoader: {
+  //   root: path.resolve(__dirname, '../node_modules/')
+  // },
   stylus: {
     use: [nib()],
-    import: ['variables']
+    import: ['variables', 'mixins']
   },
   plugins: [
     // ignore all moment locals
@@ -77,7 +80,8 @@ module.exports = {
     }),
     new BundleTracker({path: __dirname, filename: 'webpack-stats.json'}),
     new webpack.optimize.OccurenceOrderPlugin(true), // preferEntry true,
-    new ExtractTextPlugin('[name].css', {allChunks: true})
-    // new webpack.optimize.CommonsChunkPlugin("commons.chunk-[hash].js")
+    new ExtractTextPlugin('[name].css', {allChunks: true}),
+    // new webpack.optimize.CommonsChunkPlugin("commons.chunk-[hash].js"),
+    new webpack.ResolverPlugin.ResultSymlinkPlugin()
   ]
 };
