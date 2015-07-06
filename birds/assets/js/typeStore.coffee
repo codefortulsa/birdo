@@ -8,7 +8,10 @@ BirdTypesStore = Reflux.createStore
 
   getInitialState: ->
     count: 0
-    items: []
+    items: [{
+      id: 0
+      name: 'none yet'
+    }]
 
   onLoadTypes: ->
     console.log 'load types started'

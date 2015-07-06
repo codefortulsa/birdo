@@ -55,7 +55,7 @@ module.exports = {
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
 
     // Clean
-    // new CleanPlugin(["bundles"]),
+    new CleanPlugin(["bundles"]),
 
     // Optimize
     new webpack.optimize.DedupePlugin(),
