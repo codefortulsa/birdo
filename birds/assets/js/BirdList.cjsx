@@ -39,6 +39,7 @@ BirdRow = React.createClass
     {highlightedPerm} = @state
     type_groups = _.map bird.permutations, (perm) =>
       <Button
+          key={perm.id}
           onClick={@handleHighlightPerm.bind(@, perm)}
           active={perm.id is highlightedPerm.id}
           bsSize="xsmall">
@@ -55,7 +56,7 @@ BirdRow = React.createClass
     images.map (image) ->
       thumbnail = _.find(image.sizes, size: size)
       formated_date = new Date(image.date_added).toLocaleString()
-      <Col xs={12} sm={4} md={3}>
+      <Col xs={12} sm={4} md={3} key={image.vibe_uuid}>
         <Thumbnail src={thumbnail and thumbnail.url}>
           {image.credit}
           {if showDate then (
