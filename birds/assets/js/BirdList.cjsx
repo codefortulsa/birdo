@@ -127,24 +127,27 @@ BirdsList = React.createClass
   render: ->
     {birds, birdBoxHeight} = @state
 
+    if birds.loading
+      loadingBackdrop = (
+        <div key={Math.floor(Math.random()*100)} className="loading-backdrop">
+          <span className="loading-indicator">
+            <div className="pacman">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </span>
+        </div>
+      )
+
     <MainContainer>
       <ReactCSSTransitionGroup transitionName="loading-backdrop">
-        {if birds.loading then (
-          <div key={1} className="loading-backdrop">
-            <span className="loading-indicator">
-              <div className="pacman">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </span>
-          </div>)}
+        {loadingBackdrop}
       </ReactCSSTransitionGroup>
       <VirtualList
         scrollDelay={10}
-        tagName="ul"
         className="list-group"
         items={birds.items}
         renderItem={@renderBird}
