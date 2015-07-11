@@ -73,7 +73,6 @@ VirtualList = React.createClass(
       return state
     state.items = items.slice(renderStats.firstItemIndex, renderStats.lastItemIndex + 1)
     state.bufferStart = renderStats.firstItemIndex * props.itemHeight
-    console.log(state)
     state
 
   getInitialState: ->
