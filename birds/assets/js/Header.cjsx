@@ -28,9 +28,12 @@ Header = React.createClass
   init: ->
     @timeout = undefined
 
-  getInitialState: ->
+  getDefaultState: ->
     birdType: undefined
     birdName: undefined
+
+  getInitialState: ->
+    @getDefaultState()
 
   componentDidMount: ->
     BirdActions.loadTypes()
@@ -64,7 +67,7 @@ Header = React.createClass
     return true
 
   handleClear: ->
-    @setState @getInitialState()
+    @setState @getDefaultState()
 
   render: ->
 
