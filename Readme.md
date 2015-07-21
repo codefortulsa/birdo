@@ -2,6 +2,9 @@
 
 Scrape social networks for information about birds
 
+[![Code Climate](https://codeclimate.com/github/codefortulsa/birdo/badges/gpa.svg)](https://codeclimate.com/github/codefortulsa/birdo)
+[![Test Coverage](https://codeclimate.com/github/codefortulsa/birdo/badges/coverage.svg)](https://codeclimate.com/github/codefortulsa/birdo/coverage)
+
 ##Installation
 
 * make a virtualenv
