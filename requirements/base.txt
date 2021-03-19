@@ -3,7 +3,7 @@ django-mptt==0.7.4
 #django-configurations==0.8
 git+https://github.com/jezdez/django-configurations.git@5ece107044
 django-secure==1.0.1
-djangorestframework==3.9.1
+djangorestframework==3.11.2
 django-filter==0.10.0
 drf-extensions==0.2.7
 django_mptt_admin==0.2.1
